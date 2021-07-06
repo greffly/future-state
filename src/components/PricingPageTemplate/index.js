@@ -1,10 +1,11 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import Pricing from '../Pricing'
-import PropTypes from 'prop-types'
+/* eslint-disable semi */
+import React from 'react';
+import Helmet from 'react-helmet';
+import Pricing from '../Pricing';
+import PropTypes from 'prop-types';
 
 const PricingPageTemplate = (props) => {
-  const { title, meta_title, meta_description, pricing } = props
+  const { title, meta_title, meta_description, pricing } = props;
 
   return (
     <div>
@@ -12,41 +13,29 @@ const PricingPageTemplate = (props) => {
         <title>{meta_title}</title>
         <meta name='description' content={meta_description} />
       </Helmet>
-      <section className='hero is-primary is-bold is-medium'>
-        <div className='hero-body'>
-          <div className='container'>
-            <div className='columns'>
-              <div className='column is-10 is-offset-1'>
-                <div className='section'>
-                  <h1 className='title'>
-                    {title}
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <section className='section is-medium has-background-black'>
+        <h1 className='has-text-info has-text-weight-light is-size-1-desktop'>
+          WE DELIVER
+          <br /> <strong className='has-text-info'>
+            TALENT SOLUTIONS
+          </strong>{' '}
+          <br /> THAT HELP <br />{' '}
+          <strong className='has-text-info'>CREATE IMPACT.</strong>
+        </h1>
       </section>
-      <section className='section section--gradient'>
-        <div className='container'>
-          <div className='section'>
-            <div className='columns'>
-              <div className='column is-10 is-offset-1'>
-                <div className='content'>
-                  <h2 className='has-text-weight-semibold is-size-2'>
-                    {pricing.heading}
-                  </h2>
-                  <p className='is-size-5'>{pricing.description}</p>
-                  <Pricing data={pricing.plans} />
-                </div>
-              </div>
-            </div>
+      <section className='section is-medium'>
+        <div className='columns'>
+          <div className='column is-half'>
+            <h1 className='has-text-black has-text-weight-light is-size-2-desktop'>
+              OUR <strong>VALUES</strong>
+            </h1>
+            <p className='pr-5 pt-5 is-size-4-desktop'>{pricing.description}</p>
           </div>
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 PricingPageTemplate.propTypes = {
   title: PropTypes.string,
   meta_title: PropTypes.string,
@@ -56,6 +45,6 @@ PricingPageTemplate.propTypes = {
     description: PropTypes.string,
     plans: PropTypes.array,
   }),
-}
+};
 
-export default PricingPageTemplate
+export default PricingPageTemplate;

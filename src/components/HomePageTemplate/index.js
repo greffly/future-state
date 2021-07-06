@@ -23,25 +23,17 @@ const HomePageTemplate = (props) => {
         <meta name='description' content={meta_description} />
       </Helmet>
       <section className='hero is-primary is-bold is-fullheight-with-navbar'>
-        <div className='hero-body'>
-          <div className='container'>
-            <div className='columns'>
-              <div className='column is-10'>
-                <div className='section'>
-                  <h1 className='home-title has-text-weight-light'>
-                    WE ARE
-                    <br />
-                    <strong>
-                      CONNECTORS, <br />
-                      BUILDERS
-                    </strong>{' '}
-                    AND <br />
-                    <strong> ACCELERATORS</strong>.
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className='section is-large-desktop'>
+          <h1 className='has-text-weight-light is-size-1-desktop'>
+            WE ARE
+            <br />
+            <strong>
+              CONNECTORS, <br />
+              BUILDERS
+            </strong>{' '}
+            AND <br />
+            <strong> ACCELERATORS</strong>.
+          </h1>
         </div>
       </section>
       {/* <section className='section section--gradient'> */}

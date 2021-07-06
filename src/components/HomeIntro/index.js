@@ -8,8 +8,8 @@ const HomeIntro = (props) => {
 
   return (
     <div>
-      <section className='section is-large'>
-        <h1 className='has-text-weight-light is-size-2'>
+      <section className='section is-large-desktop'>
+        <h1 className='has-text-weight-light is-size-2-desktop'>
           RELATIONSHIPS <strong>FIRST</strong>.
           <br /> TALENT SOLUTIONS THAT <strong>LAST</strong>.
         </h1>
@@ -29,7 +29,7 @@ const HomeIntro = (props) => {
         </div>
       </section>
       <section className='section is-large has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-2'>
+        <h1 className='has-text-info has-text-weight-light is-size-2-desktop'>
           WE DELIVER
           <br /> <strong className='has-text-info'>
             TALENT SOLUTIONS
@@ -42,7 +42,7 @@ const HomeIntro = (props) => {
         </div>
       </section>
       <section className='section is-large has-text-centered'>
-        <h1 className='has-text-weight-light is-size-2'>
+        <h1 className='has-text-weight-light is-size-2-desktop'>
           WE'RE
           <strong> PROUD</strong> OF THE AWARDS <br />{' '}
           <strong>WE HAVE RECEIVED.</strong>

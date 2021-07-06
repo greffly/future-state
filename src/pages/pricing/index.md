@@ -9,10 +9,12 @@ meta_description: >-
   consectetur purus sit amet fermentum.
 pricing:
   description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta justo justo, 
-    non semper odio cursus in. Curabitur ligula tortor, tristique non odio nec, imperdiet 
-    mattis leo. Vivamus aliquam rhoncus tortor vitae convallis. Aliquam non dui nibh. Nam 
-    a velit at enim sagittis pellentesque.
+    Bocconcini say cheese melted cheese. Halloumi jarlsberg caerphilly
+    cauliflower cheese feta cheeseburger squirty cheese camembert de
+    normandie. Squirty cheese babybel fromage cheese on toast
+    caerphilly cheese and wine camembert de normandie swiss. Rubber
+    cheese red leicester camembert de normandie feta manchego cheesy
+    feet emmental stinking bishop. Red leicester.
   heading: Monthly subscriptions
   plans:
     - description: Nulla faucibus, leo a condimentum aliquam, libero leo vehicula arcu
@@ -37,4 +39,3 @@ pricing:
       plan: Custom
       price: '??'
 ---
-

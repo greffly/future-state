@@ -7,7 +7,7 @@ const OurWork = (props) => {
 
   return (
     <section className='section is-large has-background-grey'>
-      <h1 className='has-text-weight-light is-size-2'>
+      <h1 className='has-text-weight-light is-size-2-desktop'>
         OUR <strong>WORK</strong>
       </h1>
       {/* {posts
