@@ -1,9 +1,10 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import '../../assets/sass/styles.sass'
-import config from '../../../config'
-import NavBar from '../NavBar'
-import Footer from '../Footer'
+/* eslint-disable semi */
+import React from 'react';
+import Helmet from 'react-helmet';
+import '../../assets/sass/styles.sass';
+import config from '../../../config';
+import NavBar from '../NavBar';
+import Footer from '../Footer';
 
 const Layout = (props) => {
   return (
@@ -61,7 +62,7 @@ const Layout = (props) => {
       <>{props.children}</>
       <Footer copyright={config.copyright} />
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

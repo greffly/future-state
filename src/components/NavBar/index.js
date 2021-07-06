@@ -1,28 +1,29 @@
-import React, { useState } from 'react'
-import { Link, graphql, StaticQuery } from 'gatsby'
-import SearchBox from '../SearchBox'
+import React, { useState } from 'react';
+import { Link, graphql, StaticQuery } from 'gatsby';
+import './styles.sass';
 
 const NavBar = () => {
-  const [active, setActive] = useState(false)
+  const [active, setActive] = useState(false);
 
   const toggleNavBar = () => {
-    setActive(!active)
-  }
+    setActive(!active);
+  };
 
   return (
     <StaticQuery
       query={graphql`
-            query SearchIndexQuery {
-                siteSearchIndex {
-                    index
-                }
-            }
-        `}
-      render={data => (
+        query SearchIndexQuery {
+          siteSearchIndex {
+            index
+          }
+        }
+      `}
+      render={(data) => (
         <nav className='navbar is-fixed-top' aria-label='main navigation'>
           <div className='navbar-brand'>
-            <Link to='/' className='navbar-item'>
-              <strong>Gatsby Starter Business</strong>
+            <Link to='/' className='navbar-item' id='navbar-title'>
+              <strong>Future State</strong>
+              <p>Consulting</p>
             </Link>
             <button
               className={`button navbar-burger ${active ? 'is-active' : ''}`}
@@ -34,36 +35,29 @@ const NavBar = () => {
               <span />
             </button>
           </div>
-          <div className={`navbar-menu ${active ? 'is-active' : ''}`} id='navMenu'>
-
+          <div
+            className={`navbar-menu ${active ? 'is-active' : ''}`}
+            id='navMenu'
+          >
             <div className='navbar-end'>
-              <SearchBox searchIndex={data.siteSearchIndex.index} />
               <Link className='navbar-item' to='/about'>
-                About
+                ABOUT US
               </Link>
               <Link className='navbar-item' to='/pricing'>
-                Pricing
+                FOR TALENT
               </Link>
-              <Link className='navbar-item' to='/blog'>
-                Blog
+              <Link className='navbar-item' to='/pricing'>
+                FOR COMPANIES
               </Link>
-              <div className='navbar-item'>
-                <div className='field is-grouped'>
-                  <p className='control'>
-                    <Link
-                      className='button is-primary is-outlined'
-                      to='/contact'>
-                      Contact Us
-                    </Link>
-                  </p>
-                </div>
-              </div>
+              <Link className='navbar-item' to='/pricing'>
+                OUR WORK
+              </Link>
             </div>
           </div>
         </nav>
       )}
     />
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
