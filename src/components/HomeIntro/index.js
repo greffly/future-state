@@ -8,7 +8,7 @@ const HomeIntro = (props) => {
 
   return (
     <div>
-      <section className='section is-large-desktop'>
+      <section className='section is-large'>
         <h1 className='has-text-weight-light is-size-2-desktop'>
           RELATIONSHIPS <strong>FIRST</strong>.
           <br /> TALENT SOLUTIONS THAT <strong>LAST</strong>.

@@ -1,30 +1,28 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import PricingPageTemplate from '../../components/PricingPageTemplate'
+/* eslint-disable semi */
+import React from 'react';
+import PropTypes from 'prop-types';
+import AboutUsTemplate from '../../components/AboutUsTemplate';
 
 const PricingPagePreivew = ({ entry, getAsset }) => {
-  const entryPricingPlans = entry.getIn(['data', 'pricing', 'plans'])
-  const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
+  const quoteBlurbs = entry.getIn(['data', 'quotes', 'blurbs']);
+  const blurbs = quoteBlurbs ? quoteBlurbs.toJS() : [];
 
   return (
-    <PricingPageTemplate
+    <AboutUsTemplate
       title={entry.getIn(['data', 'title'])}
       meta_title={entry.getIn(['data', 'meta_title'])}
       meta_description={entry.getIn(['data', 'meta_description'])}
-      pricing={{
-        heading: entry.getIn(['data', 'pricing', 'heading']),
-        description: entry.getIn(['data', 'pricing', 'description']),
-        plans: pricingPlans,
-      }}
+      values={entry.getIn(['data', 'values', 'description'])}
+      quotes={{ blurbs }}
     />
-  )
-}
+  );
+};
 
 PricingPagePreivew.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
-}
+};
 
-export default PricingPagePreivew
+export default PricingPagePreivew;
