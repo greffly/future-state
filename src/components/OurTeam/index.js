@@ -7,21 +7,26 @@ import ProgressiveImageContainer from '../ProgressiveImageContainer';
 const OurTeam = (props) => {
   const { gridItems } = props;
   return (
-    <div className='columns is-multiline'>
-      {gridItems.map((item, idx) => (
-        <div key={idx} className='column is-6' style={{ borderRadius: '5px' }}>
-          <section className='section'>
-            <p className='has-text-centered'>
-              <ProgressiveImageContainer
-                image={item.image}
-                alt={`gatsby-business-starter-${idx}`}
-              />
-            </p>
-            <p>{item.text}</p>
-          </section>
-        </div>
-      ))}
-    </div>
+    <section className='section has-background-grey is-large'>
+      <h1 className='has-text-black has-text-weight-light is-size-2-desktop'>
+        OUR <strong>TEAM</strong>
+      </h1>
+    </section>
+    // <div className='columns is-multiline'>
+    //   {gridItems.map((item, idx) => (
+    //     <div key={idx} className='column is-6' style={{ borderRadius: '5px' }}>
+    //       <section className='section'>
+    //         <p className='has-text-centered'>
+    //           {/* <ProgressiveImageContainer
+    //             image={item.image}
+    //             alt={`gatsby-business-starter-${idx}`}
+    //           /> */}
+    //         </p>
+    //         <p>{item.text}</p>
+    //       </section>
+    //     </div>
+    //   ))}
+    // </div>
   );
 };
 OurTeam.propTypes = {

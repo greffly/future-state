@@ -9,7 +9,14 @@ const AboutUs = (props) => {
   const {
     data: {
       markdownRemark: {
-        frontmatter: { title, meta_title, meta_description, values, quotes },
+        frontmatter: {
+          title,
+          meta_title,
+          meta_description,
+          values,
+          quotes,
+          diversity,
+        },
       },
     },
   } = props;
@@ -22,6 +29,7 @@ const AboutUs = (props) => {
         meta_description={meta_description}
         values={values}
         quotes={quotes}
+        diversity={diversity}
       />
     </Layout>
   );
@@ -52,6 +60,7 @@ export const aboutUsQuery = graphql`
             text
           }
         }
+        diversity
       }
     }
   }

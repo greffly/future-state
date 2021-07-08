@@ -14,6 +14,7 @@ const PricingPagePreivew = ({ entry, getAsset }) => {
       meta_description={entry.getIn(['data', 'meta_description'])}
       values={entry.getIn(['data', 'values', 'description'])}
       quotes={{ blurbs }}
+      diversity={entry.getIn(['data', 'diversity'])}
     />
   );
 };
