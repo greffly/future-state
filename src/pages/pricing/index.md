@@ -35,4 +35,30 @@ quotes:
         pharetra, ipsum augue tristique urna, in rhoncus quam tortor eget sem. Maecenas eu
         pharetra orci, ut malesuada nisl. Aliquam erat volutpat. Curabitur egestas eros tincidunt.
 diversity: Lancashire cheesy grin cheesy feet. Cheesy grin halloumi port-salut cheese on toast gouda dolcelatte everyone loves pecorino. Bocconcini roquefort cheese on toast cheese triangles cheeseburger taleggio cut the cheese mascarpone. Emmental cheese and biscuits.
+teamMembers:
+  members:
+    - name: Michael
+      title: roquefort cheese
+      photo: /img/photoPlaceholder.png
+    - name: Lucille
+      title: roquefort cheese
+      photo: /img/photoPlaceholder.png
+    - name: Gob
+      title: roquefort cheese
+      photo: /img/photoPlaceholder.png
+    - name: Maeby
+      title: roquefort cheese
+      photo: /img/photoPlaceholder.png
+    - name: Tobias
+      title: roquefort cheese
+      photo: /img/photoPlaceholder.png
+    - name: Lindsay
+      title: roquefort cheese
+      photo: /img/photoPlaceholder.png
+    - name: George
+      title: roquefort cheese
+      photo: /img/photoPlaceholder.png
+    - name: Ann
+      title: roquefort cheese
+      photo: /img/photoPlaceholder.png
 ---

@@ -4,36 +4,41 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
 
-const OurTeam = (props) => {
-  const { gridItems } = props;
+const OurTeam = ({ teamMembers }) => {
   return (
     <section className='section has-background-grey is-large'>
-      <h1 className='has-text-black has-text-weight-light is-size-2-desktop'>
+      <h1 className='has-text-black has-text-weight-light is-size-2 pl-6'>
         OUR <strong>TEAM</strong>
       </h1>
+      <div className='columns is-multiline'>
+        {teamMembers.members.map((teamMember, i) => (
+          <div key={i} className='column is-4 p-6'>
+            <div className='pt-5'>
+              <p className='has-text-centered'>
+                <ProgressiveImageContainer
+                  image={teamMember.photo}
+                  alt={`team member ${teamMember.name} photo`}
+                />
+              </p>
+              <p className='is-size-4-desktop is-uppercase'>
+                {teamMember.name}
+              </p>
+              <p className='is-size-5-desktop is-uppercase'>
+                {teamMember.title}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
     </section>
-    // <div className='columns is-multiline'>
-    //   {gridItems.map((item, idx) => (
-    //     <div key={idx} className='column is-6' style={{ borderRadius: '5px' }}>
-    //       <section className='section'>
-    //         <p className='has-text-centered'>
-    //           {/* <ProgressiveImageContainer
-    //             image={item.image}
-    //             alt={`gatsby-business-starter-${idx}`}
-    //           /> */}
-    //         </p>
-    //         <p>{item.text}</p>
-    //       </section>
-    //     </div>
-    //   ))}
-    // </div>
   );
 };
 OurTeam.propTypes = {
-  gridItems: PropTypes.arrayOf(
+  teamMembers: PropTypes.arrayOf(
     PropTypes.shape({
-      image: PropTypes.string,
-      text: PropTypes.string,
+      name: PropTypes.string,
+      title: PropTypes.string,
+      photo: PropTypes.string,
     })
   ),
 };

@@ -8,7 +8,14 @@ import OurTeam from '../OurTeam';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
 
 const AboutUsTemplate = (props) => {
-  const { meta_title, meta_description, values, quotes, diversity } = props;
+  const {
+    meta_title,
+    meta_description,
+    values,
+    quotes,
+    diversity,
+    teamMembers,
+  } = props;
 
   return (
     <div>
@@ -58,7 +65,7 @@ const AboutUsTemplate = (props) => {
           ;
         </div>
 
-        <h1 className='has-text-info pt-5 has-text-weight-light is-size-2-desktop'>
+        <h1 className='has-text-info pt-5 has-text-weight-light is-size-2-desktop has-text-centered'>
           WE'RE GOOD AT WHAT WE DO.
         </h1>
         <div className='columns'>
@@ -76,29 +83,29 @@ const AboutUsTemplate = (props) => {
           </div>
         </div>
 
-        <h1 className='has-text-info pt-5 has-text-weight-light is-size-2-desktop'>
+        <h1 className='has-text-info pt-5 has-text-weight-light is-size-2-desktop has-text-centered'>
           WE'RE PROUD OF THE AWARDS WE HAVE WON.
         </h1>
-        {/* <div className='columns'>
-          <div className='column is-third'>
+        <div className='columns'>
+          <div className='column is-third is-4 p-6'>
             <ProgressiveImageContainer
-              image={}
-              alt={}
+              image='/img/photoPlaceholder.png'
+              alt='INC 5000 Award'
             />
           </div>
-          <div className='column is-third'>
+          <div className='column is-third is-4 p-6'>
             <ProgressiveImageContainer
-              image={}
-              alt={}
+              image='/img/photoPlaceholder.png'
+              alt='Private 100 Fastest Growing Companies'
             />
           </div>
-          <div className='column is-third'>
+          <div className='column is-third is-4 p-6'>
             <ProgressiveImageContainer
-              image={}
-              alt={}
+              image='/img/photoPlaceholder.png'
+              alt='INC 5000 2019'
             />
           </div>
-        </div> */}
+        </div>
       </section>
 
       <section className='section is-medium has-background-white'>
@@ -116,7 +123,7 @@ const AboutUsTemplate = (props) => {
           </div>
         </div>
       </section>
-      <OurTeam />
+      <OurTeam teamMembers={teamMembers} />
       <ContactForm />
     </div>
   );
@@ -129,6 +136,9 @@ AboutUsTemplate.propTypes = {
   values: PropTypes.string,
   quotes: PropTypes.shape({
     blurbs: PropTypes.array,
+  }),
+  teamMembers: PropTypes.shape({
+    members: PropTypes.array,
   }),
 };
 

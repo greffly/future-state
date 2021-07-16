@@ -16,6 +16,7 @@ const AboutUs = (props) => {
           values,
           quotes,
           diversity,
+          teamMembers,
         },
       },
     },
@@ -30,6 +31,7 @@ const AboutUs = (props) => {
         values={values}
         quotes={quotes}
         diversity={diversity}
+        teamMembers={teamMembers}
       />
     </Layout>
   );
@@ -61,6 +63,13 @@ export const aboutUsQuery = graphql`
           }
         }
         diversity
+        teamMembers {
+          members {
+            name
+            title
+            photo
+          }
+        }
       }
     }
   }
