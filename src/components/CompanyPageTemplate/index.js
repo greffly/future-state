@@ -2,16 +2,14 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { ContactForm } from '../forms';
-import WhoWeWorkWith from '../WhoWeWorkWith';
 
-const TalentPageTemplate = (props) => {
+const CompanyPageTemplate = (props) => {
   const {
     title,
     meta_title,
     meta_description,
-    why_us,
-    talent_members,
-    roundedImageClassName,
+    save_time,
+    we_find_your_person,
     quotes,
   } = props;
 
@@ -24,7 +22,8 @@ const TalentPageTemplate = (props) => {
       <section className='section is-large has-background-black'>
         <h1 className='has-text-info has-text-weight-light is-size-1-desktop'>
           SOMETHING GREAT
-          <br /> <strong className='has-text-info'>ABOUT TALENT HERE.</strong>
+          <br />{' '}
+          <strong className='has-text-info'>ABOUT COMPANIES HERE.</strong>
         </h1>
       </section>
 
@@ -32,21 +31,28 @@ const TalentPageTemplate = (props) => {
         <div className='columns'>
           <div className='column is-half'>
             <h1 className='has-text-black has-text-weight-light is-size-2-desktop'>
-              WHY US? <strong>WE LISTEN</strong>
+              WHY US? <br /> WE FIND YOUR <strong>10/10 PERSON</strong>
             </h1>
-            <p className='pr-5 pt-5 is-size-4-desktop'>{why_us}</p>
+            <p className='pr-5 pt-5 is-size-4-desktop'>{we_find_your_person}</p>
           </div>
         </div>
       </section>
 
       <section className='section is-medium has-background-black'>
         <h1 className='has-text-info has-text-weight-light is-size-2-desktop'>
-          WHO WE <strong className='has-text-info'>WORK </strong> WITH
+          OUR <strong className='has-text-info'>SERVICES </strong>
         </h1>
-        <WhoWeWorkWith
-          talent_members={talent_members}
-          roundedImageClassName={roundedImageClassName}
-        />
+      </section>
+
+      <section className='section is-medium'>
+        <div className='columns'>
+          <div className='column is-half'>
+            <h1 className='has-text-black has-text-weight-light is-size-2-desktop'>
+              WE SAVE YOU <strong>TIME</strong>
+            </h1>
+            <p className='pr-5 pt-5 is-size-4-desktop'>{save_time}</p>
+          </div>
+        </div>
       </section>
 
       <section className='section is-medium has-background-grey'>
@@ -74,12 +80,12 @@ const TalentPageTemplate = (props) => {
   );
 };
 
-TalentPageTemplate.propTypes = {
+CompanyPageTemplate.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
   meta_title: PropTypes.string,
   meta_description: PropTypes.string,
-  why_us: PropTypes.string,
+  save_time: PropTypes.string,
   talent_members: PropTypes.shape({
     members: PropTypes.array,
   }),
@@ -87,6 +93,7 @@ TalentPageTemplate.propTypes = {
   quotes: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
+  we_find_your_person: PropTypes.string,
 };
 
-export default TalentPageTemplate;
+export default CompanyPageTemplate;

@@ -1,9 +1,9 @@
 /* eslint-disable semi */
 import React from 'react';
 import PropTypes from 'prop-types';
-import TalentPageTemplate from '../../components/TalentPageTemplate';
+import CompanyPageTemplate from '../../components/CompanyPageTemplate';
 
-const TalentPagePreview = ({ entry, getAsset }) => {
+const CompanyPagePreview = ({ entry, getAsset }) => {
   const oneMember = entry.getIn(['data', 'talent_members', 'members']);
   const members = oneMember ? oneMember.toJS() : [];
 
@@ -11,7 +11,7 @@ const TalentPagePreview = ({ entry, getAsset }) => {
   const blurbs = quoteBlurbs ? quoteBlurbs.toJS() : [];
 
   return (
-    <TalentPageTemplate
+    <CompanyPageTemplate
       title={entry.getIn(['data', 'title'])}
       subtitle={entry.getIn(['data', 'subtitle'])}
       meta_title={entry.getIn(['data', 'meta_title'])}
@@ -22,11 +22,11 @@ const TalentPagePreview = ({ entry, getAsset }) => {
   );
 };
 
-TalentPagePreview.propTypes = {
+CompanyPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
 };
 
-export default TalentPagePreview;
+export default CompanyPagePreview;

@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
 
 const WhoWeWorkWith = ({ talent_members, roundedImageClassName }) => {
-  console.log({ talent_members });
   return (
     <div className='columns is-multiline'>
       {talent_members.members.map((talent_member, i) => (

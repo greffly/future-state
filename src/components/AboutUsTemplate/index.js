@@ -58,7 +58,7 @@ const AboutUsTemplate = (props) => {
                 <strong className='has-text-white'>{quote.author}</strong>
               </p>
               <p className='pr-5 is-size-5-desktop'>
-                <strong className='has-text-white'>{quotes.title}</strong>
+                <strong className='has-text-white'>{quote.title}</strong>
               </p>
             </div>
           ))}

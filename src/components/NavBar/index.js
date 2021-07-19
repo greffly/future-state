@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
-import { Link } from 'gatsby'
-import './styles.sass'
+import React, { useState } from 'react';
+import { Link } from 'gatsby';
+import './styles.sass';
 
 const NavBar = () => {
-  const [active, setActive] = useState(false)
+  const [active, setActive] = useState(false);
 
   const toggleNavBar = () => {
-    setActive(!active)
-  }
+    setActive(!active);
+  };
 
   return (
     <nav className='navbar is-fixed-top' aria-label='main navigation'>
@@ -26,10 +26,7 @@ const NavBar = () => {
           <span />
         </button>
       </div>
-      <div
-        className={`navbar-menu ${active ? 'is-active' : ''}`}
-        id='navMenu'
-      >
+      <div className={`navbar-menu ${active ? 'is-active' : ''}`} id='navMenu'>
         <div className='navbar-end'>
           <Link className='navbar-item' to='/pricing'>
             ABOUT US
@@ -37,7 +34,7 @@ const NavBar = () => {
           <Link className='navbar-item' to='/talent'>
             FOR TALENT
           </Link>
-          <Link className='navbar-item' to='/about'>
+          <Link className='navbar-item' to='/companies'>
             FOR COMPANIES
           </Link>
           <Link className='navbar-item' to='/pricing'>
@@ -46,7 +43,7 @@ const NavBar = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;

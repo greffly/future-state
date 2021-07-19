@@ -1,6 +1,6 @@
 ---
-templateKey: 'talent'
-title: Talent
+templateKey: 'companies'
+title: Companies
 subtitle: We'd Love To Help You, Feel Free To Drop A Mail
 meta_title: Contact Us | Gatsby Starter Business
 meta_description: >-
@@ -8,7 +8,7 @@ meta_description: >-
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
-why_us: Cottage cheese dolcelatte cut the cheese. Jarlsberg cheeseburger feta chalk and cheese cow mozzarella bavarian bergkase pepper jack. Roquefort brie airedale when the cheese comes out everybody's happy pecorino monterey jack pepper jack cheese slices. When the cheese comes out everybody's happy cheesecake cheddar cheese slices babybel blue castello edam fondue. Rubber cheese.
+save_time: Cottage cheese dolcelatte cut the cheese. Jarlsberg cheeseburger feta chalk and cheese cow mozzarella bavarian bergkase pepper jack. Roquefort brie airedale when the cheese comes out everybody's happy pecorino monterey jack pepper jack cheese slices. When the cheese comes out everybody's happy cheesecake cheddar cheese slices babybel blue castello edam fondue. Rubber cheese.
 talent_members:
   members:
     - name: Michael
@@ -54,4 +54,5 @@ quotes:
         Sed in consequat leo, sit amet ullamcorper lacus. Duis lacinia, metus vitae sollicitudin
         pharetra, ipsum augue tristique urna, in rhoncus quam tortor eget sem. Maecenas eu
         pharetra orci, ut malesuada nisl. Aliquam erat volutpat. Curabitur egestas eros tincidunt.
+we_find_your_person: Airedale paneer brie. Manchego pepper jack queso fromage hard cheese cheesy grin bocconcini cheese and biscuits. Taleggio camembert de normandie fondue boursin everyone loves goat when the cheese comes out everybody's happy paneer. Feta cheddar gouda feta cheese and biscuits fromage cottage cheese jarlsberg. Parmesan jarlsberg.
 ---

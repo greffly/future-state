@@ -2,10 +2,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import TalentPageTemplate from '../components/TalentPageTemplate';
+import CompanyPageTemplate from '../components/CompanyPageTemplate';
 import Layout from '../components/Layout';
 
-const TalentPage = (props) => {
+const CompanyPage = (props) => {
   const {
     data: {
       markdownRemark: {
@@ -14,10 +14,11 @@ const TalentPage = (props) => {
           subtitle,
           meta_title,
           meta_description,
-          why_us,
+          save_time,
           talent_members,
           roundedImageClassName,
           quotes,
+          we_find_your_person,
         },
       },
     },
@@ -25,21 +26,22 @@ const TalentPage = (props) => {
 
   return (
     <Layout>
-      <TalentPageTemplate
+      <CompanyPageTemplate
         title={title}
         subtitle={subtitle}
         meta_title={meta_title}
         meta_description={meta_description}
-        why_us={why_us}
+        save_time={save_time}
         talent_members={talent_members}
         roundedImageClassName={roundedImageClassName}
         quotes={quotes}
+        we_find_your_person={we_find_your_person}
       />
     </Layout>
   );
 };
 
-TalentPage.propTypes = {
+CompanyPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -47,10 +49,10 @@ TalentPage.propTypes = {
   }),
 };
 
-export default TalentPage;
+export default CompanyPage;
 
-export const talentPageQuery = graphql`
-  query TalentPage($id: String!) {
+export const companyPageQuery = graphql`
+  query CompanyPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
@@ -58,7 +60,7 @@ export const talentPageQuery = graphql`
         meta_title
         meta_description
         heading
-        why_us
+        save_time
         talent_members {
           members {
             photo
@@ -74,6 +76,7 @@ export const talentPageQuery = graphql`
             text
           }
         }
+        we_find_your_person
       }
     }
   }
