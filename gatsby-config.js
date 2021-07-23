@@ -1,6 +1,6 @@
-const config = require('./config')
+const config = require('./config');
 
-const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
+const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
 
 module.exports = {
   siteMetadata: {
@@ -66,6 +66,12 @@ module.exports = {
               maxWidth: 2048,
             },
           },
+          {
+            resolve: 'gatsby-remark-normalize-paths',
+            options: {
+              pathFields: ['photo'],
+            },
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
@@ -75,7 +81,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
-        indentedSyntax: true
+        indentedSyntax: true,
       },
     },
     {
@@ -125,11 +131,11 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-feed',
       options: {
-        setup (ref) {
-          const ret = ref.query.site.siteMetadata.rssMetadata
-          ret.allMarkdownRemark = ref.query.allMarkdownRemark
-          ret.generator = config.siteTitle
-          return ret
+        setup(ref) {
+          const ret = ref.query.site.siteMetadata.rssMetadata;
+          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
+          ret.generator = config.siteTitle;
+          return ret;
         },
         query: `
                 {
@@ -150,13 +156,13 @@ module.exports = {
               `,
         feeds: [
           {
-            serialize (ctx) {
-              const rssMetadata = ctx.query.site.siteMetadata.rssMetadata
+            serialize(ctx) {
+              const rssMetadata = ctx.query.site.siteMetadata.rssMetadata;
               return ctx.query.allMarkdownRemark.edges
                 .filter(
-                  edge => edge.node.frontmatter.templateKey === 'article-page',
+                  (edge) => edge.node.frontmatter.templateKey === 'article-page'
                 )
-                .map(edge => ({
+                .map((edge) => ({
                   categories: edge.node.frontmatter.tags,
                   date: edge.node.frontmatter.date,
                   title: edge.node.frontmatter.title,
@@ -166,7 +172,7 @@ module.exports = {
                   url: rssMetadata.site_url + edge.node.fields.slug,
                   guid: rssMetadata.site_url + edge.node.fields.slug,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
-                }))
+                }));
             },
             query: `
                     {
@@ -209,11 +215,11 @@ module.exports = {
         resolvers: {
           // For any node of type MarkdownRemark, list how to resolve the fields` values
           MarkdownRemark: {
-            title: node => node.frontmatter.title,
-            author: node => node.frontmatter.author,
-            tags: node => node.frontmatter.tags,
-            slug: node => node.fields.slug,
-            templateKey: node => node.frontmatter.templateKey,
+            title: (node) => node.frontmatter.title,
+            author: (node) => node.frontmatter.author,
+            tags: (node) => node.frontmatter.tags,
+            slug: (node) => node.fields.slug,
+            templateKey: (node) => node.frontmatter.templateKey,
           },
         },
       },
@@ -232,15 +238,9 @@ module.exports = {
       options: {
         mergeSecurityHeaders: false,
         headers: {
-          '/*.js': [
-            'cache-control: public, max-age=31536000, immutable',
-          ],
-          '/*.css': [
-            'cache-control: public, max-age=31536000, immutable',
-          ],
-          '/sw.js': [
-            'cache-control: public, max-age=0, must-revalidate',
-          ],
+          '/*.js': ['cache-control: public, max-age=31536000, immutable'],
+          '/*.css': ['cache-control: public, max-age=31536000, immutable'],
+          '/sw.js': ['cache-control: public, max-age=0, must-revalidate'],
           '/*': [
             `X-Frame-Options: DENY`,
             `X-XSS-Protection: 1; mode=block`,
@@ -251,4 +251,4 @@ module.exports = {
       },
     },
   ],
-}
+};
