@@ -63,7 +63,14 @@ export const companyPageQuery = graphql`
         save_time
         talent_members {
           members {
-            photo
+            image {
+              childImageSharp {
+                fluid(maxWidth: 500, quality: 72) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
             name
             title
           }

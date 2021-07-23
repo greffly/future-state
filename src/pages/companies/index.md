@@ -13,28 +13,28 @@ talent_members:
   members:
     - name: Michael
       title: Boursin chalk and cheese taleggio. Feta cheese and biscuits cottage cheese brie fromage frais dolcelatte who moved my cheese smelly cheese. Port-salut paneer dolcelatte cheesy feet squirty cheese cheese triangles gouda fromage.
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: Lucille
       title: Boursin chalk and cheese taleggio. Feta cheese and biscuits cottage cheese brie fromage frais dolcelatte who moved my cheese smelly cheese. Port-salut paneer dolcelatte cheesy feet squirty cheese cheese triangles gouda fromage.
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: Gob
       title: Boursin chalk and cheese taleggio. Feta cheese and biscuits cottage cheese brie fromage frais dolcelatte who moved my cheese smelly cheese. Port-salut paneer dolcelatte cheesy feet squirty cheese cheese triangles gouda fromage.
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: Maeby
       title: Boursin chalk and cheese taleggio. Feta cheese and biscuits cottage cheese brie fromage frais dolcelatte who moved my cheese smelly cheese. Port-salut paneer dolcelatte cheesy feet squirty cheese cheese triangles gouda fromage.
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: Tobias
       title: Boursin chalk and cheese taleggio. Feta cheese and biscuits cottage cheese brie fromage frais dolcelatte who moved my cheese smelly cheese. Port-salut paneer dolcelatte cheesy feet squirty cheese cheese triangles gouda fromage.
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: Lindsay
       title: Boursin chalk and cheese taleggio. Feta cheese and biscuits cottage cheese brie fromage frais dolcelatte who moved my cheese smelly cheese. Port-salut paneer dolcelatte cheesy feet squirty cheese cheese triangles gouda fromage.
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: George
       title: Boursin chalk and cheese taleggio. Feta cheese and biscuits cottage cheese brie fromage frais dolcelatte who moved my cheese smelly cheese. Port-salut paneer dolcelatte cheesy feet squirty cheese cheese triangles gouda fromage.
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: Ann
       title: Boursin chalk and cheese taleggio. Feta cheese and biscuits cottage cheese brie fromage frais dolcelatte who moved my cheese smelly cheese. Port-salut paneer dolcelatte cheesy feet squirty cheese cheese triangles gouda fromage.
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
 roundedImageClassName: 'is-rounded'
 quotes:
   blurbs:

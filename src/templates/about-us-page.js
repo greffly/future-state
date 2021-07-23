@@ -67,7 +67,14 @@ export const aboutUsQuery = graphql`
           members {
             name
             title
-            photo
+            image {
+              childImageSharp {
+                fluid(maxWidth: 500, quality: 72) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
           }
         }
       }

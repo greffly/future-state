@@ -39,26 +39,26 @@ teamMembers:
   members:
     - name: Michael
       title: roquefort cheese
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: Lucille
       title: roquefort cheese
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: Gob
       title: roquefort cheese
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: Maeby
       title: roquefort cheese
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: Tobias
       title: roquefort cheese
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: Lindsay
       title: roquefort cheese
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: George
       title: roquefort cheese
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
     - name: Ann
       title: roquefort cheese
-      photo: /img/photoPlaceholder.png
+      image: /img/photoPlaceholder.png
 ---

@@ -13,8 +13,8 @@ const WhoWeWorkWith = ({ talent_members, roundedImageClassName }) => {
             <div className='column pl-6 pr-5'>
               <p className='has-text-centered image is-128x128'>
                 <ProgressiveImageContainer
-                  image={talent_member.photo}
-                  alt={`team member ${talent_member.name} photo`}
+                  image={talent_member.image}
+                  alt={`team member ${talent_member.name} image`}
                   className={roundedImageClassName}
                 />
               </p>
@@ -39,7 +39,7 @@ WhoWeWorkWith.propTypes = {
     PropTypes.shape({
       name: PropTypes.string,
       title: PropTypes.string,
-      photo: PropTypes.string,
+      image: PropTypes.string,
     })
   ),
 };

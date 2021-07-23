@@ -66,12 +66,7 @@ module.exports = {
               maxWidth: 2048,
             },
           },
-          {
-            resolve: 'gatsby-remark-normalize-paths',
-            options: {
-              pathFields: ['photo'],
-            },
-          },
+          'gatsby-remark-normalize-paths',
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],

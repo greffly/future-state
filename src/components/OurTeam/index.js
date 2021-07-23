@@ -16,8 +16,8 @@ const OurTeam = ({ teamMembers }) => {
             <div className='pt-5'>
               <p className='has-text-centered'>
                 <ProgressiveImageContainer
-                  image={teamMember.photo}
-                  alt={`team member ${teamMember.name} photo`}
+                  image={teamMember.image}
+                  alt={`team member ${teamMember.name} image`}
                 />
               </p>
               <p className='is-size-4-desktop is-uppercase'>
@@ -38,7 +38,7 @@ OurTeam.propTypes = {
     PropTypes.shape({
       name: PropTypes.string,
       title: PropTypes.string,
-      photo: PropTypes.string,
+      image: PropTypes.string,
     })
   ),
 };

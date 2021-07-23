@@ -41,6 +41,7 @@
     "gatsby-plugin-sitemap": "^2.9.0",
     "gatsby-remark-copy-linked-files": "^2.7.0",
     "gatsby-remark-images": "^3.8.0",
+    "gatsby-remark-normalize-paths": "^1.1.0",
     "gatsby-remark-prismjs": "^3.10.0",
     "gatsby-remark-relative-images": "^2.0.2",
     "gatsby-remark-smartypants": "^2.3.11",
@@ -60,7 +61,7 @@
     "react-share": "^4.3.1",
     "trim-right": "^1.0.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "yup": "^0.27.0"
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
