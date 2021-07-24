@@ -19,6 +19,8 @@ const CompanyPage = (props) => {
           roundedImageClassName,
           quotes,
           we_find_your_person,
+          services,
+          industries,
         },
       },
     },
@@ -36,6 +38,8 @@ const CompanyPage = (props) => {
         roundedImageClassName={roundedImageClassName}
         quotes={quotes}
         we_find_your_person={we_find_your_person}
+        services={services}
+        industries={industries}
       />
     </Layout>
   );
@@ -73,6 +77,17 @@ export const companyPageQuery = graphql`
             }
             name
             title
+          }
+        }
+        services {
+          service_blurbs {
+            text
+            title
+          }
+        }
+        industries {
+          names {
+            name
           }
         }
         roundedImageClassName

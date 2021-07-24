@@ -10,6 +10,9 @@ const CompanyPagePreview = ({ entry, getAsset }) => {
   const quoteBlurbs = entry.getIn(['data', 'quotes', 'blurbs']);
   const blurbs = quoteBlurbs ? quoteBlurbs.toJS() : [];
 
+  const serviceBlurbs = entry.getIn(['data', 'services', 'blurbs']);
+  const service_blurbs = serviceBlurbs ? serviceBlurbs.toJS() : [];
+
   return (
     <CompanyPageTemplate
       title={entry.getIn(['data', 'title'])}
@@ -18,6 +21,8 @@ const CompanyPagePreview = ({ entry, getAsset }) => {
       meta_description={entry.getIn(['data', 'meta_description'])}
       talent_members={{ members }}
       quotes={{ blurbs }}
+      services={{ service_blurbs }}
+      industries={entry.getIn(['data', 'industries'])}
     />
   );
 };

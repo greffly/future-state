@@ -36,6 +36,28 @@ talent_members:
       title: Boursin chalk and cheese taleggio. Feta cheese and biscuits cottage cheese brie fromage frais dolcelatte who moved my cheese smelly cheese. Port-salut paneer dolcelatte cheesy feet squirty cheese cheese triangles gouda fromage.
       image: /img/photoPlaceholder.png
 roundedImageClassName: 'is-rounded'
+services:
+  service_blurbs:
+    - title: Staffing
+      text: Who moved my cheese st. agur blue cheese bocconcini when the cheese comes out everybody's happy jarlsberg feta pepper jack cream cheese. Goat port-salut edam.
+    - title: Priority Search
+      text: Who moved my cheese st. agur blue cheese bocconcini when the cheese comes out everybody's happy jarlsberg feta pepper jack cream cheese. Goat port-salut edam.
+    - title: Solutions Consulting
+      text: Who moved my cheese st. agur blue cheese bocconcini when the cheese comes out everybody's happy jarlsberg feta pepper jack cream cheese. Goat port-salut edam.
+industries:
+  names:
+    - name: Gouda
+    - name: Port-Salut
+    - name: Blue Cheese
+    - name: Jarlsberg
+    - name: Feta
+    - name: Pepper Jack
+    - name: Cream Cheese
+    - name: Aged Gouda
+    - name: Triple Cream Brie
+    - name: Gorgonzola
+    - name: Extra Sharp Cheddar
+    - name: Monterey Jack
 quotes:
   blurbs:
     - author: Harry Potter
