@@ -24,7 +24,7 @@ const CompanyPageTemplate = (props) => {
         <meta name='description' content={meta_description} />
       </Helmet>
       <section className='section is-large has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-1-desktop'>
+        <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-3-mobile'>
           SOMETHING GREAT
           <br />{' '}
           <strong className='has-text-info'>ABOUT COMPANIES HERE.</strong>
@@ -34,7 +34,7 @@ const CompanyPageTemplate = (props) => {
       <section className='section is-medium'>
         <div className='columns'>
           <div className='column is-half'>
-            <h1 className='has-text-black has-text-weight-light is-size-2-desktop'>
+            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
               WHY US? <br /> WE FIND YOUR <strong>10/10 PERSON</strong>
             </h1>
             <p className='pr-5 pt-5 is-size-4-desktop'>{we_find_your_person}</p>
@@ -43,7 +43,7 @@ const CompanyPageTemplate = (props) => {
       </section>
 
       <section className='section is-medium has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-2-desktop'>
+        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile'>
           OUR <strong className='has-text-info'>SERVICES </strong>
         </h1>
         <div className='columns is-flex pt-6'>
@@ -94,7 +94,7 @@ const CompanyPageTemplate = (props) => {
       <section className='section is-medium'>
         <div className='columns'>
           <div className='column is-half'>
-            <h1 className='has-text-black has-text-weight-light is-size-2-desktop'>
+            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
               WE SAVE YOU <strong>TIME</strong>
             </h1>
             <p className='pr-5 pt-5 is-size-4-desktop'>{save_time}</p>
@@ -103,7 +103,7 @@ const CompanyPageTemplate = (props) => {
       </section>
 
       <section className='section is-medium has-background-grey'>
-        <h1 className='has-text-black has-text-weight-light is-size-2-desktop'>
+        <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
           WHAT FOLKS ARE <strong>SAYING</strong>
         </h1>
         <div className='columns'>

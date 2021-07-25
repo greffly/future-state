@@ -11,7 +11,7 @@ const WorkPageTemplate = (props) => {
   return (
     <div>
       <section className='section is-large has-background-black'>
-        <h1 className='has-text-weight-light is-size-2-desktop has-text-info'>
+        <h1 className='has-text-weight-light is-size-1-desktop is-size-3-mobile has-text-info'>
           OUR WORK IS <br />
           <strong className='has-text-info'>WHAT WE DO</strong>
         </h1>

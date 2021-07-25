@@ -23,17 +23,17 @@ const HomePageTemplate = (props) => {
         <title>{meta_title}</title>
         <meta name='description' content={meta_description} />
       </Helmet>
-      <section className='hero is-primary is-bold is-fullheight-with-navbar'>
-        <div className='section is-large-desktop'>
-          <h1 className='has-text-weight-light is-size-1-desktop'>
+      <section className='section is-large has-background-black'>
+        <div className='is-flex is-align-items-start'>
+          <h1 className='has-text-weight-light has-text-info is-size-1 is-size-4-mobile'>
             WE ARE
             <br />
-            <strong>
+            <strong className='has-text-info'>
               CONNECTORS, <br />
               BUILDERS
             </strong>{' '}
             AND <br />
-            <strong> ACCELERATORS</strong>.
+            <strong className='has-text-info'> ACCELERATORS</strong>.
           </h1>
         </div>
       </section>

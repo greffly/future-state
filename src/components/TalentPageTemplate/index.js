@@ -22,7 +22,7 @@ const TalentPageTemplate = (props) => {
         <meta name='description' content={meta_description} />
       </Helmet>
       <section className='section is-large has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-1-desktop'>
+        <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-3-mobile'>
           SOMETHING GREAT
           <br /> <strong className='has-text-info'>ABOUT TALENT HERE.</strong>
         </h1>
@@ -31,7 +31,7 @@ const TalentPageTemplate = (props) => {
       <section className='section is-medium'>
         <div className='columns'>
           <div className='column is-half'>
-            <h1 className='has-text-black has-text-weight-light is-size-2-desktop'>
+            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
               WHY US? <strong>WE LISTEN</strong>
             </h1>
             <p className='pr-5 pt-5 is-size-4-desktop'>{why_us}</p>
@@ -40,7 +40,7 @@ const TalentPageTemplate = (props) => {
       </section>
 
       <section className='section is-medium has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-2-desktop'>
+        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile'>
           WHO WE <strong className='has-text-info'>WORK </strong> WITH
         </h1>
         <WhoWeWorkWith
@@ -50,7 +50,7 @@ const TalentPageTemplate = (props) => {
       </section>
 
       <section className='section is-medium has-background-grey'>
-        <h1 className='has-text-black has-text-weight-light is-size-2-desktop'>
+        <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
           WHAT FOLKS ARE <strong>SAYING</strong>
         </h1>
         <div className='columns'>
