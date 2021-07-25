@@ -12,8 +12,8 @@ const encode = (data) => {
 
 const ContactForm = () => {
   return (
-    <section className='section is-medium has-background-grey-dark'>
-      <h1 className='has-text-white'>DROP US A LINE</h1>
+    <section className='section is-small has-background-grey-dark'>
+      <h1 className='has-text-white is-size-2-desktop pb-3'>DROP US A LINE</h1>
       <Formik
         initialValues={{ name: '', email: '', message: '' }}
         validationSchema={validationSchema}

@@ -1,10 +1,10 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import PropTypes from 'prop-types'
-import { ContactForm } from '../forms'
+import React from 'react';
+import Helmet from 'react-helmet';
+import PropTypes from 'prop-types';
+import { ContactForm } from '../forms';
 
 const ContactPageTemplate = (props) => {
-  const { title, subtitle, meta_title, meta_description } = props
+  const { title, subtitle, meta_title, meta_description } = props;
 
   return (
     <div>
@@ -18,32 +18,24 @@ const ContactPageTemplate = (props) => {
             <div className='columns'>
               <div className='column is-10 is-offset-1'>
                 <div className='section'>
-                  <h1 className='title'>
-                    {title}
-                  </h1>
-                  <h2 className='subtitle'>
-                    {subtitle}
-                  </h2>
+                  <h1 className='title'>{title}</h1>
+                  <h2 className='subtitle'>{subtitle}</h2>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className='section'>
-        <div className='container'>
-          <ContactForm />
-        </div>
-      </section>
+      <ContactForm />
     </div>
-  )
-}
+  );
+};
 
 ContactPageTemplate.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
   meta_title: PropTypes.string,
   meta_description: PropTypes.string,
-}
+};
 
-export default ContactPageTemplate
+export default ContactPageTemplate;

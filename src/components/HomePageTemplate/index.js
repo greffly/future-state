@@ -38,13 +38,9 @@ const HomePageTemplate = (props) => {
         </div>
       </section>
       {/* <section className='section section--gradient'> */}
-      <div>
-        <div className='content'>
-          <HomeIntro />
-          <OurWork />
-          <ContactForm />
-        </div>
-      </div>
+      <HomeIntro />
+      <OurWork />
+      <ContactForm />
     </div>
   );
 };

@@ -13,21 +13,21 @@ projects:
     - company: Extra Sharp Cheddar
       image: /img/photoPlaceholder.png
       blurb: Croque monsieur fromage cheese on toast. The big cheese cottage cheese red leicester cheesy feet cheesecake emmental cheese on toast stilton. Hard cheese brie halloumi goat danish fontina who moved my cheese squirty cheese stilton. The big cheese.
-      services: Airedale cheese, emmental smelly cheese, paneer cheese.
+      services: Airedale cheese, Emmental smelly cheese, Paneer cheese
     - company: Extra Sharp Cheddar
       image: /img/photoPlaceholder.png
       blurb: Croque monsieur fromage cheese on toast. The big cheese cottage cheese red leicester cheesy feet cheesecake emmental cheese on toast stilton. Hard cheese brie halloumi goat danish fontina who moved my cheese squirty cheese stilton. The big cheese.
-      services: Airedale cheese, emmental smelly cheese, paneer cheese.
+      services: Airedale cheese, Emmental smelly cheese, Paneer cheese
     - company: Extra Sharp Cheddar
       image: /img/photoPlaceholder.png
       blurb: Croque monsieur fromage cheese on toast. The big cheese cottage cheese red leicester cheesy feet cheesecake emmental cheese on toast stilton. Hard cheese brie halloumi goat danish fontina who moved my cheese squirty cheese stilton. The big cheese.
-      services: Airedale cheese, emmental smelly cheese, paneer cheese.
+      services: Airedale cheese, Emmental smelly cheese, Paneer cheese
     - company: Extra Sharp Cheddar
       image: /img/photoPlaceholder.png
       blurb: Croque monsieur fromage cheese on toast. The big cheese cottage cheese red leicester cheesy feet cheesecake emmental cheese on toast stilton. Hard cheese brie halloumi goat danish fontina who moved my cheese squirty cheese stilton. The big cheese.
-      services: Airedale cheese, emmental smelly cheese, paneer cheese.
+      services: Airedale cheese, Emmental smelly cheese, Paneer cheese
     - company: Extra Sharp Cheddar
       image: /img/photoPlaceholder.png
       blurb: Croque monsieur fromage cheese on toast. The big cheese cottage cheese red leicester cheesy feet cheesecake emmental cheese on toast stilton. Hard cheese brie halloumi goat danish fontina who moved my cheese squirty cheese stilton. The big cheese.
-      services: Airedale cheese, emmental smelly cheese, paneer cheese.
+      services: Airedale cheese, Emmental smelly cheese, Paneer cheese
 ---

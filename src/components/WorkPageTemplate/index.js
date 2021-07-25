@@ -2,6 +2,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
+import { ContactForm } from '../forms';
+import './styles.sass';
 
 const WorkPageTemplate = (props) => {
   const { projects } = props;
@@ -15,31 +17,40 @@ const WorkPageTemplate = (props) => {
         </h1>
       </section>
 
-      <section className='section is-large has-background-grey'>
+      <section className='section is-medium has-background-grey'>
         {projects.summary.map((project, i) => (
-          <div
-            key={i}
-            className='columns has-text-black is-flex is-flex-direction-row'
-          >
-            <div className='column is-4 has-text-centered'>
-              <ProgressiveImageContainer
-                image={project.image}
-                alt={`image of ${project.company}`}
-              />
+          <div key={i}>
+            <div className='columns py-6 has-text-black is-flex is-flex-direction-row'>
+              <div className='column is-4 has-text-centered'>
+                <ProgressiveImageContainer
+                  image={project.image}
+                  alt={`image of ${project.company}`}
+                />
+              </div>
+              <div className='pl-6'>
+                <p className='pb-3 is-size-3-desktop is-uppercase'>
+                  {project.company}
+                </p>
+                <p className='pb-2 is-size-4-desktop is-uppercase'>
+                  Project Brief
+                </p>
+                <p className='pb-3 is-size-5-desktop'>{project.blurb}</p>
+                <p className='pb-2 is-size-4-desktop is-uppercase'>
+                  Services Used
+                </p>
+                {project.services.split(',').map((service) => (
+                  <p key={service} className='pr-5 is-size-5-desktop'>
+                    {service}
+                  </p>
+                ))}
+              </div>
             </div>
-            <div>
-              <p className='pb-3 is-size-3-desktop is-uppercase'>
-                {project.company}
-              </p>
-              <p className='is-size-4-desktop is-uppercase'>Project Brief</p>
-              <p className='pb-3 is-size-5-desktop'>{project.blurb}</p>
-              <p className='is-size-4-desktop is-uppercase'>Services Used</p>
-              <p className='pr-5 is-size-5-desktop'>{project.services}</p>
-            </div>
+            <hr className='has-background-grey-dark hr-tag' />
           </div>
         ))}
         ;
       </section>
+      <ContactForm />
     </div>
   );
 };
@@ -53,7 +64,7 @@ WorkPageTemplate.propTypes = {
     PropTypes.shape({
       company: PropTypes.string,
       blurb: PropTypes.string,
-      service: PropTypes.string,
+      services: PropTypes.string,
       image: PropTypes.string,
     })
   ),
