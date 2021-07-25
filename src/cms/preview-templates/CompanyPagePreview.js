@@ -10,7 +10,7 @@ const CompanyPagePreview = ({ entry, getAsset }) => {
   const quoteBlurbs = entry.getIn(['data', 'quotes', 'blurbs']);
   const blurbs = quoteBlurbs ? quoteBlurbs.toJS() : [];
 
-  const serviceBlurbs = entry.getIn(['data', 'services', 'blurbs']);
+  const serviceBlurbs = entry.getIn(['data', 'services', 'service_blurbs']);
   const service_blurbs = serviceBlurbs ? serviceBlurbs.toJS() : [];
 
   return (

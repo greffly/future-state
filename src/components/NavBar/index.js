@@ -37,7 +37,7 @@ const NavBar = () => {
           <Link className='navbar-item' to='/companies'>
             FOR COMPANIES
           </Link>
-          <Link className='navbar-item' to='/pricing'>
+          <Link className='navbar-item' to='/work'>
             OUR WORK
           </Link>
         </div>
