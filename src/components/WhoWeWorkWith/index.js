@@ -10,7 +10,7 @@ const WhoWeWorkWith = ({ talent_members, roundedImageClassName }) => {
       {talent_members.members.map((talent_member, i) => (
         <div key={i} className='column is-half py-6 is-flex-direction-row'>
           <div className='columns'>
-            <div className='column pl-6 pr-5'>
+            <div className='column pl-6-desktop pr-5'>
               <p className='has-text-centered image is-128x128'>
                 <ProgressiveImageContainer
                   image={talent_member.image}

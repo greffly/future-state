@@ -40,7 +40,7 @@ const TalentPageTemplate = (props) => {
       </section>
 
       <section className='section is-medium has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile'>
+        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile has-text-centered-mobile'>
           WHO WE <strong className='has-text-info'>WORK </strong> WITH
         </h1>
         <WhoWeWorkWith

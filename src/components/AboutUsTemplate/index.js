@@ -72,19 +72,19 @@ const AboutUsTemplate = (props) => {
           <div className='columns has-text-centered'>
             <div className='column is-third'>
               <p className='has-text-info large-stats'>775</p>
-              <p className='has-text-white is-size-3-desktop stats-descriptor'>
+              <p className='has-text-white is-size-3 stats-descriptor'>
                 REALLY COOL
               </p>
             </div>
             <div className='column is-third'>
               <p className='has-text-info large-stats'>95%</p>
-              <p className='has-text-white is-size-3-desktop stats-descriptor'>
+              <p className='has-text-white is-size-3 stats-descriptor'>
                 SO GREAT
               </p>
             </div>
             <div className='column is-third'>
               <p className='has-text-info large-stats'>564</p>
-              <p className='has-text-white is-size-3-desktop stats-descriptor'>
+              <p className='has-text-white is-size-3 stats-descriptor'>
                 THE BEST
               </p>
             </div>
@@ -123,13 +123,13 @@ const AboutUsTemplate = (props) => {
           <strong>DIVERSITY, EQUITY</strong> AND <br />
           <strong> INCLUSION</strong>
         </h1>
-        <div className='columns'>
+        <div className='columns has-text-centered'>
           <div className='column is-two-thirds'>
             <p className='pr-5 pt-5 is-size-4-desktop'>{diversity}</p>
           </div>
           <div>
             <p className='has-text-info large-stats'>95%</p>
-            <p className='is-size-3-desktop'>SO GREAT</p>
+            <p className='is-size-3 stats-descriptor'>SO GREAT</p>
           </div>
         </div>
       </section>

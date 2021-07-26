@@ -20,8 +20,8 @@ const WorkPageTemplate = (props) => {
       <section className='section is-medium has-background-grey'>
         {projects.summary.map((project, i) => (
           <div key={i}>
-            <div className='columns py-6 has-text-black is-flex is-flex-direction-row'>
-              <div className='column is-4 has-text-centered'>
+            <div className='columns py-6 has-text-black is-flex-desktop is-flex-direction-row-desktop'>
+              <div className='column is-4-desktop has-text-centered'>
                 <ProgressiveImageContainer
                   image={project.image}
                   alt={`image of ${project.company}`}

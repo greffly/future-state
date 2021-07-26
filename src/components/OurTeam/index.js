@@ -7,7 +7,7 @@ import ProgressiveImageContainer from '../ProgressiveImageContainer';
 const OurTeam = ({ teamMembers }) => {
   return (
     <section className='section has-background-grey is-large'>
-      <h1 className='has-text-black has-text-weight-light is-size-2 pl-6'>
+      <h1 className='has-text-black has-text-weight-light has-text-centered is-size-2 pl-6-desktop'>
         OUR <strong>TEAM</strong>
       </h1>
       <div className='columns is-multiline'>
