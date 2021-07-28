@@ -1,33 +1,28 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
+import ProgressiveImageContainer from '../ProgressiveImageContainer';
 import './styles.sass';
 
 const NavBar = () => {
-  const [active, setActive] = useState(false);
-
-  const toggleNavBar = () => {
-    setActive(!active);
-  };
-
   return (
-    <nav className='navbar is-fixed-top' aria-label='main navigation'>
-      <div className='navbar-brand'>
-        <Link to='/' className='navbar-item' id='navbar-title'>
-          <strong>Future State</strong>
-          <p>Consulting</p>
+    <nav
+      className='navbar is-fixed-top custom-nav-height'
+      aria-label='main navigation'
+    >
+      <div>
+        <Link to='/' className='navbar-title'>
+          <ProgressiveImageContainer
+            image='/img/future-state-logo.svg'
+            alt='Private 100 Fastest Growing Companies'
+          />
         </Link>
-        <button
-          className={`button navbar-burger ${active ? 'is-active' : ''}`}
-          data-target='navMenu'
-          onClick={toggleNavBar}
-        >
-          <span />
-          <span />
-          <span />
-        </button>
       </div>
-      <div className={`navbar-menu ${active ? 'is-active' : ''}`} id='navMenu'>
-        <div className='navbar-end'>
+      <div id='menuToggle'>
+        <input type='checkbox' />
+        <span />
+        <span />
+        <span />
+        <ul id='menu'>
           <Link className='navbar-item' to='/pricing'>
             ABOUT US
           </Link>
@@ -40,7 +35,7 @@ const NavBar = () => {
           <Link className='navbar-item' to='/work'>
             OUR WORK
           </Link>
-        </div>
+        </ul>
       </div>
     </nav>
   );
