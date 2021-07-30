@@ -3,13 +3,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
+import './styles.sass';
+import '../../styles/global.sass';
 
 const HomeIntro = (props) => {
   const { data } = props;
 
   return (
     <div>
-      <section className='section is-large'>
+      <section className='section custom-medium-section'>
         <h1 className='has-text-weight-light is-size-2-desktop is-size-4-mobile'>
           RELATIONSHIPS <strong>FIRST</strong>.
           <br /> TALENT SOLUTIONS THAT <strong>LAST</strong>.
@@ -32,8 +34,18 @@ const HomeIntro = (props) => {
             </button>
           </div>
         </div>
+        <ProgressiveImageContainer
+          image='/img/home-circle-graphic.svg'
+          alt='circle graphic'
+          className='home-circle-graphic-2'
+        />
+        <ProgressiveImageContainer
+          image='/img/home-puzzle-pieces.svg'
+          alt='circle graphic'
+          className='home-puzzle-pieces'
+        />
       </section>
-      <section className='section is-large has-background-black'>
+      <section className='section custom-large-section has-background-black'>
         <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile'>
           WE DELIVER
           <br /> <strong className='has-text-info'>
@@ -47,6 +59,11 @@ const HomeIntro = (props) => {
             ABOUT US
           </button>
         </div>
+        <ProgressiveImageContainer
+          image='/img/home-maze-graphic.svg'
+          alt='circle graphic'
+          className='home-maze-graphic'
+        />
       </section>
       <section className='section is-medium has-text-centered'>
         <h1 className='has-text-weight-light is-size-2-desktop is-size-4-mobile'>
@@ -54,25 +71,35 @@ const HomeIntro = (props) => {
           <strong> PROUD</strong> OF THE AWARDS <br />{' '}
           <strong>WE HAVE RECEIVED.</strong>
         </h1>
-        <p className='column is-three-fifths is-offset-one-fifth is-size-5-desktop py-6'>
-          Manchego edam goat. Pepper jack smelly cheese mascarpone cow airedale
-          edam caerphilly rubber cheese. Swiss cheese and biscuits cheese and
-          wine halloumi bavarian bergkase cheddar boursin st. agur blue cheese.
+        <p className='column is-8 is-offset-2 is-size-5-desktop py-6 px-0'>
+          Gouda stinking bishop rubber cheese smelly cheese swiss red leicester
+          port-salut the big cheese. Taleggio stinking bishop manchego hard
+          cheese monterey jack chalk and cheese stinking bishop swiss. Fromage
+          frais port-salut manchego.
         </p>
-        <div className='columns is-flex is-align-items-center p-6'>
-          <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
+        <div className='columns is-flex is-align-items-center px-6-desktop'>
+          <div
+            className='column is-4 p-6-desktop'
+            style={{ 'padding-right': '3%', 'padding-left': '3%' }}
+          >
             <ProgressiveImageContainer
               image='/img/badge-inc-500.png'
               alt='INC 5000 Award'
             />
           </div>
-          <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
+          <div
+            className='column is-4 p-6-desktop'
+            style={{ 'padding-right': '3%', 'padding-left': '3%' }}
+          >
             <ProgressiveImageContainer
               image='/img/badge-private-100.png'
               alt='Private 100 Fastest Growing Companies'
             />
           </div>
-          <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
+          <div
+            className='column is-4 p-6-desktop'
+            style={{ 'padding-right': '3%', 'padding-left': '3%' }}
+          >
             <ProgressiveImageContainer
               image='/img/badge-inc-5000.png'
               alt='INC 5000 2019'
