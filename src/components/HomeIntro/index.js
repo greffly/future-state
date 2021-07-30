@@ -59,22 +59,22 @@ const HomeIntro = (props) => {
           edam caerphilly rubber cheese. Swiss cheese and biscuits cheese and
           wine halloumi bavarian bergkase cheddar boursin st. agur blue cheese.
         </p>
-        <div className='columns'>
-          <div className='column is-third is-4 p-6'>
+        <div className='columns is-flex is-align-items-center p-6'>
+          <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
             <ProgressiveImageContainer
-              image='/img/photoPlaceholder.png'
+              image='/img/badge-inc-500.png'
               alt='INC 5000 Award'
             />
           </div>
-          <div className='column is-third is-4 p-6'>
+          <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
             <ProgressiveImageContainer
-              image='/img/photoPlaceholder.png'
+              image='/img/badge-private-100.png'
               alt='Private 100 Fastest Growing Companies'
             />
           </div>
-          <div className='column is-third is-4 p-6'>
+          <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
             <ProgressiveImageContainer
-              image='/img/photoPlaceholder.png'
+              image='/img/badge-inc-5000.png'
               alt='INC 5000 2019'
             />
           </div>

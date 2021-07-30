@@ -1,21 +1,14 @@
 /* eslint-disable semi */
-import React from 'react';
+import React, { useState } from 'react';
 import Helmet from 'react-helmet';
 import { ContactForm } from '../forms';
 import HomeIntro from '../HomeIntro';
 import OurWork from '../OurWork';
 import PropTypes from 'prop-types';
+import WorkPageTemplate from '../WorkPageTemplate';
 
 const HomePageTemplate = (props) => {
-  const {
-    title,
-    heading,
-    description,
-    offerings,
-    meta_title,
-    meta_description,
-    testimonials,
-  } = props;
+  const { meta_title, meta_description } = props;
 
   return (
     <div>

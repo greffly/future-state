@@ -24,3 +24,4 @@ CMS.registerPreviewTemplate('talent', TalentPagePreview);
 CMS.registerPreviewTemplate('contact', ContactPagePreview);
 CMS.registerPreviewTemplate('blog', ArticlePreview);
 CMS.registerPreviewTemplate('companies', CompanyPagePreview);
+CMS.registerPreviewTemplate('work', WorkPagePreview);

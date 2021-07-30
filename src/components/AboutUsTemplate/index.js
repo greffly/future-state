@@ -95,22 +95,22 @@ const AboutUsTemplate = (props) => {
           <h1 className='has-text-info pt-5 has-text-weight-light is-size-2-desktop is-size-4-mobile has-text-centered'>
             WE'RE PROUD OF THE AWARDS WE HAVE WON.
           </h1>
-          <div className='columns'>
-            <div className='column is-third is-4 p-6'>
+          <div className='columns is-flex is-align-items-center pt-6'>
+            <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
               <ProgressiveImageContainer
-                image='/img/photoPlaceholder.png'
+                image='/img/badge-inc-500.png'
                 alt='INC 5000 Award'
               />
             </div>
-            <div className='column is-third is-4 p-6'>
+            <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
               <ProgressiveImageContainer
-                image='/img/photoPlaceholder.png'
+                image='/img/badge-private-100.png'
                 alt='Private 100 Fastest Growing Companies'
               />
             </div>
-            <div className='column is-third is-4 p-6'>
+            <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
               <ProgressiveImageContainer
-                image='/img/photoPlaceholder.png'
+                image='/img/badge-inc-5000.png'
                 alt='INC 5000 2019'
               />
             </div>

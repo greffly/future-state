@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
 import './styles.sass';
@@ -10,7 +10,7 @@ const NavBar = () => {
       aria-label='main navigation'
     >
       <div>
-        <Link to='/' className='navbar-title'>
+        <Link to='/' className='navbar-title is-flex is-align-items-center'>
           <ProgressiveImageContainer
             image='/img/future-state-logo.svg'
             alt='Private 100 Fastest Growing Companies'

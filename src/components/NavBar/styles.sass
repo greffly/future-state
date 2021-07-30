@@ -4,16 +4,15 @@
   left: 50%
   transform: translate(-50% , -50%)
   position: absolute
-  margin-top: 12px
 
 .custom-nav-height
-  height: 135px
+  height: 80px
 
 #menuToggle
 	display: block
 	position: absolute
-	top: 50px
-	right: 50px
+	top: 30px
+	right: 20px
 	z-index: 1
 	-webkit-user-select: none
 	user-select: none
@@ -22,7 +21,7 @@
 		color: #000
 		transition: color 0.3s ease
 		&:hover
-			color: #4AC3C3
+			color: #054C6C
 	input
 		display: block
 		width: 40px
@@ -76,3 +75,13 @@
 	li
 		padding: 15px 0
 		font-size: 23px
+
+$layout-breakpoint-small: 768px
+@media (min-width: $layout-breakpoint-small)
+  .custom-nav-height
+  	height: 135px
+
+@media (min-width: $layout-breakpoint-small)
+	#menuToggle
+		top: 50px
+		right: 50px
