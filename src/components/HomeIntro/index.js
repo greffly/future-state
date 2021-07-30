@@ -11,13 +11,13 @@ const HomeIntro = (props) => {
 
   return (
     <div>
-      <section className='section custom-medium-section'>
+      <section className='custom-medium-section'>
         <h1 className='has-text-weight-light is-size-2-desktop is-size-4-mobile'>
           RELATIONSHIPS <strong>FIRST</strong>.
           <br /> TALENT SOLUTIONS THAT <strong>LAST</strong>.
         </h1>
         <div className='column is-two-thirds px-0'>
-          <p className='is-size-5-desktop py-6'>
+          <p className='is-size-4-desktop pb-6 pt-3'>
             Future State is a consulting firm that leads with a personal,
             relationship-first approach to deliver top engineering talent and
             team solutions to tech organizations at leading companies.
@@ -45,7 +45,7 @@ const HomeIntro = (props) => {
           className='home-puzzle-pieces'
         />
       </section>
-      <section className='section custom-large-section has-background-black'>
+      <section className='custom-large-section has-background-black'>
         <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile'>
           WE DELIVER
           <br /> <strong className='has-text-info'>
