@@ -3,13 +3,13 @@ import React from 'react';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
 import { Link } from 'gatsby';
 
-const OurWork = () => {
+const OurWork = ({ projects }) => {
   return (
-    <section className='section is-large has-background-grey'>
+    <section className='section is-medium has-background-grey'>
       <h1 className='has-text-weight-light is-size-2-desktop is-size-4-mobile'>
         OUR <strong>WORK</strong>
       </h1>
-      {/* <section className='section is-medium has-background-grey'>
+      <div>
         {projects.summary.map((project, i) => (
           <div key={i}>
             <div className='columns py-6 has-text-black is-flex-desktop is-flex-direction-row-desktop'>
@@ -41,9 +41,11 @@ const OurWork = () => {
           </div>
         ))}
         ;
-      </section> */}
-      <button className='button is-white has-text-primary pl-0 p-5 mt-2 is-size-5-desktop'>
-        MORE PROJECTS →
+      </div>
+      <button className='button is-white pl-0 p-5 mt-2 is-size-5-desktop'>
+        <Link className='has-text-black' to='/work'>
+          MORE PROJECTS →
+        </Link>
       </button>
     </section>
   );

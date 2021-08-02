@@ -10,7 +10,7 @@ import './styles.sass';
 import '../../styles/global.sass';
 
 const HomePageTemplate = (props) => {
-  const { meta_title, meta_description } = props;
+  const { meta_title, meta_description, projects } = props;
 
   return (
     <div>
@@ -43,7 +43,7 @@ const HomePageTemplate = (props) => {
         />
       </section>
       <HomeIntro />
-      <OurWork />
+      <OurWork projects={projects} />
       <ContactForm />
     </div>
   );
@@ -58,6 +58,14 @@ HomePageTemplate.propTypes = {
     blurbs: PropTypes.array,
   }),
   testimonials: PropTypes.array,
+  projects: PropTypes.arrayOf(
+    PropTypes.shape({
+      company: PropTypes.string,
+      blurb: PropTypes.string,
+      services: PropTypes.string,
+      image: PropTypes.string,
+    })
+  ),
 };
 
 export default HomePageTemplate;

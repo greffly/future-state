@@ -7,8 +7,6 @@ import './styles.sass';
 import '../../styles/global.sass';
 
 const HomeIntro = (props) => {
-  const { data } = props;
-
   return (
     <div>
       <section className='custom-medium-section'>
@@ -80,7 +78,7 @@ const HomeIntro = (props) => {
         <div className='columns is-flex is-align-items-center px-6-desktop'>
           <div
             className='column is-4 p-6-desktop'
-            style={{ 'padding-right': '3%', 'padding-left': '3%' }}
+            style={{ paddingRight: '3%', paddingLeft: '3%' }}
           >
             <ProgressiveImageContainer
               image='/img/badge-inc-500.png'
@@ -89,7 +87,7 @@ const HomeIntro = (props) => {
           </div>
           <div
             className='column is-4 p-6-desktop'
-            style={{ 'padding-right': '3%', 'padding-left': '3%' }}
+            style={{ paddingRight: '3%', paddingLeft: '3%' }}
           >
             <ProgressiveImageContainer
               image='/img/badge-private-100.png'
@@ -98,7 +96,7 @@ const HomeIntro = (props) => {
           </div>
           <div
             className='column is-4 p-6-desktop'
-            style={{ 'padding-right': '3%', 'padding-left': '3%' }}
+            style={{ paddingRight: '3%', paddingLeft: '3%' }}
           >
             <ProgressiveImageContainer
               image='/img/badge-inc-5000.png'

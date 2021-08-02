@@ -13,6 +13,9 @@ const HomePagePreview = ({ entry, getAsset }) => {
   const entryTestimonials = entry.getIn(['data', 'testimonials']);
   const testimonials = entryTestimonials ? entryTestimonials.toJS() : [];
 
+  const projectBlurbs = entry.getIn(['data', 'projects', 'summary']);
+  const summary = projectBlurbs ? projectBlurbs.toJS() : [];
+
   return (
     <HomePageTemplate
       title={entry.getIn(['data', 'title'])}
@@ -23,6 +26,7 @@ const HomePagePreview = ({ entry, getAsset }) => {
       offerings={{ blurbs }}
       teamMembers={{ members }}
       testimonials={testimonials}
+      projects={{ summary }}
     />
   );
 };
