@@ -54,4 +54,5 @@ quotes:
         Sed in consequat leo, sit amet ullamcorper lacus. Duis lacinia, metus vitae sollicitudin
         pharetra, ipsum augue tristique urna, in rhoncus quam tortor eget sem. Maecenas eu
         pharetra orci, ut malesuada nisl. Aliquam erat volutpat. Curabitur egestas eros tincidunt.
+talent_quote: Boursin chalk and cheese taleggio. Feta cheese and biscuits cottage cheese brie fromage frais dolcelatte who moved my cheese smelly cheese. Port-salut paneer dolcelatte.
 ---

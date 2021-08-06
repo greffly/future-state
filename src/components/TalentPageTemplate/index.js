@@ -3,6 +3,8 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { ContactForm } from '../forms';
 import WhoWeWorkWith from '../WhoWeWorkWith';
+import ProgressiveImageContainer from '../ProgressiveImageContainer';
+import './styles.sass';
 
 const TalentPageTemplate = (props) => {
   const {
@@ -13,6 +15,7 @@ const TalentPageTemplate = (props) => {
     talent_members,
     roundedImageClassName,
     quotes,
+    talent_quote,
   } = props;
 
   return (
@@ -21,14 +24,30 @@ const TalentPageTemplate = (props) => {
         <title>{meta_title}</title>
         <meta name='description' content={meta_description} />
       </Helmet>
-      <section className='section is-large has-background-black'>
+      <section
+        className='custom-medium-section has-background-black'
+        id='talent-top-section'
+      >
         <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-3-mobile'>
-          SOMETHING GREAT
-          <br /> <strong className='has-text-info'>ABOUT TALENT HERE.</strong>
+          LOREM IPSUM IS
+          <br /> <strong className='has-text-info'>
+            TALENT BEFS
+          </strong> <br /> FILA MING <br />
+          <strong className='has-text-info'>SMARN YARGERS</strong>{' '}
         </h1>
+        <ProgressiveImageContainer
+          image='/img/home-circle-graphic.svg'
+          alt='circle graphic'
+          className='talent-circle-graphic'
+        />
+        <ProgressiveImageContainer
+          image='/img/talent-puzzle.svg'
+          alt='circle graphic'
+          className='talent-puzzle-pieces'
+        />
       </section>
 
-      <section className='section is-medium'>
+      <section className='custom-medium-section' id='talent-listen-section'>
         <div className='columns'>
           <div className='column is-half'>
             <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
@@ -36,13 +55,31 @@ const TalentPageTemplate = (props) => {
             </h1>
             <p className='pr-5 pt-5 is-size-4-desktop'>{why_us}</p>
           </div>
+          <div className='column is-flex is-align-items-center'>
+            <ProgressiveImageContainer
+              image='/img/quote-light-blue.svg'
+              alt='quote graphic'
+              className='quote-with-talent'
+            />
+            <p className='is-size-5-desktop talent-quote'>{talent_quote}</p>
+          </div>
         </div>
+        <ProgressiveImageContainer
+          image='/img/talent-sound-waves.svg'
+          alt='sound waves graphic'
+          className='talent-sound-waves'
+        />
       </section>
 
       <section className='section is-medium has-background-black'>
         <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile has-text-centered-mobile'>
           WHO WE <strong className='has-text-info'>WORK </strong> WITH
         </h1>
+        <ProgressiveImageContainer
+          image='/img/home-circle-graphic.svg'
+          alt='circle graphic'
+          className='talent-work-graphic'
+        />
         <WhoWeWorkWith
           talent_members={talent_members}
           roundedImageClassName={roundedImageClassName}
@@ -87,6 +124,7 @@ TalentPageTemplate.propTypes = {
   quotes: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
+  talent_quote: PropTypes.string,
 };
 
 export default TalentPageTemplate;

@@ -18,6 +18,7 @@ const TalentPage = (props) => {
           talent_members,
           roundedImageClassName,
           quotes,
+          talent_quote,
         },
       },
     },
@@ -34,6 +35,7 @@ const TalentPage = (props) => {
         talent_members={talent_members}
         roundedImageClassName={roundedImageClassName}
         quotes={quotes}
+        talent_quote={talent_quote}
       />
     </Layout>
   );
@@ -81,6 +83,7 @@ export const talentPageQuery = graphql`
             text
           }
         }
+        talent_quote
       }
     }
   }

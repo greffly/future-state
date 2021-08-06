@@ -1,0 +1,18 @@
+.rounded-image
+  border-radius: 50%
+
+.work-image-container
+  margin: auto
+  display: flex
+  flex-direction: column
+  align-items: center
+
+$layout-breakpoint-tablet: 768px
+@media (min-width: $layout-breakpoint-tablet)
+  .rounded-image
+    border-radius: 50%
+    height: 128px
+    width: 128px
+
+  .work-image-container
+    margin: 0

@@ -18,6 +18,7 @@ const TalentPagePreview = ({ entry, getAsset }) => {
       meta_description={entry.getIn(['data', 'meta_description'])}
       talent_members={{ members }}
       quotes={{ blurbs }}
+      talent_quote={entry.getIn(['data', 'talent_quote'])}
     />
   );
 };
