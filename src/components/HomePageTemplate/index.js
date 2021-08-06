@@ -20,7 +20,7 @@ const HomePageTemplate = (props) => {
       </Helmet>
       <section className='background-image custom-large-section'>
         <div className='is-flex is-align-items-start'>
-          <h1 className='custom-header has-text-weight-light has-text-info is-size-1 is-size-4-mobile'>
+          <h1 className='custom-header has-text-weight-light has-text-info is-size-1 is-size-3-mobile'>
             WE ARE
             <br />
             <strong className='has-text-info'>

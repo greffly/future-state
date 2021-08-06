@@ -15,6 +15,7 @@ const AboutUsTemplate = (props) => {
     quotes,
     diversity,
     teamMembers,
+    value_quote,
   } = props;
 
   return (
@@ -23,7 +24,10 @@ const AboutUsTemplate = (props) => {
         <title>{meta_title}</title>
         <meta name='description' content={meta_description} />
       </Helmet>
-      <section className='section is-medium has-background-black'>
+      <section
+        className='custom-medium-section has-background-black'
+        id='about-top-section'
+      >
         <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-3-mobile'>
           WE DELIVER
           <br /> <strong className='has-text-info'>
@@ -32,9 +36,19 @@ const AboutUsTemplate = (props) => {
           <br /> THAT HELP <br />{' '}
           <strong className='has-text-info'>CREATE IMPACT.</strong>
         </h1>
+        <ProgressiveImageContainer
+          image='/img/home-circle-graphic.svg'
+          alt='circle graphic'
+          className='about-circle-graphic-2'
+        />
+        <ProgressiveImageContainer
+          image='/img/about-us-clackers.svg'
+          alt='circle graphic'
+          className='about-us-clackers'
+        />
       </section>
 
-      <section className='section is-medium'>
+      <section className='custom-medium-section'>
         <div className='columns'>
           <div className='column is-half'>
             <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
@@ -42,32 +56,53 @@ const AboutUsTemplate = (props) => {
             </h1>
             <p className='pr-5 pt-5 is-size-4-desktop'>{values}</p>
           </div>
+          <div className='column is-flex is-align-items-center'>
+            <ProgressiveImageContainer
+              image='/img/about-us-circle.svg'
+              alt='circle graphic'
+              className='about-us-circle'
+            />
+            <ProgressiveImageContainer
+              image='/img/quote-light-blue.svg'
+              alt='circle graphic'
+              className='quote-with-value'
+            />
+            <p className='is-size-5-desktop value-quote'>{value_quote}</p>
+          </div>
         </div>
       </section>
 
-      <section className='section is-medium has-background-black'>
+      <section className='custom-medium-section has-background-black'>
         <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile'>
           WHY <strong className='has-text-info'>WORK</strong> WITH{' '}
           <strong className='has-text-info'>US</strong>
         </h1>
         <div className='columns'>
           {quotes.blurbs.map((quote, i) => (
-            <div key={i} className='column is-third has-text-white'>
-              <p className='pr-5 pt-5 is-size-5-desktop'>{quote.text}</p>
-              <p className='pr-5 pt-5 is-size-5-desktop'>
-                <strong className='has-text-white'>{quote.author}</strong>
-              </p>
-              <p className='pr-5 is-size-5-desktop'>
-                <strong className='has-text-white'>{quote.title}</strong>
-              </p>
+            <div key={i} className='pr-5 pt-6'>
+              <ProgressiveImageContainer
+                image='/img/quote-light-blue.svg'
+                alt='quotation mark graphic'
+                className='quote-with-blurbs'
+              />
+              <div className='column mt-5 ml-2 is-third has-text-white'>
+                <p className='is-size-5-desktop'>{quote.text}</p>
+                <p className='pt-5 is-size-5-desktop'>
+                  <strong className='has-text-white'>{quote.author}</strong>
+                </p>
+                <p className='is-size-5-desktop'>
+                  <strong className='has-text-white'>{quote.title}</strong>
+                </p>
+                <hr className='has-background-info hr-tag' />
+              </div>
             </div>
           ))}
           ;
         </div>
 
         <div className='py-6'>
-          <h1 className='has-text-info pt-5 has-text-weight-light is-size-2-desktop is-size-4-mobile has-text-centered'>
-            WE'RE GOOD AT WHAT WE DO.
+          <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-4-mobile has-text-centered'>
+            <strong className='has-text-info'>WE'RE GOOD AT WHAT WE DO.</strong>
           </h1>
           <div className='columns has-text-centered'>
             <div className='column is-third'>
@@ -92,8 +127,10 @@ const AboutUsTemplate = (props) => {
         </div>
 
         <div className='py-6'>
-          <h1 className='has-text-info pt-5 has-text-weight-light is-size-2-desktop is-size-4-mobile has-text-centered'>
-            WE'RE PROUD OF THE AWARDS WE HAVE WON.
+          <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-4-mobile has-text-centered'>
+            <strong className='has-text-info'>
+              WE'RE PROUD OF THE AWARDS WE HAVE WON.
+            </strong>
           </h1>
           <div className='columns is-flex is-align-items-center pt-6'>
             <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
@@ -123,11 +160,11 @@ const AboutUsTemplate = (props) => {
           <strong>DIVERSITY, EQUITY</strong> AND <br />
           <strong> INCLUSION</strong>
         </h1>
-        <div className='columns has-text-centered'>
+        <div className='columns'>
           <div className='column is-two-thirds'>
             <p className='pr-5 pt-5 is-size-4-desktop'>{diversity}</p>
           </div>
-          <div>
+          <div className='has-text-centered'>
             <p className='has-text-info large-stats'>95%</p>
             <p className='is-size-3 stats-descriptor'>SO GREAT</p>
           </div>
@@ -144,6 +181,7 @@ AboutUsTemplate.propTypes = {
   meta_title: PropTypes.string,
   meta_description: PropTypes.string,
   values: PropTypes.string,
+  value_quote: PropTypes.string,
   quotes: PropTypes.shape({
     blurbs: PropTypes.array,
   }),

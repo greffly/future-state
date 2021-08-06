@@ -14,6 +14,7 @@ const AboutUs = (props) => {
           meta_title,
           meta_description,
           values,
+          value_quote,
           quotes,
           diversity,
           teamMembers,
@@ -29,6 +30,7 @@ const AboutUs = (props) => {
         meta_title={meta_title}
         meta_description={meta_description}
         values={values}
+        value_quote={value_quote}
         quotes={quotes}
         diversity={diversity}
         teamMembers={teamMembers}
@@ -55,6 +57,7 @@ export const aboutUsQuery = graphql`
         meta_title
         meta_description
         values
+        value_quote
         quotes {
           blurbs {
             author

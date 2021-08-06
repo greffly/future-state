@@ -1,0 +1,27 @@
+<svg width="686" height="648" viewBox="0 0 686 648" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="196.5" cy="451.5" r="195.5" stroke="#77C7F2" stroke-opacity="0.3" stroke-width="2"/>
+<circle cx="196.5" cy="451.5" r="165.5" stroke="#77C7F2" stroke-opacity="0.09" stroke-width="2"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="101" y="0" width="585" height="539">
+<rect x="101" width="585" height="539" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M367.944 366.24V-42.4238" stroke="#054C6C" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M194.592 366.24L252.182 -42.4238" stroke="#054C6C" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M191 437.331C224.137 437.331 251 410.356 251 377.081C251 343.806 224.137 316.831 191 316.831C157.863 316.831 131 343.806 131 377.081C131 410.356 157.863 437.331 191 437.331Z" fill="url(#paint0_radial)"/>
+<path d="M364.353 437.331C397.49 437.331 424.353 410.356 424.353 377.081C424.353 343.806 397.49 316.831 364.353 316.831C331.215 316.831 304.353 343.806 304.353 377.081C304.353 410.356 331.215 437.331 364.353 437.331Z" fill="#054C6C"/>
+<g opacity="0.5">
+<path d="M495.128 366.24V-42.4238" stroke="#054C6C" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M491.536 437.331C524.673 437.331 551.536 410.356 551.536 377.081C551.536 343.806 524.673 316.831 491.536 316.831C458.399 316.831 431.536 343.806 431.536 377.081C431.536 410.356 458.399 437.331 491.536 437.331Z" fill="#054C6C"/>
+</g>
+<g opacity="0.3">
+<path d="M622.312 366.24V-42.4238" stroke="#054C6C" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M618.72 437.331C651.857 437.331 678.72 410.356 678.72 377.081C678.72 343.806 651.857 316.831 618.72 316.831C585.583 316.831 558.72 343.806 558.72 377.081C558.72 410.356 585.583 437.331 618.72 437.331Z" fill="#054C6C"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(214.03 353.084) rotate(117.82) scale(72.7811 72.5825)">
+<stop stop-color="#77C7F2"/>
+<stop offset="1" stop-color="#054C6C"/>
+</radialGradient>
+</defs>
+</svg>

@@ -3,6 +3,7 @@ import React from 'react';
 import { Formik, Field } from 'formik';
 import { navigate } from 'gatsby';
 import validationSchema from './validationSchema';
+import './styles.sass';
 import '../../../styles/global.sass';
 
 const encode = (data) => {
@@ -14,8 +15,8 @@ const encode = (data) => {
 const ContactForm = () => {
   return (
     <section className='section is-small has-background-grey-dark'>
-      <div className='px-6'>
-        <h1 className='has-text-white is-size-2-desktop is-size-4-mobile pb-3'>
+      <div className='contact-form'>
+        <h1 className='has-text-white is-size-2-desktop is-size-4-mobile pb-3 ml-3'>
           DROP US A LINE
         </h1>
         <Formik
@@ -57,13 +58,14 @@ const ContactForm = () => {
               data-netlify-honeypot='bot-field'
             >
               <div className='columns'>
-                <div className='column'>
+                <div className='column m-3'>
                   <div className='field'>
-                    <label className='label has-text-info'>Name</label>
+                    <label className='label has-text-info is-size-5'>
+                      Name
+                    </label>
                     <div className='control'>
                       <Field
                         className='input is-info has-background-grey-dark'
-                        style={{ inputPlaceholderColor: 'pink' }}
                         type='text'
                         placeholder='Type Something'
                         name='name'
@@ -76,7 +78,9 @@ const ContactForm = () => {
                   </div>
 
                   <div className='field pt-4'>
-                    <label className='label has-text-info'>Email</label>
+                    <label className='label has-text-info is-size-5'>
+                      Email
+                    </label>
                     <div className='control'>
                       <Field
                         className='input is-info has-background-grey-dark'
@@ -92,7 +96,7 @@ const ContactForm = () => {
                   </div>
 
                   <div className='field pt-4'>
-                    <label className='label has-text-info'>
+                    <label className='label has-text-info is-size-5'>
                       Company (Optional)
                     </label>
                     <div className='control'>
@@ -113,8 +117,10 @@ const ContactForm = () => {
                   </div>
                 </div>
 
-                <div className='column'>
-                  <label className='label has-text-info'>About You</label>
+                <div className='column m-3'>
+                  <label className='label has-text-info is-size-5'>
+                    About You
+                  </label>
                   <div className='control pb-2'>
                     <label className='radio has-text-info pr-5'>
                       <input type='radio' name='answer' className='mr-2' />
@@ -127,7 +133,9 @@ const ContactForm = () => {
                   </div>
 
                   <div className='field pt-4'>
-                    <label className='label has-text-info'>Comment</label>
+                    <label className='label has-text-info is-size-5'>
+                      Comment
+                    </label>
                     <div className='control'>
                       <Field
                         className='textarea is-info has-background-grey-dark py-4'
@@ -145,7 +153,7 @@ const ContactForm = () => {
               <div className='field'>
                 <div className='control'>
                   <button
-                    className='button is-info p-5 is-size-5-desktop mt-3'
+                    className='button is-info p-5 is-size-5-desktop mt-3 ml-3'
                     type='submit'
                     disabled={isSubmitting}
                   >

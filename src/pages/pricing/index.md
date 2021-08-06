@@ -13,6 +13,7 @@ values: Bocconcini say cheese melted cheese. Halloumi jarlsberg caerphilly
   caerphilly cheese and wine camembert de normandie swiss. Rubber
   cheese red leicester camembert de normandie feta manchego cheesy
   feet emmental stinking bishop. Red leicester.
+value_quote: Cheesy grin halloumi port-salut cheese on toast gouda dolcelatte everyone loves pecorino. Bocconcini roquefort cheese on toast cheese triangles cheeseburger taleggio cut the cheese mascarpone.
 quotes:
   blurbs:
     - author: Harry Potter
