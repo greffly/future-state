@@ -22,6 +22,7 @@
     ]
   },
   "dependencies": {
+    "@brainhubeu/react-carousel": "^2.0.4",
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^2.4.2",
     "bulma": "^0.9.1",
     "formik": "^2.2.6",
@@ -51,12 +52,13 @@
     "lodash": "^4.17.20",
     "lodash-webpack-plugin": "^0.11.5",
     "netlify-cms-app": "^2.14.6",
+    "next": "^11.0.1",
     "node-sass": "4.14.1",
     "prop-types": "^15.7.2",
     "query-string": "^6.13.7",
-    "react": "^17.0.1",
+    "react": "^17.0.2",
     "react-disqus-comments": "^1.4.0",
-    "react-dom": "^17.0.1",
+    "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-share": "^4.3.1",
     "trim-right": "^1.0.1",

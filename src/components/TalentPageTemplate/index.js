@@ -93,13 +93,21 @@ const TalentPageTemplate = (props) => {
         <div className='columns'>
           {quotes.blurbs.map((quote, i) => (
             <div key={i} className='column is-third'>
-              <p className='pr-5 pt-5 is-size-5-desktop'>{quote.text}</p>
-              <p className='pr-5 pt-5 is-size-5-desktop'>
-                <strong>{quote.author}</strong>
-              </p>
-              <p className='pr-5 is-size-5-desktop'>
-                <strong>{quote.title}</strong>
-              </p>
+              <ProgressiveImageContainer
+                image='/img/quote-light-blue.svg'
+                alt='quotation mark graphic'
+                className='quote-with-blurbs'
+              />
+              <div className='mt-3 ml-4'>
+                <p className='pr-5 pt-5 is-size-5-desktop'>{quote.text}</p>
+                <p className='pr-5 pt-5 is-size-5-desktop'>
+                  <strong>{quote.author}</strong>
+                </p>
+                <p className='pr-5 is-size-5-desktop'>
+                  <strong>{quote.title}</strong>
+                </p>
+                <hr className='has-background-info hr-tag' />
+              </div>
             </div>
           ))}
           ;
