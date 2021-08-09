@@ -23,15 +23,20 @@ const CompanyPageTemplate = (props) => {
         <title>{meta_title}</title>
         <meta name='description' content={meta_description} />
       </Helmet>
-      <section className='section is-large has-background-black'>
+      <section className='custom-large-section has-background-black'>
         <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-3-mobile'>
           SOMETHING GREAT
           <br />{' '}
           <strong className='has-text-info'>ABOUT COMPANIES HERE.</strong>
         </h1>
+        <ProgressiveImageContainer
+          image='/img/home-circle-graphic.svg'
+          alt='circle graphic'
+          className='company-circle-graphic'
+        />
       </section>
 
-      <section className='section is-medium'>
+      <section className='custom-medium-section'>
         <div className='columns'>
           <div className='column is-half'>
             <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
@@ -42,15 +47,20 @@ const CompanyPageTemplate = (props) => {
         </div>
       </section>
 
-      <section className='section is-medium has-background-black'>
+      <section className='custom-medium-section has-background-black'>
         <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile'>
           OUR <strong className='has-text-info'>SERVICES </strong>
         </h1>
-        <div className='columns is-flex pt-6'>
+        <ProgressiveImageContainer
+          image='/img/home-circle-graphic.svg'
+          alt='circle graphic'
+          className='company-work-graphic'
+        />
+        <div className='columns pt-6'>
           {services.service_blurbs.map((service, i) => (
             <div
               key={i}
-              className='column is-third is-flex is-flex-direction-column p-6 service-blurbs'
+              className='column is-third is-flex is-flex-direction-column p-5 service-blurbs'
             >
               <div className='column is-5'>
                 <ProgressiveImageContainer
@@ -58,7 +68,7 @@ const CompanyPageTemplate = (props) => {
                   alt='INC 5000 2019'
                 />
               </div>
-              <p className='pr-5 is-size-3-desktop'>
+              <p className='pr-5 is-size-3-desktop has-text-centered'>
                 <strong className='has-text-info is-uppercase'>
                   {service.title}
                 </strong>
@@ -72,17 +82,17 @@ const CompanyPageTemplate = (props) => {
         </div>
         <div>
           <p className='pr-5 is-size-3-desktop'>
-            <strong className='has-text-info is-uppercase is-flex is-flex-direction-column p-6 industries-served'>
+            <strong className='has-text-info has-text-centered is-uppercase is-flex is-flex-direction-column p-6'>
               Industries Served
             </strong>
           </p>
-          <div className='columns is-multiline is-flex pt-6'>
+          <div className='columns is-multiline is-flex pt-5'>
             {industries.names.map((industry, i) => (
               <div
                 key={i}
                 className='has-text-white column is-4 has-text-centered'
               >
-                <p className='pr-5 is-size-3-desktop is-uppercase'>
+                <p className='pr-5 is-size-4-desktop is-uppercase'>
                   {industry.name}
                 </p>
               </div>
@@ -91,7 +101,7 @@ const CompanyPageTemplate = (props) => {
         </div>
       </section>
 
-      <section className='section is-medium'>
+      <section className='custom-medium-section'>
         <div className='columns'>
           <div className='column is-half'>
             <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
@@ -109,13 +119,21 @@ const CompanyPageTemplate = (props) => {
         <div className='columns'>
           {quotes.blurbs.map((quote, i) => (
             <div key={i} className='column is-third'>
-              <p className='pr-5 pt-5 is-size-5-desktop'>{quote.text}</p>
-              <p className='pr-5 pt-5 is-size-5-desktop'>
-                <strong>{quote.author}</strong>
-              </p>
-              <p className='pr-5 is-size-5-desktop'>
-                <strong>{quote.title}</strong>
-              </p>
+              <ProgressiveImageContainer
+                image='/img/quote-light-blue.svg'
+                alt='quotation mark graphic'
+                className='quote-with-blurbs'
+              />
+              <div className='mt-3 ml-4'>
+                <p className='pr-5 pt-5 is-size-5-desktop'>{quote.text}</p>
+                <p className='pr-5 pt-5 is-size-5-desktop'>
+                  <strong>{quote.author}</strong>
+                </p>
+                <p className='pr-5 is-size-5-desktop'>
+                  <strong>{quote.title}</strong>
+                </p>
+                <hr className='has-background-info hr-tag' />
+              </div>
             </div>
           ))}
           ;

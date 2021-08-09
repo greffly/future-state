@@ -15,6 +15,11 @@ const WorkPageTemplate = (props) => {
           OUR WORK IS <br />
           <strong className='has-text-info'>WHAT WE DO</strong>
         </h1>
+        <ProgressiveImageContainer
+          image='/img/home-circle-graphic.svg'
+          alt='circle graphic'
+          className='top-circle-graphic'
+        />
       </section>
 
       <section className='section is-medium has-background-grey'>

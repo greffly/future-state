@@ -1,5 +1,32 @@
 .service-blurbs
   align-items: center
 
-.industries-served
-  align-items: center
+.company-circle-graphic
+  margin-top: 0
+  height: 350px
+  display: block
+  position: absolute
+  left: 0
+
+.company-work-graphic
+  margin-top: -100px
+  height: 350px
+  display: block
+  position: absolute
+  left: 0
+
+.quote-with-blurbs
+  position: absolute
+  margin-top: 15px
+
+$layout-breakpoint-tablet: 768px
+@media (min-width: $layout-breakpoint-tablet)
+  .company-circle-graphic
+    height: 550px
+    margin-top: -60px
+    left: -100px
+
+  .company-work-graphic
+    height: 850px
+    margin-top: -370px
+    left: -70px

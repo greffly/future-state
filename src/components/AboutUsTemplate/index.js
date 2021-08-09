@@ -39,7 +39,7 @@ const AboutUsTemplate = (props) => {
         <ProgressiveImageContainer
           image='/img/home-circle-graphic.svg'
           alt='circle graphic'
-          className='about-circle-graphic-2'
+          className='top-circle-graphic'
         />
         <ProgressiveImageContainer
           image='/img/about-us-clackers.svg'

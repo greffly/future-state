@@ -75,6 +75,6 @@ quotes:
       text: >
         Sed in consequat leo, sit amet ullamcorper lacus. Duis lacinia, metus vitae sollicitudin
         pharetra, ipsum augue tristique urna, in rhoncus quam tortor eget sem. Maecenas eu
-        pharetra orci, ut malesuada nisl. Aliquam erat volutpat. Curabitur egestas eros tincidunt.
+        pharetra orci, ut malesuada nisl.
 we_find_your_person: Airedale paneer brie. Manchego pepper jack queso fromage hard cheese cheesy grin bocconcini cheese and biscuits. Taleggio camembert de normandie fondue boursin everyone loves goat when the cheese comes out everybody's happy paneer. Feta cheddar gouda feta cheese and biscuits fromage cottage cheese jarlsberg. Parmesan jarlsberg.
 ---

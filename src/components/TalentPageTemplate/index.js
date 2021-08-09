@@ -38,7 +38,7 @@ const TalentPageTemplate = (props) => {
         <ProgressiveImageContainer
           image='/img/home-circle-graphic.svg'
           alt='circle graphic'
-          className='talent-circle-graphic'
+          className='top-circle-graphic'
         />
         <ProgressiveImageContainer
           image='/img/talent-puzzle.svg'
