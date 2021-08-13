@@ -83,6 +83,14 @@ export const companyPageQuery = graphql`
           service_blurbs {
             text
             title
+            image {
+              childImageSharp {
+                fluid(maxWidth: 500, quality: 72) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+              publicURL
+            }
           }
         }
         industries {

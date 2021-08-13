@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
 
 const OurTeam = ({ teamMembers }) => {
+  // TODO: add linkedin and email icons
   return (
     <section className='section has-background-grey is-medium'>
       <h1 className='has-text-black has-text-weight-light has-text-centered is-size-2 pl-6-desktop'>

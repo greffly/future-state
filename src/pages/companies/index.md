@@ -8,7 +8,7 @@ meta_description: >-
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
-save_time: Cottage cheese dolcelatte cut the cheese. Jarlsberg cheeseburger feta chalk and cheese cow mozzarella bavarian bergkase pepper jack. Roquefort brie airedale when the cheese comes out everybody's happy pecorino monterey jack pepper jack cheese slices. When the cheese comes out everybody's happy cheesecake cheddar cheese slices babybel blue castello edam fondue. Rubber cheese.
+save_time: Cottage cheese dolcelatte cut the cheese. Jarlsberg cheeseburger feta chalk and cheese cow mozzarella bavarian bergkase pepper jack. Roquefort brie airedale when the cheese comes out everybody's happy pecorino monterey jack pepper jack cheese slices. When the cheese comes out everybody's happy cheesecake cheddar cheese slices babybel blue castello edam fondue. Rubber cheese. cheesy grin bocconcini cheese and biscuits. Taleggio camembert de normandie fondue boursin everyone loves goat when the cheese.
 talent_members:
   members:
     - name: Michael
@@ -40,10 +40,13 @@ services:
   service_blurbs:
     - title: Staffing
       text: Who moved my cheese st. agur blue cheese bocconcini when the cheese comes out everybody's happy jarlsberg feta pepper jack cream cheese. Goat port-salut edam.
+      image: /img/companies-icon-staffing.svg
     - title: Priority Search
       text: Who moved my cheese st. agur blue cheese bocconcini when the cheese comes out everybody's happy jarlsberg feta pepper jack cream cheese. Goat port-salut edam.
+      image: /img/companies-icon-priority-search.svg
     - title: Solutions Consulting
       text: Who moved my cheese st. agur blue cheese bocconcini when the cheese comes out everybody's happy jarlsberg feta pepper jack cream cheese. Goat port-salut edam.
+      image: /img/companies-icon-solutions-consulting.svg
 industries:
   names:
     - name: Gouda

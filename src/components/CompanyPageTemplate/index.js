@@ -34,6 +34,11 @@ const CompanyPageTemplate = (props) => {
           alt='circle graphic'
           className='company-circle-graphic'
         />
+        <ProgressiveImageContainer
+          image='/img/companies-binoculars.svg'
+          alt='binocular graphic'
+          className='company-binoculars'
+        />
       </section>
 
       <section className='custom-medium-section'>
@@ -43,6 +48,13 @@ const CompanyPageTemplate = (props) => {
               WHY US? <br /> WE FIND YOUR <strong>10/10 PERSON</strong>
             </h1>
             <p className='pr-5 pt-5 is-size-4-desktop'>{we_find_your_person}</p>
+          </div>
+          <div className='column is-flex is-align-items-center is-justify-content-center'>
+            <ProgressiveImageContainer
+              image='/img/companies-checkmarks.svg'
+              alt='checkmark graphic'
+              className='company-checkmarks'
+            />
           </div>
         </div>
       </section>
@@ -64,16 +76,16 @@ const CompanyPageTemplate = (props) => {
             >
               <div className='column is-5'>
                 <ProgressiveImageContainer
-                  image='/img/coffee-gear.png'
+                  image={service.image}
                   alt='INC 5000 2019'
                 />
               </div>
-              <p className='pr-5 is-size-3-desktop has-text-centered'>
+              <p className='is-size-3-desktop has-text-centered'>
                 <strong className='has-text-info is-uppercase'>
                   {service.title}
                 </strong>
               </p>
-              <p className='pr-5 pt-5 is-size-5-desktop has-text-white has-text-centered'>
+              <p className='pt-5 is-size-5-desktop has-text-white has-text-centered'>
                 {service.text}
               </p>
             </div>
@@ -81,7 +93,7 @@ const CompanyPageTemplate = (props) => {
           ;
         </div>
         <div>
-          <p className='pr-5 is-size-3-desktop'>
+          <p className='is-size-3 is-size-4-mobile'>
             <strong className='has-text-info has-text-centered is-uppercase is-flex is-flex-direction-column p-6'>
               Industries Served
             </strong>
@@ -90,9 +102,9 @@ const CompanyPageTemplate = (props) => {
             {industries.names.map((industry, i) => (
               <div
                 key={i}
-                className='has-text-white column is-4 has-text-centered'
+                className='has-text-white column is-4 is-full-mobile has-text-centered'
               >
-                <p className='pr-5 is-size-4-desktop is-uppercase'>
+                <p className='is-size-4-desktop is-uppercase'>
                   {industry.name}
                 </p>
               </div>
@@ -107,7 +119,14 @@ const CompanyPageTemplate = (props) => {
             <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
               WE SAVE YOU <strong>TIME</strong>
             </h1>
-            <p className='pr-5 pt-5 is-size-4-desktop'>{save_time}</p>
+            <p className='pt-5 is-size-4-desktop'>{save_time}</p>
+          </div>
+          <div className='column is-flex is-align-items-center is-justify-content-center'>
+            <ProgressiveImageContainer
+              image='/img/companies-clock.svg'
+              alt='clock graphic'
+              className='company-clock'
+            />
           </div>
         </div>
       </section>
@@ -124,19 +143,18 @@ const CompanyPageTemplate = (props) => {
                 alt='quotation mark graphic'
                 className='quote-with-blurbs'
               />
-              <div className='mt-3 ml-4'>
-                <p className='pr-5 pt-5 is-size-5-desktop'>{quote.text}</p>
-                <p className='pr-5 pt-5 is-size-5-desktop'>
+              <div className='mt-3 mx-5'>
+                <p className='pt-5 is-size-5-desktop'>{quote.text}</p>
+                <p className='pt-5 is-size-5-desktop'>
                   <strong>{quote.author}</strong>
                 </p>
-                <p className='pr-5 is-size-5-desktop'>
+                <p className='is-size-5-desktop'>
                   <strong>{quote.title}</strong>
                 </p>
                 <hr className='has-background-info hr-tag' />
               </div>
             </div>
           ))}
-          ;
         </div>
       </section>
 
