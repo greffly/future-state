@@ -3,6 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
+import './styles.sass';
 
 const OurTeam = ({ teamMembers }) => {
   // TODO: add linkedin and email icons
@@ -21,8 +22,26 @@ const OurTeam = ({ teamMembers }) => {
                   alt={`team member ${teamMember.name} image`}
                 />
               </p>
-              <p className='is-size-4 is-uppercase pt-3'>{teamMember.name}</p>
-              <p className='is-size-5 is-uppercase'>{teamMember.title}</p>
+              <div className='team-info'>
+                <div>
+                  <p className='is-size-4 is-uppercase pt-3'>
+                    {teamMember.name}
+                  </p>
+                  <p className='is-size-5 is-uppercase'>{teamMember.title}</p>
+                </div>
+                <div className='team-links mt-2'>
+                  <ProgressiveImageContainer
+                    image='/img/social-linkedin.svg'
+                    alt={`team member ${teamMember.name} linkedin link`}
+                    className='each-link'
+                  />
+                  <ProgressiveImageContainer
+                    image='/img/social-twitter.svg'
+                    alt={`team member ${teamMember.name} email link`}
+                    className='each-link'
+                  />
+                </div>
+              </div>
             </div>
           </div>
         ))}

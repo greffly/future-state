@@ -16,7 +16,7 @@ const ContactForm = () => {
   return (
     <section className='section is-small has-background-grey-dark'>
       <div className='contact-form'>
-        <h1 className='has-text-white is-size-2-desktop is-size-4-mobile pb-3 ml-3'>
+        <h1 className='has-text-white is-size-2-desktop is-size-3-tablet is-size-4-mobile pb-3 ml-3'>
           DROP US A LINE
         </h1>
         <Formik
@@ -138,12 +138,12 @@ const ContactForm = () => {
                     </label>
                     <div className='control'>
                       <Field
-                        className='textarea is-info has-background-grey-dark py-4'
+                        className='textarea is-info has-background-grey-dark'
                         component='textarea'
                         placeholder='Type Something'
                         name='message'
                         id='message'
-                        rows='5'
+                        rows='6'
                       />
                     </div>
                   </div>
@@ -151,9 +151,9 @@ const ContactForm = () => {
               </div>
 
               <div className='field'>
-                <div className='control'>
+                <div className='control column is-2 p-0'>
                   <button
-                    className='button is-info p-5 is-size-5-desktop mt-3 ml-3'
+                    className='button is-info p-5 is-size-5 is-fullwidth mt-3 ml-3'
                     type='submit'
                     disabled={isSubmitting}
                   >

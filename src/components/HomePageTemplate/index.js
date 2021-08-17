@@ -1,5 +1,5 @@
 /* eslint-disable semi */
-import React, { useState } from 'react';
+import React from 'react';
 import Helmet from 'react-helmet';
 import { ContactForm } from '../forms';
 import HomeIntro from '../HomeIntro';
@@ -12,6 +12,20 @@ import '../../styles/global.sass';
 const HomePageTemplate = (props) => {
   const { meta_title, meta_description, projects } = props;
 
+  // TODO: fix font
+  // TODO: looks good on tablet
+  // TODO: looks good on large screen
+  // TODO: add social icons
+  // TODO: figure out CMS
+  // TODO: make sure meta is good / on every page
+  // TODO: delete unneeded code
+  // TODO: make sure emails go to fs
+  // breakpoints:
+  // 480px
+  // 768px
+  // 1024px
+  // 1200px
+
   return (
     <div>
       <Helmet>
@@ -20,15 +34,15 @@ const HomePageTemplate = (props) => {
       </Helmet>
       <section className='background-image custom-large-section'>
         <div className='is-flex is-align-items-start'>
-          <h1 className='custom-header has-text-weight-light has-text-info is-size-1 is-size-3-mobile'>
-            WE ARE
+          <h1 className='custom-header has-text-weight-light has-text-info is-size-1-desktop is-size-2-tablet is-size-3-mobile is-uppercase'>
+            We are
             <br />
             <strong className='has-text-info'>
-              CONNECTORS, <br />
-              BUILDERS
+              connectors, <br />
+              builders
             </strong>{' '}
-            AND <br />
-            <strong className='has-text-info'> ACCELERATORS</strong>.
+            and <br />
+            <strong className='has-text-info'> accelerators</strong>.
           </h1>
         </div>
         <ProgressiveImageContainer

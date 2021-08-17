@@ -10,7 +10,7 @@ const WorkPageTemplate = (props) => {
 
   return (
     <div>
-      <section className='section is-large has-background-black'>
+      <section className='custom-large-section has-background-black'>
         <h1 className='has-text-weight-light is-size-1-desktop is-size-3-mobile has-text-info'>
           OUR WORK IS <br />
           <strong className='has-text-info'>WHAT WE DO</strong>
@@ -22,18 +22,18 @@ const WorkPageTemplate = (props) => {
         />
       </section>
 
-      <section className='section is-medium has-background-grey'>
+      <section className='section is-medium py-6 has-background-grey'>
         {projects.summary.map((project, i) => (
           <div key={i}>
-            <div className='columns py-6 has-text-black is-flex-desktop is-flex-direction-row-desktop'>
-              <div className='column is-4-desktop has-text-centered'>
+            <div className='columns py-6 has-text-black'>
+              <div className='column is-4 has-text-centered project-image'>
                 <ProgressiveImageContainer
                   image={project.image}
                   alt={`image of ${project.company}`}
                 />
               </div>
-              <div className='pl-6'>
-                <p className='pb-3 is-size-3-desktop is-uppercase'>
+              <div className='project-summary'>
+                <p className='pb-3 is-size-3-desktop is-size-4 is-uppercase'>
                   {project.company}
                 </p>
                 <p className='pb-2 is-size-4-desktop is-uppercase'>

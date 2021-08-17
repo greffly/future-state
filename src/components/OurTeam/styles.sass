@@ -1,0 +1,20 @@
+.team-links
+  width: 40px
+  display: flex
+  flex-direction: row
+
+.each-link
+  margin-right: 10px
+
+$layout-breakpoint-tablet: 768px
+@media (min-width: $layout-breakpoint-tablet)
+  .team-info
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+
+  .team-links
+    flex-direction: column
+
+  .each-link
+    margin-bottom: 10px

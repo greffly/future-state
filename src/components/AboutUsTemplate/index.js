@@ -51,8 +51,8 @@ const AboutUsTemplate = (props) => {
       <section className='custom-medium-section'>
         <div className='columns'>
           <div className='column is-half'>
-            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
-              OUR <strong>VALUES</strong>
+            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+              Our <strong>Values</strong>
             </h1>
             <p className='pr-5 pt-5 is-size-4-desktop'>{values}</p>
           </div>
@@ -73,9 +73,9 @@ const AboutUsTemplate = (props) => {
       </section>
 
       <section className='custom-medium-section has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile'>
-          WHY <strong className='has-text-info'>WORK</strong> WITH{' '}
-          <strong className='has-text-info'>US</strong>
+        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+          Why <strong className='has-text-info'>Work</strong> With{' '}
+          <strong className='has-text-info'>Us</strong>
         </h1>
         <div className='columns'>
           {quotes.blurbs.map((quote, i) => (
@@ -102,25 +102,27 @@ const AboutUsTemplate = (props) => {
 
         <div className='py-6'>
           <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-4-mobile has-text-centered'>
-            <strong className='has-text-info'>WE'RE GOOD AT WHAT WE DO.</strong>
+            <strong className='has-text-info is-uppercase'>
+              We're good at what we do.
+            </strong>
           </h1>
-          <div className='columns has-text-centered'>
+          <div className='columns has-text-centered is-uppercase'>
             <div className='column is-third'>
               <p className='has-text-info large-stats'>775</p>
               <p className='has-text-white is-size-3 stats-descriptor'>
-                REALLY COOL
+                Really Cool
               </p>
             </div>
             <div className='column is-third'>
               <p className='has-text-info large-stats'>95%</p>
               <p className='has-text-white is-size-3 stats-descriptor'>
-                SO GREAT
+                So Great
               </p>
             </div>
             <div className='column is-third'>
               <p className='has-text-info large-stats'>564</p>
               <p className='has-text-white is-size-3 stats-descriptor'>
-                THE BEST
+                The Best
               </p>
             </div>
           </div>
@@ -128,8 +130,8 @@ const AboutUsTemplate = (props) => {
 
         <div className='py-6'>
           <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-4-mobile has-text-centered'>
-            <strong className='has-text-info'>
-              WE'RE PROUD OF THE AWARDS WE HAVE WON.
+            <strong className='has-text-info is-uppercase'>
+              We're proud of the awards we have won.
             </strong>
           </h1>
           <div className='columns is-flex is-align-items-center pt-6'>

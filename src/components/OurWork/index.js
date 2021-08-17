@@ -5,9 +5,9 @@ import { Link } from 'gatsby';
 
 const OurWork = ({ projects }) => {
   return (
-    <section className='section is-medium has-background-grey'>
-      <h1 className='has-text-weight-light is-size-2-desktop is-size-4-mobile'>
-        OUR <strong>WORK</strong>
+    <section className='custom-medium-section has-background-grey'>
+      <h1 className='has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
+        Our <strong>Work</strong>
       </h1>
       <div>
         {projects.summary.map((project, i) => (
@@ -20,7 +20,7 @@ const OurWork = ({ projects }) => {
                 />
               </div>
               <div className='pl-6'>
-                <p className='pb-3 is-size-3-desktop is-uppercase'>
+                <p className='pb-3 pt-2 is-size-3-desktop is-uppercase'>
                   {project.company}
                 </p>
                 <p className='pb-2 is-size-4-desktop is-uppercase'>
@@ -40,11 +40,10 @@ const OurWork = ({ projects }) => {
             <hr className='has-background-grey-dark hr-tag' />
           </div>
         ))}
-        ;
       </div>
-      <button className='button is-white pl-0 p-5 mt-2 is-size-5-desktop'>
-        <Link className='has-text-black' to='/work'>
-          MORE PROJECTS →
+      <button className='button is-white pl-0 p-5 mt-2 is-size-5'>
+        <Link className='has-text-black is-uppercase' to='/work'>
+          More Projects →
         </Link>
       </button>
     </section>

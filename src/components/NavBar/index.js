@@ -13,7 +13,7 @@ const NavBar = () => {
         <Link to='/' className='navbar-title is-flex is-align-items-center'>
           <ProgressiveImageContainer
             image='/img/future-state-logo.svg'
-            alt='Private 100 Fastest Growing Companies'
+            alt='Future State Consulting Logo'
           />
         </Link>
       </div>
@@ -22,21 +22,21 @@ const NavBar = () => {
         <span />
         <span />
         <span />
-        <ul id='menu'>
-          <Link className='navbar-item' to='/pricing'>
-            ABOUT US
+        <ul className='is-uppercase' id='menu'>
+          <Link className='navbar-item' to='/about'>
+            About Us
           </Link>
           <Link className='navbar-item' to='/talent'>
-            FOR TALENT
+            For Talent
           </Link>
           <Link className='navbar-item' to='/companies'>
-            FOR COMPANIES
+            For Companies
           </Link>
           <Link className='navbar-item' to='/dei'>
-            DIVERSITY, EQUITY & INCLUSION
+            Diversity, Equity & Inclusion
           </Link>
           <Link className='navbar-item' to='/work'>
-            OUR WORK
+            Our Work
           </Link>
         </ul>
       </div>

@@ -1,28 +1,67 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
+import './styles.sass';
 
 const Footer = () => {
   return (
     <footer className='footer has-background-black'>
-      <div className='container py-4 has-text-info is-flex is-flex-direction-column'>
+      <div
+        className='container py-4 mx-4 has-text-info'
+        style={{ maxWidth: '2000px' }}
+      >
         <div className='p-5'>
-          <Link to='/' className='navbar-title is-flex is-align-items-center'>
+          <Link
+            to='/'
+            className='is-flex is-align-items-center is-justify-content-center'
+          >
             <ProgressiveImageContainer
               image='/img/logo-future-state-footer.svg'
-              alt='Private 100 Fastest Growing Companies'
+              alt='Future State Logo'
             />
           </Link>
         </div>
-        {/* <div className='is-flex is-flex-direction-row is-fullwidth'>
-          <div className='is-justify-content-flex-start'>
-            <p>2019 Future State Consulting</p>
+        <div className='is-flex is-flex-direction-row is-align-items-center is-justify-content-space-between py-5 is-fullwidth'>
+          <div className='is-size-4'>
+            <p>© 2019 Future State Consulting</p>
           </div>
-          <ul className='is-justify-content-flex-end'>
-            <li>Twitter</li>
-            <li>LinkedIn</li>
+          <ul className='is-flex is-flex-direction-row'>
+            <li className='p-2'>
+              <ProgressiveImageContainer
+                image='/img/social-twitter.svg'
+                alt='twitter icon'
+              />
+            </li>
+            <li className='p-2'>
+              {' '}
+              <ProgressiveImageContainer
+                image='/img/social-facebook.svg'
+                alt='facebook icon'
+              />
+            </li>
+            <li className='p-2'>
+              {' '}
+              <ProgressiveImageContainer
+                image='/img/social-linkedin.svg'
+                alt='linkedin icon'
+              />
+            </li>
+            <li className='p-2'>
+              {' '}
+              <ProgressiveImageContainer
+                image='/img/social-youtube.svg'
+                alt='youtube icon'
+              />
+            </li>
+            <li className='p-2'>
+              {' '}
+              <ProgressiveImageContainer
+                image='/img/social-insta.svg'
+                alt='instagram icon'
+              />
+            </li>
           </ul>
-        </div> */}
+        </div>
       </div>
     </footer>
   );

@@ -10,25 +10,25 @@ const HomeIntro = (props) => {
   return (
     <div>
       <section className='custom-medium-section'>
-        <h1 className='has-text-weight-light is-size-2-desktop is-size-4-mobile'>
-          RELATIONSHIPS <strong>FIRST</strong>.
-          <br /> TALENT SOLUTIONS THAT <strong>LAST</strong>.
+        <h1 className='has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+          Relationships <strong>first</strong>.
+          <br /> Talent solutions that <strong>last</strong>.
         </h1>
         <div className='column is-two-thirds px-0'>
-          <p className='is-size-4-desktop pb-6 pt-3'>
+          <p className='is-size-4 pb-6 pt-3'>
             Future State is a consulting firm that leads with a personal,
             relationship-first approach to deliver top engineering talent and
             team solutions to tech organizations at leading companies.
           </p>
           <div className='buttons column is-half is-flex is-flex-direction-column is-align-content-start is-align-items-start has-text-left p-0'>
-            <button className='button is-info is-fullwidth p-5 is-size-5-desktop'>
-              I'M LOOKING FOR TALENT
+            <button className='button is-info is-uppercase is-fullwidth p-5 is-size-5'>
+              I'm looking for talent
             </button>
             <button
-              className='button is-primary has-text-white is-fullwidth p-5 mt-2 is-size-5-desktop'
+              className='button is-primary has-text-white is-uppercase is-fullwidth p-5 mt-2 is-size-5'
               id='talent-button'
             >
-              I'M THE TALENT
+              I'm the talent
             </button>
           </div>
         </div>
@@ -44,17 +44,17 @@ const HomeIntro = (props) => {
         />
       </section>
       <section className='custom-large-section has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile'>
-          WE DELIVER
+        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+          We deliver
           <br /> <strong className='has-text-info'>
-            TALENT SOLUTIONS
+            Talent solutions
           </strong>{' '}
-          <br /> THAT HELP <br />{' '}
-          <strong className='has-text-info'>CREATE IMPACT.</strong>
+          <br /> that help <br />{' '}
+          <strong className='has-text-info'>create impact</strong>.
         </h1>
-        <div className='buttons'>
-          <button className='button is-info p-5 is-size-5-desktop mt-6'>
-            ABOUT US
+        <div className='column p-0 is-3 buttons'>
+          <button className='button is-info is-fullwidth is-size-5 p-5 mt-6 is-uppercase'>
+            About Us
           </button>
         </div>
         <ProgressiveImageContainer
@@ -64,10 +64,10 @@ const HomeIntro = (props) => {
         />
       </section>
       <section className='section is-medium has-text-centered'>
-        <h1 className='has-text-weight-light is-size-2-desktop is-size-4-mobile'>
-          WE'RE
-          <strong> PROUD</strong> OF THE AWARDS <br />{' '}
-          <strong>WE HAVE RECEIVED.</strong>
+        <h1 className='has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
+          We're
+          <strong> proud</strong> of the awards <br />{' '}
+          <strong>we have received</strong>.
         </h1>
         <p className='column is-8 is-offset-2 is-size-5-desktop py-6 px-0'>
           Gouda stinking bishop rubber cheese smelly cheese swiss red leicester
@@ -75,9 +75,12 @@ const HomeIntro = (props) => {
           cheese monterey jack chalk and cheese stinking bishop swiss. Fromage
           frais port-salut manchego.
         </p>
-        <div className='columns is-flex is-align-items-center px-6-desktop'>
+        <div
+          className='columns is-flex is-align-items-center has-text-centered px-6'
+          style={{ maxWidth: '80%', margin: '0 auto' }}
+        >
           <div
-            className='column is-4 p-6-desktop'
+            className='column is-4 p-6'
             style={{ paddingRight: '3%', paddingLeft: '3%' }}
           >
             <ProgressiveImageContainer
@@ -86,7 +89,7 @@ const HomeIntro = (props) => {
             />
           </div>
           <div
-            className='column is-4 p-6-desktop'
+            className='column is-4 p-6'
             style={{ paddingRight: '3%', paddingLeft: '3%' }}
           >
             <ProgressiveImageContainer
@@ -95,7 +98,7 @@ const HomeIntro = (props) => {
             />
           </div>
           <div
-            className='column is-4 p-6-desktop'
+            className='column is-4 p-6'
             style={{ paddingRight: '3%', paddingLeft: '3%' }}
           >
             <ProgressiveImageContainer

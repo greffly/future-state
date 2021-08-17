@@ -24,10 +24,10 @@ const CompanyPageTemplate = (props) => {
         <meta name='description' content={meta_description} />
       </Helmet>
       <section className='custom-large-section has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-3-mobile'>
-          SOMETHING GREAT
+        <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-3-mobile is-uppercase'>
+          Something great
           <br />{' '}
-          <strong className='has-text-info'>ABOUT COMPANIES HERE.</strong>
+          <strong className='has-text-info'>about companies here.</strong>
         </h1>
         <ProgressiveImageContainer
           image='/img/home-circle-graphic.svg'
@@ -44,8 +44,8 @@ const CompanyPageTemplate = (props) => {
       <section className='custom-medium-section'>
         <div className='columns'>
           <div className='column is-half'>
-            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
-              WHY US? <br /> WE FIND YOUR <strong>10/10 PERSON</strong>
+            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+              Why us? <br /> We find your <strong>10/10 person</strong>
             </h1>
             <p className='pr-5 pt-5 is-size-4-desktop'>{we_find_your_person}</p>
           </div>
@@ -60,8 +60,8 @@ const CompanyPageTemplate = (props) => {
       </section>
 
       <section className='custom-medium-section has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile'>
-          OUR <strong className='has-text-info'>SERVICES </strong>
+        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+          Our <strong className='has-text-info'>Services </strong>
         </h1>
         <ProgressiveImageContainer
           image='/img/home-circle-graphic.svg'
@@ -116,8 +116,8 @@ const CompanyPageTemplate = (props) => {
       <section className='custom-medium-section'>
         <div className='columns'>
           <div className='column is-half'>
-            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
-              WE SAVE YOU <strong>TIME</strong>
+            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+              We save you <strong>time</strong>
             </h1>
             <p className='pt-5 is-size-4-desktop'>{save_time}</p>
           </div>
@@ -132,8 +132,8 @@ const CompanyPageTemplate = (props) => {
       </section>
 
       <section className='section is-medium has-background-grey'>
-        <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
-          WHAT FOLKS ARE <strong>SAYING</strong>
+        <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+          What folks are <strong>saying</strong>
         </h1>
         <div className='columns'>
           {quotes.blurbs.map((quote, i) => (
