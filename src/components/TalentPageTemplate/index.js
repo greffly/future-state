@@ -28,7 +28,7 @@ const TalentPageTemplate = (props) => {
         className='custom-medium-section has-background-black'
         id='talent-top-section'
       >
-        <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-3-mobile'>
+        <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-2-tablet is-size-3-mobile is-uppercase'>
           LOREM IPSUM IS
           <br /> <strong className='has-text-info'>
             TALENT BEFS
@@ -50,8 +50,8 @@ const TalentPageTemplate = (props) => {
       <section className='custom-medium-section' id='talent-listen-section'>
         <div className='columns'>
           <div className='column is-half'>
-            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
-              WHY US? <strong>WE LISTEN</strong>
+            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
+              Why us? <strong>we listen</strong>
             </h1>
             <p className='pr-5 pt-5 is-size-4-desktop'>{why_us}</p>
           </div>
@@ -71,9 +71,9 @@ const TalentPageTemplate = (props) => {
         />
       </section>
 
-      <section className='section is-medium has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile has-text-centered-mobile'>
-          WHO WE <strong className='has-text-info'>WORK </strong> WITH
+      <section className='custom-talent-section has-background-black'>
+        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered-mobile is-uppercase'>
+          Who we <strong className='has-text-info'>work </strong> with
         </h1>
         <ProgressiveImageContainer
           image='/img/home-circle-graphic.svg'

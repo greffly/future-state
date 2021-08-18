@@ -2,6 +2,7 @@
   width: 40px
   display: flex
   flex-direction: row
+  margin-top: 10px
 
 .each-link
   margin-right: 10px
@@ -15,6 +16,12 @@ $layout-breakpoint-tablet: 768px
 
   .team-links
     flex-direction: column
+    margin-top: 20px
 
   .each-link
     margin-bottom: 10px
+
+$layout-breakpoint-desktop: 1024px
+@media (min-width: $layout-breakpoint-desktop)
+  .team-links
+    margin-top: 10px

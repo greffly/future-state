@@ -17,10 +17,10 @@ const WhoWeWorkWith = ({ talent_members, roundedImageClassName }) => {
   const secondFour = talent_members.members.slice(4, 8);
   return (
     <div className='columns is-multiline'>
-      <Carousel plugins={['arrows']}>
+      <Carousel id='carousel-container' plugins={['arrows']}>
         <div className='carousel-grid'>
           {firstFour.map((talent_member, i) => (
-            <div key={i} className='column p-6 is-flex-direction-row'>
+            <div key={i} className='column talent-member'>
               <div className='columns'>
                 <div className='column work-image-container'>
                   <p className='has-text-centered image is-128x128'>
@@ -73,6 +73,35 @@ const WhoWeWorkWith = ({ talent_members, roundedImageClassName }) => {
           ))}
         </div>
       </Carousel>
+      <div className='carousel-mobile'>
+        <div className='carousel-grid'>
+          {talent_members.members.map((talent_member, i) => (
+            <div key={i} className='column talent-member'>
+              <div className='columns'>
+                <div className='column work-image-container'>
+                  <p className='has-text-centered image is-128x128'>
+                    <ProgressiveImageContainer
+                      image={talent_member.image}
+                      alt={`team member ${talent_member.name} image`}
+                      className='rounded-image'
+                    />
+                  </p>
+                </div>
+                <div>
+                  <p className='is-size-4-desktop is-uppercase pb-2'>
+                    <strong className='has-text-info'>
+                      {talent_member.name}
+                    </strong>
+                  </p>
+                  <p className='is-size-5-desktop has-text-white'>
+                    {talent_member.title}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

@@ -28,7 +28,7 @@ const AboutUsTemplate = (props) => {
         className='custom-medium-section has-background-black'
         id='about-top-section'
       >
-        <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-3-mobile is-uppercase'>
+        <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-2-tablet is-size-3-mobile is-uppercase'>
           We deliver
           <br /> <strong className='has-text-info'>
             talent solutions
@@ -51,7 +51,7 @@ const AboutUsTemplate = (props) => {
       <section className='custom-medium-section'>
         <div className='columns'>
           <div className='column is-half'>
-            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
               Our <strong>Values</strong>
             </h1>
             <p className='pr-5 pt-5 is-size-4-desktop'>{values}</p>
@@ -73,7 +73,7 @@ const AboutUsTemplate = (props) => {
       </section>
 
       <section className='custom-medium-section has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
           Why <strong className='has-text-info'>Work</strong> With{' '}
           <strong className='has-text-info'>Us</strong>
         </h1>
@@ -101,7 +101,7 @@ const AboutUsTemplate = (props) => {
         </div>
 
         <div className='py-6'>
-          <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-4-mobile has-text-centered'>
+          <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
             <strong className='has-text-info is-uppercase'>
               We're good at what we do.
             </strong>
@@ -129,17 +129,17 @@ const AboutUsTemplate = (props) => {
         </div>
 
         <div className='py-6'>
-          <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-4-mobile has-text-centered'>
+          <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
             <strong className='has-text-info is-uppercase'>
               We're proud of the awards we have won.
             </strong>
           </h1>
           <div
-            className='columns is-flex is-align-items-center has-text-centered px-6'
+            className='columns is-flex is-align-items-center has-text-centered award-badge-section pt-6'
             style={{ maxWidth: '80%', margin: '0 auto' }}
           >
             <div
-              className='column is-4 p-6'
+              className='column is-4 award-badge'
               style={{ paddingRight: '3%', paddingLeft: '3%' }}
             >
               <ProgressiveImageContainer
@@ -148,7 +148,7 @@ const AboutUsTemplate = (props) => {
               />
             </div>
             <div
-              className='column is-4 p-6'
+              className='column is-4 award-badge'
               style={{ paddingRight: '3%', paddingLeft: '3%' }}
             >
               <ProgressiveImageContainer
@@ -157,7 +157,7 @@ const AboutUsTemplate = (props) => {
               />
             </div>
             <div
-              className='column is-4 p-6'
+              className='column is-4 award-badge'
               style={{ paddingRight: '3%', paddingLeft: '3%' }}
             >
               <ProgressiveImageContainer

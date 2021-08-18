@@ -14,7 +14,10 @@ const OurTeam = ({ teamMembers }) => {
       </h1>
       <div className='columns is-multiline'>
         {teamMembers.members.map((teamMember, i) => (
-          <div key={i} className='column is-4 p-6 has-text-black'>
+          <div
+            key={i}
+            className='column is-4-desktop is-6-tablet p-6 has-text-black'
+          >
             <div className='pt-5'>
               <p className='has-text-centered'>
                 <ProgressiveImageContainer
@@ -29,7 +32,7 @@ const OurTeam = ({ teamMembers }) => {
                   </p>
                   <p className='is-size-5 is-uppercase'>{teamMember.title}</p>
                 </div>
-                <div className='team-links mt-2'>
+                <div className='team-links'>
                   <ProgressiveImageContainer
                     image='/img/social-linkedin.svg'
                     alt={`team member ${teamMember.name} linkedin link`}
