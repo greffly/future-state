@@ -21,11 +21,14 @@ const Footer = () => {
             />
           </Link>
         </div>
-        <div className='is-flex is-flex-direction-row is-align-items-center is-justify-content-space-between py-5 is-fullwidth'>
-          <div className='is-size-4'>
+        <div className='footer-social py-5 is-fullwidth'>
+          <div className='is-size-4-desktop is-size-6-mobile'>
             <p>© 2019 Future State Consulting</p>
           </div>
-          <ul className='is-flex is-flex-direction-row'>
+          <ul
+            className='is-flex is-flex-direction-row'
+            style={{ maxWidth: '80%' }}
+          >
             <li className='p-2'>
               <ProgressiveImageContainer
                 image='/img/social-twitter.svg'

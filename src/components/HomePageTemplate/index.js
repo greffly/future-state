@@ -15,7 +15,6 @@ const HomePageTemplate = (props) => {
   // TODO: fix font
   // TODO: looks good on tablet
   // TODO: looks good on large screen
-  // TODO: add social icons
   // TODO: figure out CMS
   // TODO: make sure meta is good / on every page
   // TODO: delete unneeded code

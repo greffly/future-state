@@ -60,7 +60,7 @@ const CompanyPageTemplate = (props) => {
       </section>
 
       <section className='custom-medium-section has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+        <h1 className='has-text-info has-text-centered has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
           Our <strong className='has-text-info'>Services </strong>
         </h1>
         <ProgressiveImageContainer
@@ -70,11 +70,8 @@ const CompanyPageTemplate = (props) => {
         />
         <div className='columns pt-6'>
           {services.service_blurbs.map((service, i) => (
-            <div
-              key={i}
-              className='column is-third is-flex is-flex-direction-column p-5 service-blurbs'
-            >
-              <div className='column is-5'>
+            <div key={i} className='column is-third p-5 service-blurbs'>
+              <div className='column is-5 is-flex is-justify-content-center'>
                 <ProgressiveImageContainer
                   image={service.image}
                   alt='INC 5000 2019'
@@ -116,7 +113,7 @@ const CompanyPageTemplate = (props) => {
       <section className='custom-medium-section'>
         <div className='columns'>
           <div className='column is-half'>
-            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
               We save you <strong>time</strong>
             </h1>
             <p className='pt-5 is-size-4-desktop'>{save_time}</p>

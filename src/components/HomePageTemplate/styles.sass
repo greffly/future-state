@@ -28,10 +28,16 @@ $layout-breakpoint-tablet: 768px
     left: -100px
 
   .home-arrow-circles
-    height: 400px
+    height: 300px
     margin-top: 100px
-    right: 100px
+    right: 50px
     top: 480px
 
   .custom-top-section
     padding: 5rem 7rem 24rem
+
+$layout-breakpoint-desktop: 1024px
+@media (min-width: $layout-breakpoint-desktop)
+  .home-arrow-circles
+    height: 400px
+    right: 100px

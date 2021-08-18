@@ -28,13 +28,13 @@ const AboutUsTemplate = (props) => {
         className='custom-medium-section has-background-black'
         id='about-top-section'
       >
-        <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-3-mobile'>
-          WE DELIVER
+        <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-3-mobile is-uppercase'>
+          We deliver
           <br /> <strong className='has-text-info'>
-            TALENT SOLUTIONS
+            talent solutions
           </strong>{' '}
-          <br /> THAT HELP <br />{' '}
-          <strong className='has-text-info'>CREATE IMPACT.</strong>
+          <br /> that help <br />{' '}
+          <strong className='has-text-info'>create impact</strong>.
         </h1>
         <ProgressiveImageContainer
           image='/img/home-circle-graphic.svg'
@@ -134,20 +134,32 @@ const AboutUsTemplate = (props) => {
               We're proud of the awards we have won.
             </strong>
           </h1>
-          <div className='columns is-flex is-align-items-center pt-6'>
-            <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
+          <div
+            className='columns is-flex is-align-items-center has-text-centered px-6'
+            style={{ maxWidth: '80%', margin: '0 auto' }}
+          >
+            <div
+              className='column is-4 p-6'
+              style={{ paddingRight: '3%', paddingLeft: '3%' }}
+            >
               <ProgressiveImageContainer
                 image='/img/badge-inc-500.png'
                 alt='INC 5000 Award'
               />
             </div>
-            <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
+            <div
+              className='column is-4 p-6'
+              style={{ paddingRight: '3%', paddingLeft: '3%' }}
+            >
               <ProgressiveImageContainer
                 image='/img/badge-private-100.png'
                 alt='Private 100 Fastest Growing Companies'
               />
             </div>
-            <div className='column is-4 p-6-desktop' style={{ padding: '5%' }}>
+            <div
+              className='column is-4 p-6'
+              style={{ paddingRight: '3%', paddingLeft: '3%' }}
+            >
               <ProgressiveImageContainer
                 image='/img/badge-inc-5000.png'
                 alt='INC 5000 2019'
@@ -157,7 +169,7 @@ const AboutUsTemplate = (props) => {
         </div>
       </section>
 
-      <section className='section is-medium has-background-white'>
+      <section className='custom-medium-section has-background-white'>
         <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-4-mobile'>
           <strong>DIVERSITY, EQUITY</strong> AND <br />
           <strong> INCLUSION</strong>

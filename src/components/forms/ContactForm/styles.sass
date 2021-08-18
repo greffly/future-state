@@ -2,8 +2,27 @@
   padding-left: 20px
   padding-right: 20px
 
+.custom-textarea
+  height: 180px
+
 $layout-breakpoint-tablet: 768px
 @media (min-width: $layout-breakpoint-tablet)
   .contact-form
     padding-left: 50px
     padding-right: 50px
+
+  .custom-textarea
+    height: 145px
+
+  .form-submit-button
+    margin-left: 10px
+
+$layout-breakpoint-desktop: 1024px
+@media (min-width: $layout-breakpoint-desktop)
+  .custom-talent-radio
+    display: flex
+    flex-direction: row
+    align-items: center
+
+  .custom-textarea
+    height: 170px

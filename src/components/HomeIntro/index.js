@@ -10,7 +10,7 @@ const HomeIntro = (props) => {
   return (
     <div>
       <section className='custom-medium-section'>
-        <h1 className='has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+        <h1 className='has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
           Relationships <strong>first</strong>.
           <br /> Talent solutions that <strong>last</strong>.
         </h1>
@@ -21,13 +21,10 @@ const HomeIntro = (props) => {
             team solutions to tech organizations at leading companies.
           </p>
           <div className='buttons column is-half is-flex is-flex-direction-column is-align-content-start is-align-items-start has-text-left p-0'>
-            <button className='button is-info is-uppercase is-fullwidth p-5 is-size-5'>
+            <button className='button is-info is-uppercase p-5 is-size-5 talent-button'>
               I'm looking for talent
             </button>
-            <button
-              className='button is-primary has-text-white is-uppercase is-fullwidth p-5 mt-2 is-size-5'
-              id='talent-button'
-            >
+            <button className='button is-primary has-text-white is-uppercase p-5 mt-2 is-size-5 talent-button'>
               I'm the talent
             </button>
           </div>
@@ -44,7 +41,7 @@ const HomeIntro = (props) => {
         />
       </section>
       <section className='custom-large-section has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
           We deliver
           <br /> <strong className='has-text-info'>
             Talent solutions
@@ -76,11 +73,11 @@ const HomeIntro = (props) => {
           frais port-salut manchego.
         </p>
         <div
-          className='columns is-flex is-align-items-center has-text-centered px-6'
+          className='columns is-flex is-align-items-center has-text-centered award-badge-section'
           style={{ maxWidth: '80%', margin: '0 auto' }}
         >
           <div
-            className='column is-4 p-6'
+            className='column is-4 award-badge'
             style={{ paddingRight: '3%', paddingLeft: '3%' }}
           >
             <ProgressiveImageContainer
@@ -89,7 +86,7 @@ const HomeIntro = (props) => {
             />
           </div>
           <div
-            className='column is-4 p-6'
+            className='column is-4 award-badge'
             style={{ paddingRight: '3%', paddingLeft: '3%' }}
           >
             <ProgressiveImageContainer
@@ -98,7 +95,7 @@ const HomeIntro = (props) => {
             />
           </div>
           <div
-            className='column is-4 p-6'
+            className='column is-4 award-badge'
             style={{ paddingRight: '3%', paddingLeft: '3%' }}
           >
             <ProgressiveImageContainer

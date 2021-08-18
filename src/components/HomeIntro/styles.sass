@@ -17,11 +17,36 @@
   height: 220px
   right: 10px
 
+.talent-button
+  width: 300px
+
+.award-badge
+  padding: 0
+
 $layout-breakpoint-tablet: 768px
 @media (min-width: $layout-breakpoint-tablet)
   .home-circle-graphic-2
+    height: 550px
+    margin-top: 150px
+
+  .home-puzzle-pieces
+    height: 450px
+    right: 50px
+    margin-top: -80px
+
+  .home-maze-graphic
+    height: 400px
+    right: 20px
+    margin-top: -20px
+
+$layout-breakpoint-desktop: 1024px
+@media (min-width: $layout-breakpoint-desktop)
+  .home-circle-graphic-2
     height: 750px
     margin-top: 100px
+
+  .talent-button
+    width: 400px
 
   .home-puzzle-pieces
     height: 600px
@@ -32,3 +57,6 @@ $layout-breakpoint-tablet: 768px
     height: 600px
     right: 100px
     margin-top: -180px
+
+  .award-badge-section
+    max-width: 80%

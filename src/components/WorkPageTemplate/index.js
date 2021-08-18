@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
 import { ContactForm } from '../forms';
 import './styles.sass';
+import '../../styles/global.sass';
 
 const WorkPageTemplate = (props) => {
   const { projects } = props;
@@ -11,18 +12,37 @@ const WorkPageTemplate = (props) => {
   return (
     <div>
       <section className='custom-large-section has-background-black'>
-        <h1 className='has-text-weight-light is-size-1-desktop is-size-3-mobile has-text-info'>
-          OUR WORK IS <br />
-          <strong className='has-text-info'>WHAT WE DO</strong>
-        </h1>
-        <ProgressiveImageContainer
-          image='/img/home-circle-graphic.svg'
-          alt='circle graphic'
-          className='top-circle-graphic'
-        />
+        <div className='column is-half'>
+          <h1 className='has-text-weight-light is-size-1-desktop is-size-3-mobile has-text-info is-uppercase'>
+            Our work is <br />
+            <strong className='has-text-info'>what we do</strong>
+          </h1>
+          <ProgressiveImageContainer
+            image='/img/home-circle-graphic.svg'
+            alt='circle graphic'
+            className='work-circle-graphic'
+          />
+        </div>
+        <div>
+          <ProgressiveImageContainer
+            image='/img/wrench-circle.svg'
+            alt='wrench and circle graphic'
+            className='wrench-circle-graphic'
+          />
+          <ProgressiveImageContainer
+            image='/img/nut-circle-1.svg'
+            alt='nut and circle graphic'
+            className='nut-circle-graphic-1'
+          />
+          <ProgressiveImageContainer
+            image='/img/nut-circle-2.svg'
+            alt='nut and circle graphic'
+            className='nut-circle-graphic-2'
+          />
+        </div>
       </section>
 
-      <section className='section is-medium py-6 has-background-grey'>
+      <section className='custom-medium-section mt-0 py-6 has-background-grey'>
         {projects.summary.map((project, i) => (
           <div key={i}>
             <div className='columns py-6 has-text-black'>

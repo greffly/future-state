@@ -24,7 +24,6 @@ const ContactForm = () => {
           validationSchema={validationSchema}
           onSubmit={(values, { setSubmitting }) => {
             fetch('/?no-cache=1', {
-              //eslint-disable-line
               method: 'POST',
               headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
               body: encode({
@@ -121,15 +120,17 @@ const ContactForm = () => {
                   <label className='label has-text-info is-size-5'>
                     About You
                   </label>
-                  <div className='control pb-2'>
+                  <div className='control pb-2 custom-talent-radio'>
                     <label className='radio has-text-info pr-5'>
                       <input type='radio' name='answer' className='mr-2' />
                       Looking for talent
                     </label>
-                    <label className='radio has-text-info'>
-                      <input type='radio' name='answer' className='mr-2' />I am
-                      the talent
-                    </label>
+                    <div>
+                      <label className='radio has-text-info'>
+                        <input type='radio' name='answer' className='mr-2' />I
+                        am the talent
+                      </label>
+                    </div>
                   </div>
 
                   <div className='field pt-4'>
@@ -138,12 +139,11 @@ const ContactForm = () => {
                     </label>
                     <div className='control'>
                       <Field
-                        className='textarea is-info has-background-grey-dark'
+                        className='textarea is-info has-background-grey-dark custom-textarea'
                         component='textarea'
                         placeholder='Type Something'
                         name='message'
                         id='message'
-                        rows='6'
                       />
                     </div>
                   </div>
@@ -153,7 +153,7 @@ const ContactForm = () => {
               <div className='field'>
                 <div className='control column is-2 p-0'>
                   <button
-                    className='button is-info p-5 is-size-5 is-fullwidth mt-3 ml-3'
+                    className='button is-info p-5 is-size-5 is-fullwidth mt-3 form-submit-button'
                     type='submit'
                     disabled={isSubmitting}
                   >

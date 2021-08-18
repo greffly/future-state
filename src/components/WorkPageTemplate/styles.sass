@@ -1,3 +1,10 @@
+.work-circle-graphic
+  display: block
+  position: absolute
+  margin-top: -100px
+  height: 350px
+  left: 0
+
 .hr-tag
   height: 1px
 
@@ -7,10 +14,41 @@
 .project-summary
   padding: 10px 30px
 
+.wrench-circle-graphic
+  display: none
+
+.nut-circle-graphic-1
+  display: none
+
+.nut-circle-graphic-2
+  display: none
+
 $layout-breakpoint-tablet: 768px
 @media (min-width: $layout-breakpoint-tablet)
+  .work-circle-graphic
+    height: 550px
+    margin-top: -50px
+    left: -100px
+
   .project-image
     padding: 0
 
   .project-summary
     padding: 0 0 0 30px
+
+  .wrench-circle-graphic
+    display: block
+    position: absolute
+    height: 750px
+    top: 50px
+    right: -300px
+
+  .nut-circle-graphic-1
+    display: block
+    position: absolute
+    right: 100px
+    top: 100px
+
+  .nut-circle-graphic-2
+    right: 300px
+    top: 500px
