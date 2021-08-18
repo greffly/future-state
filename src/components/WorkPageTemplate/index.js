@@ -13,7 +13,7 @@ const WorkPageTemplate = (props) => {
     <div>
       <section className='custom-large-section has-background-black'>
         <div className='column is-half'>
-          <h1 className='has-text-weight-light is-size-1-desktop is-size-3-mobile has-text-info is-uppercase'>
+          <h1 className='has-text-weight-light is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-info is-uppercase'>
             Our work is <br />
             <strong className='has-text-info'>what we do</strong>
           </h1>

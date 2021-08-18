@@ -30,38 +30,60 @@ const Footer = () => {
             style={{ maxWidth: '80%' }}
           >
             <li className='p-2'>
-              <ProgressiveImageContainer
-                image='/img/social-twitter.svg'
-                alt='twitter icon'
-              />
+              <Link
+                className='has-text-black is-uppercase'
+                to='https://twitter.com/fsconsults'
+                target='_blank'
+              >
+                <ProgressiveImageContainer
+                  image='/img/social-twitter.svg'
+                  alt='twitter icon'
+                />
+              </Link>
             </li>
             <li className='p-2'>
               {' '}
-              <ProgressiveImageContainer
-                image='/img/social-facebook.svg'
-                alt='facebook icon'
-              />
+              <Link
+                className='has-text-black is-uppercase'
+                to='https://www.facebook.com/pages/Future%20State%20Consulting/484518591750928/'
+                target='_blank'
+              >
+                <ProgressiveImageContainer
+                  image='/img/social-facebook.svg'
+                  alt='facebook icon'
+                />
+              </Link>
             </li>
             <li className='p-2'>
               {' '}
-              <ProgressiveImageContainer
-                image='/img/social-linkedin.svg'
-                alt='linkedin icon'
-              />
+              <Link
+                className='has-text-black is-uppercase'
+                to='https://www.linkedin.com/company/future-state-consulting/'
+                target='_blank'
+              >
+                <ProgressiveImageContainer
+                  image='/img/social-linkedin.svg'
+                  alt='linkedin icon'
+                />
+              </Link>
             </li>
             <li className='p-2'>
               {' '}
-              <ProgressiveImageContainer
-                image='/img/social-youtube.svg'
-                alt='youtube icon'
-              />
+              <Link className='has-text-black is-uppercase' to='#'>
+                <ProgressiveImageContainer
+                  image='/img/social-youtube.svg'
+                  alt='youtube icon'
+                />
+              </Link>
             </li>
             <li className='p-2'>
               {' '}
-              <ProgressiveImageContainer
-                image='/img/social-insta.svg'
-                alt='instagram icon'
-              />
+              <Link className='has-text-black is-uppercase' to='#'>
+                <ProgressiveImageContainer
+                  image='/img/social-insta.svg'
+                  alt='instagram icon'
+                />
+              </Link>
             </li>
           </ul>
         </div>

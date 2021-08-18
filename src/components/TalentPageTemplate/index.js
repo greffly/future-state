@@ -86,9 +86,9 @@ const TalentPageTemplate = (props) => {
         />
       </section>
 
-      <section className='section is-medium has-background-grey'>
-        <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile'>
-          WHAT FOLKS ARE <strong>SAYING</strong>
+      <section className='custom-medium-section mt-0 has-background-grey'>
+        <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
+          What folks are <strong>saying</strong>
         </h1>
         <div className='columns'>
           {quotes.blurbs.map((quote, i) => (

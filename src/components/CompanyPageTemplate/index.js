@@ -18,13 +18,13 @@ const CompanyPageTemplate = (props) => {
   } = props;
 
   return (
-    <div>
+    <div className='hey'>
       <Helmet>
         <title>{meta_title}</title>
         <meta name='description' content={meta_description} />
       </Helmet>
       <section className='custom-large-section has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-3-mobile is-uppercase'>
+        <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-2-tablet is-size-3-mobile is-uppercase'>
           Something great
           <br />{' '}
           <strong className='has-text-info'>about companies here.</strong>
@@ -34,17 +34,19 @@ const CompanyPageTemplate = (props) => {
           alt='circle graphic'
           className='company-circle-graphic'
         />
+      </section>
+      <div className='graphic-container'>
         <ProgressiveImageContainer
           image='/img/companies-binoculars.svg'
           alt='binocular graphic'
           className='company-binoculars'
         />
-      </section>
+      </div>
 
-      <section className='custom-medium-section'>
+      <section className='custom-medium-section graphic-container'>
         <div className='columns'>
           <div className='column is-half'>
-            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+            <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
               Why us? <br /> We find your <strong>10/10 person</strong>
             </h1>
             <p className='pr-5 pt-5 is-size-4-desktop'>{we_find_your_person}</p>
@@ -60,7 +62,7 @@ const CompanyPageTemplate = (props) => {
       </section>
 
       <section className='custom-medium-section has-background-black'>
-        <h1 className='has-text-info has-text-centered has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+        <h1 className='has-text-info has-text-centered has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
           Our <strong className='has-text-info'>Services </strong>
         </h1>
         <ProgressiveImageContainer
@@ -112,7 +114,7 @@ const CompanyPageTemplate = (props) => {
 
       <section className='custom-medium-section'>
         <div className='columns'>
-          <div className='column is-half'>
+          <div className='column is-half-desktop is-two-thirds-tablet'>
             <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
               We save you <strong>time</strong>
             </h1>
@@ -128,8 +130,8 @@ const CompanyPageTemplate = (props) => {
         </div>
       </section>
 
-      <section className='section is-medium has-background-grey'>
-        <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-4-mobile is-uppercase'>
+      <section className='custom-medium-section has-background-grey'>
+        <h1 className='has-text-black has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile is-uppercase'>
           What folks are <strong>saying</strong>
         </h1>
         <div className='columns'>

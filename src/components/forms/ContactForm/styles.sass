@@ -1,15 +1,16 @@
-.contact-form
-  padding-left: 20px
-  padding-right: 20px
+#contact-form
+  padding: 0
+
+.custom-form-section
+  padding: 2rem 3rem
 
 .custom-textarea
   height: 180px
 
 $layout-breakpoint-tablet: 768px
 @media (min-width: $layout-breakpoint-tablet)
-  .contact-form
-    padding-left: 50px
-    padding-right: 50px
+  .custom-form-section
+    padding: 4rem 6rem
 
   .custom-textarea
     height: 145px
@@ -19,6 +20,9 @@ $layout-breakpoint-tablet: 768px
 
 $layout-breakpoint-desktop: 1024px
 @media (min-width: $layout-breakpoint-desktop)
+  .custom-form-section
+    padding: 6em 8em
+
   .custom-talent-radio
     display: flex
     flex-direction: row

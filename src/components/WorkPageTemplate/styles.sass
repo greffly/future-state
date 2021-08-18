@@ -39,16 +39,28 @@ $layout-breakpoint-tablet: 768px
   .wrench-circle-graphic
     display: block
     position: absolute
+    height: 550px
+    width: 500px
+    top: 175px
+    right: 0
+    object-fit: cover
+    object-position: 0 0
+
+$layout-breakpoint-desktop: 1024px
+@media (min-width: $layout-breakpoint-desktop)
+  .wrench-circle-graphic
+    top: 100px
     height: 750px
-    top: 50px
-    right: -300px
+    width: 700px
 
   .nut-circle-graphic-1
     display: block
     position: absolute
-    right: 100px
+    right: 70px
     top: 100px
 
   .nut-circle-graphic-2
-    right: 300px
-    top: 500px
+    display: block
+    position: absolute
+    right: 100px
+    top: 550px

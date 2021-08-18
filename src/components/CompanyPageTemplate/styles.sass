@@ -35,13 +35,27 @@ $layout-breakpoint-tablet: 768px
     left: -100px
 
   .company-work-graphic
-    height: 850px
-    margin-top: -370px
+    height: 550px
+    margin-top: -270px
     left: -70px
 
   .company-binoculars
     display: block
     position: absolute
+    height: 356px
+    width: 420px
+    top: 350px
+    right: 0
+    object-fit: cover
+    object-position: 0 0
+
+$layout-breakpoint-desktop: 1024px
+@media (min-width: $layout-breakpoint-desktop)
+  .company-binoculars
     height: 600px
-    right: -100px
     top: 250px
+
+  .company-work-graphic
+    height: 850px
+    margin-top: -370px
+    left: -70px

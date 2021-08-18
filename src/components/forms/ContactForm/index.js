@@ -14,10 +14,10 @@ const encode = (data) => {
 
 const ContactForm = () => {
   return (
-    <section className='section is-small has-background-grey-dark'>
+    <section className='custom-form-section has-background-grey-dark'>
       <div className='contact-form'>
-        <h1 className='has-text-white is-size-2-desktop is-size-3-tablet is-size-4-mobile pb-3 ml-3'>
-          DROP US A LINE
+        <h1 className='has-text-white is-size-2-desktop is-size-3-tablet is-size-4-mobile pb-3 ml-3 is-uppercase'>
+          Drop us a line
         </h1>
         <Formik
           initialValues={{ name: '', email: '', message: '' }}
