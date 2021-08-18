@@ -13,17 +13,10 @@ const HomePageTemplate = (props) => {
   const { meta_title, meta_description, projects } = props;
 
   // TODO: fix font
-  // TODO: looks good on tablet
-  // TODO: looks good on large screen
   // TODO: figure out CMS
   // TODO: make sure meta is good / on every page
   // TODO: delete unneeded code
   // TODO: make sure emails go to fs
-  // breakpoints:
-  // 480px
-  // 768px
-  // 1024px
-  // 1200px
 
   return (
     <div>
@@ -33,7 +26,7 @@ const HomePageTemplate = (props) => {
       </Helmet>
       <section className='background-image custom-large-section'>
         <div className='is-flex is-align-items-start'>
-          <h1 className='custom-header has-text-weight-light has-text-info is-size-1-desktop is-size-2-tablet is-size-3-mobile is-uppercase'>
+          <h1 className='custom-header has-text-weight-light has-text-info is-size-1-desktop is-size-2-tablet is-size-3-mobile is-uppercase is-family-primary'>
             We are
             <br />
             <strong className='has-text-info'>
