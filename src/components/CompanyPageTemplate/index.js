@@ -7,7 +7,6 @@ import ProgressiveImageContainer from '../ProgressiveImageContainer';
 
 const CompanyPageTemplate = (props) => {
   const {
-    title,
     meta_title,
     meta_description,
     save_time,

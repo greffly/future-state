@@ -1,5 +1,6 @@
 /* eslint-disable semi */
 import React from 'react';
+import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
 import { ContactForm } from '../forms';
@@ -7,10 +8,14 @@ import './styles.sass';
 import '../../styles/global.sass';
 
 const WorkPageTemplate = (props) => {
-  const { projects } = props;
+  const { meta_title, meta_description, projects } = props;
 
   return (
     <div>
+      <Helmet>
+        <title>{meta_title}</title>
+        <meta name='description' content={meta_description} />
+      </Helmet>
       <section className='custom-large-section has-background-black'>
         <div className='column is-half'>
           <h1 className='has-text-weight-light is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-info is-uppercase'>
