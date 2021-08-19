@@ -26,7 +26,7 @@ const HomePageTemplate = (props) => {
       </Helmet>
       <section className='background-image custom-large-section'>
         <div className='is-flex is-align-items-start'>
-          <h1 className='custom-header has-text-weight-light has-text-info is-size-1-desktop is-size-2-tablet is-size-3-mobile is-uppercase is-family-primary'>
+          <h1 className='custom-header has-text-weight-light has-text-info is-size-1-desktop is-size-2-tablet is-size-3-mobile is-uppercase'>
             We are
             <br />
             <strong className='has-text-info'>
