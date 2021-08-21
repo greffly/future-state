@@ -52,7 +52,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         typekit: {
-          id: 'cws6hwr',
+          id: process.env.TYPEKIT_ID,
         },
       },
     },
