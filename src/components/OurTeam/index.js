@@ -3,7 +3,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
-import Img from 'gatsby-image';
 import './styles.sass';
 
 const OurTeam = ({ teamMembers }) => {
@@ -20,12 +19,13 @@ const OurTeam = ({ teamMembers }) => {
             className='column is-4-desktop is-6-tablet p-6 has-text-black'
           >
             <div className='pt-5'>
-              <p className='has-text-centered'>
-                <Img
-                  fluid={teamMember.image.childImageSharp.fluid}
+              <div className='has-text-centered'>
+                <ProgressiveImageContainer
+                  image={teamMember.image}
                   alt={`team member ${teamMember.name} image`}
+                  className='image-container'
                 />
-              </p>
+              </div>
               <div className='team-info'>
                 <div>
                   <p className='is-size-4 is-uppercase pt-3'>
