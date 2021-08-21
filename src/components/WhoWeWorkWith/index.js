@@ -23,7 +23,10 @@ const WhoWeWorkWith = ({ talent_members, roundedImageClassName }) => {
             <div key={i} className='column talent-member'>
               <div className='columns'>
                 <div className='column work-image-container'>
-                  <div className='image is-flex is-align-items-center is-128x128'>
+                  <div
+                    className='image is-128x128'
+                    style={{ margin: '0 auto' }}
+                  >
                     <ProgressiveImageContainer
                       image={talent_member.image}
                       alt={`team member ${talent_member.name} image`}
