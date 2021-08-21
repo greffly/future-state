@@ -8,8 +8,10 @@
   margin-right: 10px
 
 .gatsby-image-wrapper
-  div
-    padding-bottom: -210px !important
+  div[aria-hidden="true"]
+    position: relative
+    bottom: -50%
+    transform: translateY(-50px)
 
 $layout-breakpoint-tablet: 768px
 @media (min-width: $layout-breakpoint-tablet)
@@ -24,10 +26,6 @@ $layout-breakpoint-tablet: 768px
 
   .each-link
     margin-bottom: 10px
-
-  .gatsby-image-wrapper
-    div
-      padding-bottom: -210px !important
 
 $layout-breakpoint-desktop: 1024px
 @media (min-width: $layout-breakpoint-desktop)
