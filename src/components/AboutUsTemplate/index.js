@@ -56,18 +56,22 @@ const AboutUsTemplate = (props) => {
             </h1>
             <p className='pr-5 pt-5 is-size-4-desktop'>{values}</p>
           </div>
-          <div className='column is-flex is-align-items-center'>
-            <ProgressiveImageContainer
-              image='/img/about-us-circle.svg'
-              alt='circle graphic'
-              className='about-us-circle'
-            />
-            <ProgressiveImageContainer
-              image='/img/quote-light-blue.svg'
-              alt='circle graphic'
-              className='quote-with-value'
-            />
-            <p className='is-size-5-desktop value-quote'>{value_quote}</p>
+          <div className=''>
+            <div className='column is-flex is-align-items-center about-graphics'>
+              <ProgressiveImageContainer
+                image='/img/about-us-circle.svg'
+                alt='circle graphic'
+                className='about-us-circle'
+              />
+              <ProgressiveImageContainer
+                image='/img/quote-light-blue.svg'
+                alt='circle graphic'
+                className='quote-with-value'
+              />
+            </div>
+            <p className='column is-size-5-desktop is-third value-quote'>
+              {value_quote}
+            </p>
           </div>
         </div>
       </section>
