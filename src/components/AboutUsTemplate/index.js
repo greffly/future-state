@@ -174,7 +174,7 @@ const AboutUsTemplate = (props) => {
       </section>
 
       <section className='custom-medium-section has-background-white'>
-        <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-4-mobile'>
+        <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile'>
           <strong>DIVERSITY, EQUITY</strong> AND <br />
           <strong> INCLUSION</strong>
         </h1>
