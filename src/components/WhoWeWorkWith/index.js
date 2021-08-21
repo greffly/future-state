@@ -22,7 +22,7 @@ const WhoWeWorkWith = ({ talent_members, roundedImageClassName }) => {
           {firstFour.map((talent_member, i) => (
             <div key={i} className='column talent-member'>
               <div className='columns'>
-                <div className='column work-image-container'>
+                <div className='column is-flex is-align-items-center work-image-container'>
                   <p className='image is-128x128'>
                     <ProgressiveImageContainer
                       image={talent_member.image}

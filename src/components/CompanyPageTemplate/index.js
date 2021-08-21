@@ -155,7 +155,6 @@ const CompanyPageTemplate = (props) => {
           ))}
         </div>
       </section>
-
       <ContactForm />
     </div>
   );

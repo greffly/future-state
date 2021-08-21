@@ -2,7 +2,7 @@
 templateKey: 'work'
 title: Work
 subtitle: We'd Love To Help You, Feel Free To Drop A Mail
-meta_title: Work | Gatsby Starter Business
+meta_title: Work | Future State Consulting
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
