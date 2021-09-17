@@ -12,7 +12,7 @@ const OurTeam = ({ teamMembers }) => {
       <h1 className='has-text-black has-text-weight-light has-text-centered is-size-2 pl-6-desktop'>
         OUR <strong className='has-text-black'>TEAM</strong>
       </h1>
-      <div className='columns is-multiline'>
+      <div className='columns is-multiline all-team-members'>
         {teamMembers.members.map((teamMember, i) => (
           <div
             key={i}
@@ -27,8 +27,8 @@ const OurTeam = ({ teamMembers }) => {
                 />
               </div>
               <div className='team-info'>
-                <div>
-                  <p className='is-size-4 is-uppercase pt-3'>
+                <div className='team-name-title'>
+                  <p className='is-size-4 is-uppercase pt-3 mr-6'>
                     {teamMember.name}
                   </p>
                   <p className='is-size-5 is-uppercase'>{teamMember.title}</p>

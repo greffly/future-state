@@ -38,28 +38,52 @@ quotes:
 diversity: Lancashire cheesy grin cheesy feet. Cheesy grin halloumi port-salut cheese on toast gouda dolcelatte everyone loves pecorino. Bocconcini roquefort cheese on toast cheese triangles cheeseburger taleggio cut the cheese mascarpone. Emmental cheese and biscuits.
 teamMembers:
   members:
-    - name: Michael
-      title: roquefort cheese
-      image: /img/photoPlaceholder.png
-    - name: Lucille
-      title: roquefort cheese
-      image: /img/photoPlaceholder.png
-    - name: Gob
-      title: roquefort cheese
-      image: /img/photoPlaceholder.png
-    - name: Maeby
-      title: roquefort cheese
-      image: /img/photoPlaceholder.png
-    - name: Tobias
-      title: roquefort cheese
-      image: /img/photoPlaceholder.png
-    - name: Lindsay
-      title: roquefort cheese
-      image: /img/photoPlaceholder.png
-    - name: George
-      title: roquefort cheese
-      image: /img/photoPlaceholder.png
-    - name: Ann
-      title: roquefort cheese
-      image: /img/photoPlaceholder.png
+    - name: Jan Paris
+      title: Super Awesome Human
+      image: /img/JanParis.jpg
+    - name: Harrison Bishop
+      title: Super Awesome Human
+      image: /img/HarrisonBishop.jpg
+    - name: Kylie Brunger-Stapleton
+      title: Super Awesome Human
+      image: /img/KylieBrungerStapleton.jpg
+    - name: Michael Zahler
+      title: Super Awesome Human
+      image: /img/MichaelZahler.jpg
+    - name: Mike Orrantia
+      title: Super Awesome Human
+      image: /img/MikeOrrantia.jpg
+    - name: Thomas Percy
+      title: Super Awesome Human
+      image: /img/ThomasPercy.jpg
+    - name: Holly Swanson
+      title: Super Awesome Human
+      image: /img/HollySwanson.jpg
+    - name: Matt Balch
+      title: Super Awesome Human
+      image: /img/MattBalch.jpg
+    - name: Sarah McConville
+      title: Super Awesome Human
+      image: /img/SarahMcConville.jpg
+    - name: Thomas Griffin
+      title: Super Awesome Human
+      image: /img/ThomasGriffin.jpg
+    - name: Kristen Fisher
+      title: Super Awesome Human
+      image: /img/KristenFisher.jpg
+    - name: Sam Inos
+      title: Super Awesome Human
+      image: /img/SamInos.jpg
+    - name: Madi Franks
+      title: Super Awesome Human
+      image: /img/MadiFranks.jpg
+    - name: Keenan Hall
+      title: Super Awesome Human
+      image: /img/KeenanHall.jpg
+    - name: Cheryl Edwards
+      title: Super Awesome Human
+      image: /img/CherylEdwards.jpg
+    - name: Dann Black
+      title: Super Awesome Human
+      image: /img/DannBlack.jpg
 ---
