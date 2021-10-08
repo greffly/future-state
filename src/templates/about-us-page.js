@@ -72,9 +72,7 @@ export const aboutUsQuery = graphql`
             title
             image {
               childImageSharp {
-                fluid(maxWidth: 500, quality: 72) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData
               }
               publicURL
             }

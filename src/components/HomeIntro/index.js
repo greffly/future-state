@@ -74,10 +74,10 @@ const HomeIntro = (props) => {
           <strong>we have received</strong>.
         </h1>
         <p className='column is-8 is-offset-2 is-size-5-desktop py-6 px-0'>
-          Gouda stinking bishop rubber cheese smelly cheese swiss red leicester
-          port-salut the big cheese. Taleggio stinking bishop manchego hard
-          cheese monterey jack chalk and cheese stinking bishop swiss. Fromage
-          frais port-salut manchego.
+          Hard work and dedication to our consultants and clients has allowed us
+          to be recognized with the following awards and accolades. We'd like to
+          thank everyone that has ever been part of Future State for their
+          partnership and commitment to excellence.
         </p>
         <div className='columns is-flex is-align-items-center has-text-centered award-badge-section'>
           <div

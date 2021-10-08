@@ -3,6 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ProgressiveImageContainer from '../ProgressiveImageContainer';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import './styles.sass';
 
 const OurTeam = ({ teamMembers }) => {
@@ -16,12 +17,12 @@ const OurTeam = ({ teamMembers }) => {
         {teamMembers.members.map((teamMember, i) => (
           <div
             key={i}
-            className='column is-4-desktop is-6-tablet p-6 has-text-black'
+            className='column is-4-desktop is-6-tablet p-0 has-text-black'
           >
             <div className='pt-5'>
               <div className='has-text-centered'>
-                <ProgressiveImageContainer
-                  image={teamMember.image}
+                <GatsbyImage
+                  image={getImage(teamMember.image)}
                   alt={`team member ${teamMember.name} image`}
                   className='image-container'
                 />

@@ -112,21 +112,21 @@ const AboutUsTemplate = (props) => {
           </h1>
           <div className='columns has-text-centered is-uppercase'>
             <div className='column is-third'>
-              <p className='has-text-info large-stats'>775</p>
+              <p className='has-text-info large-stats'>25</p>
               <p className='has-text-white is-size-3 stats-descriptor'>
-                Really Cool
+                Client Partnerships
               </p>
             </div>
             <div className='column is-third'>
-              <p className='has-text-info large-stats'>95%</p>
+              <p className='has-text-info large-stats'>87%</p>
               <p className='has-text-white is-size-3 stats-descriptor'>
-                So Great
+                Employee Satisfaction
               </p>
             </div>
             <div className='column is-third'>
-              <p className='has-text-info large-stats'>564</p>
+              <p className='has-text-info large-stats'>14</p>
               <p className='has-text-white is-size-3 stats-descriptor'>
-                The Best
+                Industries Served
               </p>
             </div>
           </div>
@@ -183,8 +183,11 @@ const AboutUsTemplate = (props) => {
             <p className='pr-5 pt-5 is-size-4-desktop'>{diversity}</p>
           </div>
           <div className='has-text-centered'>
-            <p className='has-text-info large-stats'>95%</p>
-            <p className='is-size-3 stats-descriptor'>SO GREAT</p>
+            <p className='has-text-info large-stats'>47%</p>
+            <p className='is-size-3 stats-descriptor'>
+              of our consultants are identified within Future State's DE&I
+              parameters.
+            </p>
           </div>
         </div>
       </section>

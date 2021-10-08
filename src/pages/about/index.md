@@ -7,35 +7,23 @@ meta_description: >-
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
-values: Bocconcini say cheese melted cheese. Halloumi jarlsberg caerphilly
-  cauliflower cheese feta cheeseburger squirty cheese camembert de
-  normandie. Squirty cheese babybel fromage cheese on toast
-  caerphilly cheese and wine camembert de normandie swiss. Rubber
-  cheese red leicester camembert de normandie feta manchego cheesy
-  feet emmental stinking bishop. Red leicester.
-value_quote: Cheesy grin halloumi port-salut cheese on toast gouda dolcelatte everyone loves pecorino. Bocconcini roquefort cheese on toast cheese triangles cheeseburger taleggio cut the cheese mascarpone.
+values: At Future State we believe quality over quantity results in the best outcomes. That means we nurture relationships first and then do the legwork to prescreen and match right fit diverse candidates with organizations and provide custom consulting.
+value_quote: Future State is a firm that leads with a communicative and ethical approach in all aspects of their business. Theyre inclusive collaborative and always driven to support our organizations growth. -VP of Engineering Fortune 500 Company
 quotes:
   blurbs:
+    - author: Hermoine Granger
+      title: Director of Engineering
+      text: >
+        Ive been working with Future State the past 3+ years and they have been great at finding the best talent for us! They are also extremely nice to work with! Would always recommend them!
     - author: Harry Potter
-      title: Wizard
+      title: Director of Engineering
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus
-        sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem
-        molestie sapien ornare cursus. Praesent eget volutpat est. Proin at
-        sagittis ex. Duis quis dui magna.
-    - author: Caitlyn Greffly
-      title: Software Engineer
+        Partnering with Future State over the past few years has been absolutely fantastic! Their collaborative approach in deeply understanding our business problem - both the vision of what we are building and where we are going, time and again has helped us establish and refine a hiring strategy that has found us many incredibly talented engineers and engineering leaders. I highly recommend working together with them. You will truly see the difference!
+    - author: Hagrid
+      title: Sr. Engineering Manager
       text: >
-        Fusce semper turpis sed tortor consectetur condimentum. Nulla facilisi. Nam
-        ipsum nulla, dapibus eu mi non, commodo commodo sapien. Pellentesque luctus
-        neque id mauris accumsan.
-    - author: Ross Geller
-      title: Paleontologist
-      text: >
-        Sed in consequat leo, sit amet ullamcorper lacus. Duis lacinia, metus vitae sollicitudin
-        pharetra, ipsum augue tristique urna, in rhoncus quam tortor eget sem. Maecenas eu
-        pharetra orci, ut malesuada nisl. Aliquam erat volutpat. Curabitur egestas eros tincidunt.
-diversity: Lancashire cheesy grin cheesy feet. Cheesy grin halloumi port-salut cheese on toast gouda dolcelatte everyone loves pecorino. Bocconcini roquefort cheese on toast cheese triangles cheeseburger taleggio cut the cheese mascarpone. Emmental cheese and biscuits.
+        Over the last five years, Ive counted on Future State to help me build world-class teams at Nike, WalmartLabs, and now eBay. With every engagement, whether Im looking to hire a single specialist or build an entire squad, the team at Future State listens to my needs, and quickly delivers a short list of candidates that are excited for the opportunity.
+diversity: At Future State, we believe that the diversity of an organizations talent facilitates diversity of thought and creativity, and establishes a more equitable workplace and world.
 teamMembers:
   members:
     - name: Jan Paris
