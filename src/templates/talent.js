@@ -72,6 +72,7 @@ export const talentPageQuery = graphql`
               publicURL
             }
             name
+            role
             title
           }
         }

@@ -37,6 +37,9 @@ const WhoWeWorkWith = ({ talent_members, roundedImageClassName }) => {
                       {talent_member.name}
                     </strong>
                   </p>
+                  <p className='is-size-5-desktop has-text-info talent-role'>
+                    {talent_member.role}
+                  </p>
                   <p className='is-size-5-desktop has-text-white'>
                     {talent_member.title}
                   </p>
@@ -110,6 +113,7 @@ WhoWeWorkWith.propTypes = {
   talent_members: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,
+      role: PropTypes.string,
       title: PropTypes.string,
       image: PropTypes.string,
     })

@@ -29,11 +29,11 @@ const TalentPageTemplate = (props) => {
         id='talent-top-section'
       >
         <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-2-tablet is-size-3-mobile is-uppercase'>
-          LOREM IPSUM IS
+          Because
           <br /> <strong className='has-text-info'>
-            TALENT BEFS
-          </strong> <br /> FILA MING <br />
-          <strong className='has-text-info'>SMARN YARGERS</strong>{' '}
+            relationships
+          </strong> <br /> make all of the <br />
+          <strong className='has-text-info'>difference</strong>{' '}
         </h1>
         <ProgressiveImageContainer
           image='/img/home-circle-graphic.svg'
@@ -80,10 +80,12 @@ const TalentPageTemplate = (props) => {
           alt='circle graphic'
           className='talent-work-graphic'
         />
-        <WhoWeWorkWith
-          talent_members={talent_members}
-          roundedImageClassName={roundedImageClassName}
-        />
+        <div className='talent-members-grid'>
+          <WhoWeWorkWith
+            talent_members={talent_members}
+            roundedImageClassName={roundedImageClassName}
+          />
+        </div>
       </section>
 
       <section className='custom-medium-section mt-0 has-background-grey'>

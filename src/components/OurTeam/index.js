@@ -9,8 +9,8 @@ import './styles.sass';
 const OurTeam = ({ teamMembers }) => {
   // TODO: add linkedin and email icons
   return (
-    <section className='custom-medium-section has-background-grey'>
-      <h1 className='has-text-black has-text-weight-light has-text-centered is-size-2 pl-6-desktop'>
+    <section className='has-background-grey'>
+      <h1 className='has-text-black has-text-weight-light has-text-centered is-size-2'>
         OUR <strong className='has-text-black'>TEAM</strong>
       </h1>
       <div className='columns is-multiline all-team-members'>
@@ -25,11 +25,12 @@ const OurTeam = ({ teamMembers }) => {
                   image={getImage(teamMember.image)}
                   alt={`team member ${teamMember.name} image`}
                   className='image-container'
+                  style={{ maxHeight: 400 }}
                 />
               </div>
               <div className='team-info'>
-                <div className='team-name-title'>
-                  <p className='is-size-4 is-uppercase pt-3 mr-6'>
+                <div className='team-name-title has-text-centered'>
+                  <p className='is-size-4 is-uppercase pt-3'>
                     {teamMember.name}
                   </p>
                   <p className='is-size-5 is-uppercase'>{teamMember.title}</p>

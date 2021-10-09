@@ -27,51 +27,51 @@ diversity: At Future State, we believe that the diversity of an organizations ta
 teamMembers:
   members:
     - name: Jan Paris
-      title: Super Awesome Human
+      title: Operations Manager
       image: /img/JanParis.jpg
     - name: Harrison Bishop
-      title: Super Awesome Human
+      title: Partner, Managing Director
       image: /img/HarrisonBishop.jpg
     - name: Kylie Brunger-Stapleton
-      title: Super Awesome Human
+      title: Senior Account Executive
       image: /img/KylieBrungerStapleton.jpg
     - name: Michael Zahler
-      title: Super Awesome Human
+      title: Director of Accounts
       image: /img/MichaelZahler.jpg
     - name: Mike Orrantia
-      title: Super Awesome Human
+      title: Lead Sourcer
       image: /img/MikeOrrantia.jpg
     - name: Thomas Percy
-      title: Super Awesome Human
+      title: Sourcing Analyst
       image: /img/ThomasPercy.jpg
     - name: Holly Swanson
-      title: Super Awesome Human
+      title: Account/Talent Executive
       image: /img/HollySwanson.jpg
     - name: Matt Balch
-      title: Super Awesome Human
+      title: Talent Executive
       image: /img/MattBalch.jpg
     - name: Sarah McConville
-      title: Super Awesome Human
+      title: Talent Executive
       image: /img/SarahMcConville.jpg
     - name: Thomas Griffin
-      title: Super Awesome Human
+      title: Senior Talent Executive
       image: /img/ThomasGriffin.jpg
     - name: Kristen Fisher
-      title: Super Awesome Human
+      title: Senior Account Executive
       image: /img/KristenFisher.jpg
     - name: Sam Inos
-      title: Super Awesome Human
+      title: Talent Executive
       image: /img/SamInos.jpg
     - name: Madi Franks
-      title: Super Awesome Human
+      title: Talent Executive
       image: /img/MadiFranks.jpg
     - name: Keenan Hall
-      title: Super Awesome Human
+      title: Talent Executive
       image: /img/KeenanHall.jpg
     - name: Cheryl Edwards
-      title: Super Awesome Human
+      title: Sales Support Lead
       image: /img/CherylEdwards.jpg
     - name: Dann Black
-      title: Super Awesome Human
+      title: Sales Support Lead
       image: /img/DannBlack.jpg
 ---

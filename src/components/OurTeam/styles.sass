@@ -1,5 +1,5 @@
 .team-links
-  width: 40px
+  max-width: 40px
   display: flex
   flex-direction: row
   margin-top: 10px
@@ -15,22 +15,24 @@ $layout-breakpoint-tablet: 768px
 @media (min-width: $layout-breakpoint-tablet)
   .team-info
     display: flex
-    flex-direction: row
-    justify-content: space-between
+    flex-direction: column
+    align-items: center
 
   .team-links
-    flex-direction: column
     margin-top: 20px
+    max-width: none
 
   .each-link
     margin-bottom: 10px
 
-  .all-team-members last-child
-      margin-left: 100px
+  .all-team-members
+    width: 100%
+    margin: 0
+    grid-row-gap: 50px
 
   .image-container
-    width: 100%;
-    height: 50%;
+    div:first-child
+      padding-bottom: 0
 
 $layout-breakpoint-desktop: 1024px
 @media (min-width: $layout-breakpoint-desktop)
