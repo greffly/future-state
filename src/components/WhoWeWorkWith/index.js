@@ -15,6 +15,7 @@ const Carousel = dynamic(() => import('@brainhubeu/react-carousel'), {
 const WhoWeWorkWith = ({ talent_members, roundedImageClassName }) => {
   const firstFour = talent_members.members.slice(0, 4);
   const secondFour = talent_members.members.slice(4, 8);
+  const thirdFour = talent_members.members.slice(8, 12);
   return (
     <div className='columns is-multiline'>
       <Carousel id='carousel-container' plugins={['arrows']}>
@@ -66,6 +67,36 @@ const WhoWeWorkWith = ({ talent_members, roundedImageClassName }) => {
                     <strong className='has-text-info'>
                       {talent_member.name}
                     </strong>
+                  </p>
+                  <p className='is-size-5-desktop has-text-white'>
+                    {talent_member.title}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className='carousel-grid'>
+          {thirdFour.map((talent_member, i) => (
+            <div key={i} className='column talent-member'>
+              <div className='columns'>
+                <div className='column work-image-container'>
+                  <div className='image is-128x128'>
+                    <ProgressiveImageContainer
+                      image={talent_member.image}
+                      alt={`team member ${talent_member.name} image`}
+                      className='rounded-image'
+                    />
+                  </div>
+                </div>
+                <div>
+                  <p className='is-size-4-desktop is-uppercase pb-2'>
+                    <strong className='has-text-info'>
+                      {talent_member.name}
+                    </strong>
+                  </p>
+                  <p className='is-size-5-desktop has-text-info talent-role'>
+                    {talent_member.role}
                   </p>
                   <p className='is-size-5-desktop has-text-white'>
                     {talent_member.title}

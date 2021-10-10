@@ -24,9 +24,13 @@ const CompanyPageTemplate = (props) => {
       </Helmet>
       <section className='custom-large-section has-background-black'>
         <h1 className='has-text-info has-text-weight-light is-size-1-desktop is-size-2-tablet is-size-3-mobile is-uppercase'>
-          Something great
-          <br />{' '}
-          <strong className='has-text-info'>about companies here.</strong>
+          Relationships{' '}
+          <strong className='has-text-info'>
+            first.
+            <br />
+          </strong>{' '}
+          Talent solutions that
+          <strong className='has-text-info'> last.</strong>
         </h1>
         <ProgressiveImageContainer
           image='/img/home-circle-graphic.svg'

@@ -8,7 +8,7 @@ meta_description: >-
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
-save_time: Cottage cheese dolcelatte cut the cheese. Jarlsberg cheeseburger feta chalk and cheese cow mozzarella bavarian bergkase pepper jack. Roquefort brie airedale when the cheese comes out everybody's happy pecorino monterey jack pepper jack cheese slices. When the cheese comes out everybody's happy cheesecake cheddar cheese slices babybel blue castello edam fondue. Rubber cheese. cheesy grin bocconcini cheese and biscuits. Taleggio camembert de normandie fondue boursin everyone loves goat when the cheese.
+save_time: At Future State, we believe quality over quantity results in the best outcomes. That means we nurture relationships first, and then do the legwork to pre-screen and match right-fit, diverse candidates with organizations, and provide custom consulting. Ultimately we save our clients, time, energy and the stress of needing to conduct robust and time consuming screening processes.
 talent_members:
   members:
     - name: Michael
@@ -39,45 +39,38 @@ roundedImageClassName: 'is-rounded'
 services:
   service_blurbs:
     - title: Staffing
-      text: Who moved my cheese st. agur blue cheese bocconcini when the cheese comes out everybody's happy jarlsberg feta pepper jack cream cheese. Goat port-salut edam.
+      text: Our Staffing (Temp/Contract/C2H) service offering is available for companies that do not currently have the resources to onboard a qualified candidate for a given position. Most of our clients operate under a contract-to-hire model and we encourage conversion to a client site if a candidate is interested in doing so.
       image: /img/companies-icon-staffing.svg
     - title: Priority Search
-      text: Who moved my cheese st. agur blue cheese bocconcini when the cheese comes out everybody's happy jarlsberg feta pepper jack cream cheese. Goat port-salut edam.
+      text: Our Priority Search (Direct Placement) service is a cost-effective method of guaranteeing our concerted effort to fill multiple openings or hard-to-fill positions. This is ideal for a fast-growing company that has aggressive hiring plans.
       image: /img/companies-icon-priority-search.svg
     - title: Solutions Consulting
-      text: Who moved my cheese st. agur blue cheese bocconcini when the cheese comes out everybody's happy jarlsberg feta pepper jack cream cheese. Goat port-salut edam.
+      text: Future State partners with startups to Fortune 5 companies to create solutions around the toughest software problems. We excel in mobile, web, and cloud platform development and can apply our expertise to your product, no matter where it is in the product lifecycle.
       image: /img/companies-icon-solutions-consulting.svg
 industries:
   names:
-    - name: Gouda
-    - name: Port-Salut
-    - name: Blue Cheese
-    - name: Jarlsberg
-    - name: Feta
-    - name: Pepper Jack
-    - name: Cream Cheese
-    - name: Aged Gouda
-    - name: Triple Cream Brie
-    - name: Gorgonzola
-    - name: Extra Sharp Cheddar
-    - name: Monterey Jack
+    - name: Automotive
+    - name: E-Commerce
+    - name: Semiconductor
+    - name: Fintech
+    - name: Home Decor
+    - name: Media/Entertainment
+    - name: Supply/Logistics
+    - name: Healthcare
+    - name: Telcom
 quotes:
   blurbs:
-    - author: Harry Potter
-      title: Wizard
+    - author: Sr. Engineering Manager
+      title: E-Commerce
       text: >
-        everybody's happy pecorino monterey jack pepper jack cheese slices. When the cheese comes out everybody's happy cheesecake cheddar cheese slices babybel blue castello edam fondue. Rubber cheese.
-    - author: Caitlyn Greffly
-      title: Software Engineer
+        Over the last five years, I’ve counted on Future State to help me build world-class teams at Nike, WalmartLabs, and now eBay. With every engagement, whether I’m looking to hire a single specialist or build an entire squad, the team at Future State listens to my needs, and quickly delivers a short list of candidates that are excited for the opportunity.
+    - author: Director of Engineering
+      title: E-Commerce
       text: >
-        Fusce semper turpis sed tortor consectetur condimentum. Nulla facilisi. Nam
-        ipsum nulla, dapibus eu mi non, commodo commodo sapien. Pellentesque luctus
-        neque id mauris accumsan.
-    - author: Ross Geller
-      title: Paleontologist
+        Partnering with Future State over the past few years has been absolutely fantastic! Their collaborative approach in deeply understanding our business problem - both the vision of what we are building and where we are going, time and again has helped us establish and refine a hiring strategy that has found us many incredibly talented engineers and engineering leaders. I highly recommend working together with them. You will truly see the difference! Ultimately, when I need to fill a role, the team at Future State saves me time, money, and stress.
+    - author: Director of Engineering
+      title: E-Commerce
       text: >
-        Sed in consequat leo, sit amet ullamcorper lacus. Duis lacinia, metus vitae sollicitudin
-        pharetra, ipsum augue tristique urna, in rhoncus quam tortor eget sem. Maecenas eu
-        pharetra orci, ut malesuada nisl.
-we_find_your_person: Airedale paneer brie. Manchego pepper jack queso fromage hard cheese cheesy grin bocconcini cheese and biscuits. Taleggio camembert de normandie fondue boursin everyone loves goat when the cheese comes out everybody's happy paneer. Feta cheddar gouda feta cheese and biscuits fromage cottage cheese jarlsberg. Parmesan jarlsberg.
+        I've been working with Future State the past 3+ years and they have been great at finding the best talent for us! They are also extremely nice to work with! Would always recommend them!
+we_find_your_person: We partner with clients to satisfy their recruiting, staffing, project hiring and executive search needs with custom, scalable solutions. We provide team building and onboarding consultation that results in near-term value or opportunities for greater impact down the road.
 ---

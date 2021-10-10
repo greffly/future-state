@@ -35,9 +35,9 @@ const NavBar = () => {
           <Link className='navbar-item' to='/dei'>
             Diversity, Equity & Inclusion
           </Link>
-          <Link className='navbar-item' to='/work'>
+          {/* <Link className='navbar-item' to='/work'>
             Our Work
-          </Link>
+          </Link> */}
         </ul>
       </div>
     </nav>

@@ -49,7 +49,7 @@ const HomePageTemplate = (props) => {
         />
       </section>
       <HomeIntro />
-      <OurWork projects={projects} />
+      {/* <OurWork projects={projects} /> */}
       <ContactForm />
     </div>
   );

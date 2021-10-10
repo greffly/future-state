@@ -10,7 +10,7 @@ const OurTeam = ({ teamMembers }) => {
   // TODO: add linkedin and email icons
   return (
     <section className='has-background-grey'>
-      <h1 className='has-text-black has-text-weight-light has-text-centered is-size-2'>
+      <h1 className='has-text-black has-text-weight-light has-text-centered is-size-2 p-6'>
         OUR <strong className='has-text-black'>TEAM</strong>
       </h1>
       <div className='columns is-multiline all-team-members'>
