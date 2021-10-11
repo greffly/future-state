@@ -1,0 +1,31 @@
+.bee-graphic
+  display: none
+
+.dei-circle-graphic
+  margin-top: 0
+  height: 350px
+  display: block
+  position: absolute
+  left: 0
+
+$layout-breakpoint-tablet: 768px
+@media (min-width: $layout-breakpoint-tablet)
+  .bee-graphic
+    display: block
+    position: absolute
+    height: 400px
+    right: 200px
+    top: 235px
+    z-index: 2
+
+  .bee-graphic-1
+    display: block
+    position: absolute
+    height: 400px
+    right: 150px
+    top: 255px
+
+  .dei-circle-graphic
+    height: 550px
+    margin-top: -60px
+    left: -100px

@@ -70,6 +70,8 @@ export const aboutUsQuery = graphql`
           members {
             name
             title
+            linkedin
+            email
             image {
               childImageSharp {
                 gatsbyImageData

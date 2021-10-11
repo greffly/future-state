@@ -36,11 +36,17 @@ const OurTeam = ({ teamMembers }) => {
                   <p className='is-size-5 is-uppercase'>{teamMember.title}</p>
                 </div>
                 <div className='team-links'>
-                  <ProgressiveImageContainer
-                    image='/img/social-linkedin.svg'
-                    alt={`team member ${teamMember.name} linkedin link`}
-                    className='each-link'
-                  />
+                  <a
+                    href={teamMember.linkedin}
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <ProgressiveImageContainer
+                      image='/img/social-linkedin.svg'
+                      alt={`team member ${teamMember.name} linkedin link`}
+                      className='each-link'
+                    />
+                  </a>
                   <ProgressiveImageContainer
                     image='/img/social-twitter.svg'
                     alt={`team member ${teamMember.name} email link`}
