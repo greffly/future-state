@@ -36,7 +36,6 @@
 .custom-talent-section
   margin-top: 20px
   padding: 2rem 3rem
-  height: 100vh
 
 #talent-listen-section
   padding-bottom: 100px
@@ -72,6 +71,7 @@ $layout-breakpoint-tablet: 768px
   .talent-members-grid
     height: 100%
     vertical-align: middle
+    overflow: hidden
 
   .talent-work-graphic
     height: 550px
@@ -80,6 +80,9 @@ $layout-breakpoint-tablet: 768px
 
   #talent-listen-section
     padding-bottom: 300px
+
+  .custom-talent-section
+    height: auto
 
 $layout-breakpoint-desktop: 1024px
 @media (min-width: $layout-breakpoint-desktop)

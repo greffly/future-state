@@ -72,7 +72,7 @@ const TalentPageTemplate = (props) => {
       </section>
 
       <section className='custom-talent-section has-background-black'>
-        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered-mobile is-uppercase'>
+        <h1 className='has-text-info has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered-mobile is-uppercase pb-4'>
           Who we <strong className='has-text-info'>work </strong> with
         </h1>
         <ProgressiveImageContainer
