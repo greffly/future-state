@@ -91,9 +91,6 @@ const AboutUsTemplate = (props) => {
               />
               <div className='column mt-5 ml-2 is-third has-text-white'>
                 <p className='is-size-5-desktop'>{quote.text}</p>
-                <p className='pt-5 is-size-5-desktop'>
-                  <strong className='has-text-white'>{quote.author}</strong>
-                </p>
                 <p className='is-size-5-desktop'>
                   <strong className='has-text-white'>{quote.title}</strong>
                 </p>

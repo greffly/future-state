@@ -51,7 +51,8 @@ talent_members:
       role: Product Owner
       title: I'm responsible for defining Stories and prioritizing the Team Backlog to streamline the execution of program priorities while maintaining the conceptual and technical integrity of the Features or components for the team.
       image: /img/Dan.jpg
-    - name: Mike - Scrum Master
+    - name: Mike
+      role: Scrum Master
       title: Time for standup? I help to facilitate scrum to the larger team by ensuring the scrum framework is followed. I'm committed to the scrum values and practices, but also remain flexible and open to opportunities for the team to improve their workflow.
       image: /img/Mike.jpg
     - name: Marci

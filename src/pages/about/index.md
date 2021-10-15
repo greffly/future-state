@@ -102,7 +102,7 @@ teamMembers:
       linkedin: https://www.linkedin.com/in/cheryl-edwards-08a3bb1b5/
       email: cedwards@fsconsults.com
     - name: Dann Black
-      title: Sales Support Lead
+      title: Founder
       image: /img/DannBlack.jpg
       linkedin: https://www.linkedin.com/in/dann-black-b726a4/
       email: dblack@fsconsults.com
