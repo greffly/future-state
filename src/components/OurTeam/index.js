@@ -40,18 +40,24 @@ const OurTeam = ({ teamMembers }) => {
                     href={teamMember.linkedin}
                     target='_blank'
                     rel='noreferrer'
+                    className='each-link'
                   >
                     <ProgressiveImageContainer
-                      image='/img/social-linkedin.svg'
+                      image='/img/LinkedinLogo.png'
                       alt={`team member ${teamMember.name} linkedin link`}
-                      className='each-link'
                     />
                   </a>
-                  <ProgressiveImageContainer
-                    image='/img/social-twitter.svg'
-                    alt={`team member ${teamMember.name} email link`}
+                  <a
+                    href={`mailto:${teamMember.email}`}
+                    target='_blank'
+                    rel='noopener noreferrer'
                     className='each-link'
-                  />
+                  >
+                    <ProgressiveImageContainer
+                      image='/img/EmailLogo.png'
+                      alt={`team member ${teamMember.name} email link`}
+                    />
+                  </a>
                 </div>
               </div>
             </div>

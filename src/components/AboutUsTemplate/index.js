@@ -83,7 +83,7 @@ const AboutUsTemplate = (props) => {
         </h1>
         <div className='columns'>
           {quotes.blurbs.map((quote, i) => (
-            <div key={i} className='pr-5 pt-6'>
+            <div key={i} className='px-5 pt-6'>
               <ProgressiveImageContainer
                 image='/img/quote-light-blue.svg'
                 alt='quotation mark graphic'
@@ -101,7 +101,7 @@ const AboutUsTemplate = (props) => {
           ;
         </div>
 
-        <div className='py-6'>
+        <div className='about-subsection'>
           <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
             <strong className='has-text-info is-uppercase'>
               We're good at what we do.
@@ -110,26 +110,26 @@ const AboutUsTemplate = (props) => {
           <div className='columns has-text-centered is-uppercase'>
             <div className='column is-third'>
               <p className='has-text-info large-stats'>25</p>
-              <p className='has-text-white is-size-3 stats-descriptor'>
+              <p className='has-text-white is-size-2-desktop is-size-3-tablet is-size-4-mobile stats-descriptor'>
                 Client Partnerships
               </p>
             </div>
             <div className='column is-third'>
               <p className='has-text-info large-stats'>87%</p>
-              <p className='has-text-white is-size-3 stats-descriptor'>
+              <p className='has-text-white is-size-2-desktop is-size-3-tablet is-size-4-mobile stats-descriptor'>
                 Employee Satisfaction
               </p>
             </div>
             <div className='column is-third'>
               <p className='has-text-info large-stats'>14</p>
-              <p className='has-text-white is-size-3 stats-descriptor'>
+              <p className='has-text-white is-size-2-desktop is-size-3-tablet is-size-4-mobile stats-descriptor'>
                 Industries Served
               </p>
             </div>
           </div>
         </div>
 
-        <div className='py-6'>
+        <div className='about-subsection'>
           <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
             <strong className='has-text-info is-uppercase'>
               We're proud of the awards we have won.
@@ -171,19 +171,19 @@ const AboutUsTemplate = (props) => {
       </section>
 
       <section className='custom-medium-section has-background-white'>
-        <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile'>
-          <strong>DIVERSITY, EQUITY</strong> AND <br />
-          <strong> INCLUSION</strong>
-        </h1>
         <div className='columns'>
-          <div className='column is-two-thirds'>
-            <p className='pr-5 pt-5 is-size-4-desktop'>{diversity}</p>
+          <div className='column is-two-thirds pr-6'>
+            <h1 className='pt-5 has-text-weight-light is-size-2-desktop is-size-3-tablet is-size-4-mobile'>
+              <strong>DIVERSITY, EQUITY</strong> AND <br />
+              <strong> INCLUSION</strong>
+            </h1>
+            <p className='pr-6 pt-5 is-size-4-desktop'>{diversity}</p>
           </div>
           <div className='has-text-centered'>
             <p className='has-text-info large-stats'>47%</p>
             <p className='is-size-3 stats-descriptor'>
               of our consultants are identified within Future State's DE&I
-              parameters.
+              parameters
             </p>
           </div>
         </div>

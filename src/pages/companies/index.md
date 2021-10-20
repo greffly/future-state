@@ -57,7 +57,7 @@ industries:
     - name: Media/Entertainment
     - name: Supply/Logistics
     - name: Healthcare
-    - name: Telcom
+    - name: Telecom
 quotes:
   blurbs:
     - author: Sr. Engineering Manager

@@ -105,14 +105,13 @@ const TalentPageTemplate = (props) => {
                 <p className='pr-5 pt-5 is-size-5-desktop'>
                   <strong>{quote.author}</strong>
                 </p>
-                <p className='pr-5 is-size-5-desktop'>
+                {/* <p className='pr-5 is-size-5-desktop'>
                   <strong>{quote.title}</strong>
-                </p>
+                </p> */}
                 <hr className='has-background-info hr-tag' />
               </div>
             </div>
           ))}
-          ;
         </div>
       </section>
 
