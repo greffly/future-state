@@ -82,7 +82,7 @@ const CompanyPageTemplate = (props) => {
                   alt='INC 5000 2019'
                 />
               </div>
-              <p className='is-size-3-desktop has-text-centered'>
+              <p className='is-size-3 pt-2 has-text-centered'>
                 <strong className='has-text-info is-uppercase'>
                   {service.title}
                 </strong>
