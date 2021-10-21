@@ -67,7 +67,7 @@ const Footer = () => {
                 />
               </Link>
             </li>
-            <li className='p-2'>
+            {/* <li className='p-2'>
               {' '}
               <Link className='has-text-black is-uppercase' to='#'>
                 <ProgressiveImageContainer
@@ -84,7 +84,7 @@ const Footer = () => {
                   alt='instagram icon'
                 />
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

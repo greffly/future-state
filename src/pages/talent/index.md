@@ -33,7 +33,7 @@ talent_members:
       image: /img/Claire.jpg
     - name: Dante
       role: Cloud Engineer
-      title: I love the clouds! I'm a Cloud Engineer and my duties include managing an organizations cloud based systems and processes. I spend time in enviornemnts such as AWS, Microsoft Azure, Google Cloud and other custom cloud ecosystems
+      title: I love the clouds! I’m a Cloud Engineer and I manage an organizations cloud-based systems and processes. I spend time in environments like AWS, MS Azure, GCP, and other custom cloud ecosystems.
       image: /img/Dante.jpg
     - name: Foster
       role: SDET
@@ -62,19 +62,17 @@ talent_members:
 roundedImageClassName: 'is-rounded'
 quotes:
   blurbs:
-    - author: Charles Brossman
-      title: TBD
-      text: >
-        During a difficult job search, Future State Consulting found me online, took time and great care in getting to know me, and represented me very well to targeted employers.  I've never seen a hiring process go so smoothly or quickly before.  I very much enjoy working for Future State, as they are always make me feel supported and advocate for me.
     - author: Jane Nath
       title: TBD
       text: >
         Matt brought a calming yet energetic presence to my job search process. He was in close communication with me, checking in to make sure I had the resources I needed for each step along the way. I greatly enjoyed working with Matt and Future State and would highly recommend him to other engineering job candidates.
-    - author: Ross Geller
+    - author: Charles Brossman
       title: TBD
       text: >
-        Sed in consequat leo, sit amet ullamcorper lacus. Duis lacinia, metus vitae sollicitudin
-        pharetra, ipsum augue tristique urna, in rhoncus quam tortor eget sem. Maecenas eu
-        pharetra orci, ut malesuada nisl. Ipsum augue tristique urna metus vitae sollicitudin. sit amet ullamcorper lacus, ipsum augue tristique urna orci pharnta.
-talent_quote: Boursin chalk and cheese taleggio. Feta cheese and biscuits cottage cheese brie fromage frais dolcelatte who moved my cheese smelly cheese. Port-salut paneer dolcelatte.
+        During a difficult job search, Future State Consulting found me online, took time and great care in getting to know me, and represented me very well to targeted employers.  I've never seen a hiring process go so smoothly or quickly before.  I very much enjoy working for Future State, as they are always make me feel supported and advocate for me.
+    - author: Caitlyn Greffly
+      title: TBD
+      text: >
+        After connecting with Future State pretty early in my career, Michael remembered me and reached out when he found an amazing opportunity that he thought I'd be a fit for. Not only did I land an awesome role, but working with FS felt like such a leg up in the interview process.
+talent_quote: Listening is one of the biggest strengths I can ask for in a tech partner. They’re hands down the best agency I’ve ever worked with and I consistently recommend them to others. -Sr. Director of Engineer @ Fortune 100 Company
 ---
