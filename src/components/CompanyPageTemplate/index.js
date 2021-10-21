@@ -76,7 +76,7 @@ const CompanyPageTemplate = (props) => {
         <div className='columns pt-6'>
           {services.service_blurbs.map((service, i) => (
             <div key={i} className='column is-third p-5 service-blurbs'>
-              <div className='column is-5 is-flex is-justify-content-center'>
+              <div className='is-flex is-justify-content-center'>
                 <ProgressiveImageContainer
                   image={service.image}
                   alt='INC 5000 2019'
