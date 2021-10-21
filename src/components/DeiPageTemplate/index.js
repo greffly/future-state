@@ -56,7 +56,7 @@ const DeiPageTemplate = () => {
           <div className='column is-third p-5 service-blurbs'>
             <p className='is-size-3-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
               <strong className='has-text-info is-uppercase'>
-                WE DELIVER CUSTOM SOLUTIONS AND VALUE AT EVERY STEP
+                WE DELIVER CUSTOM SOLUTIONS
               </strong>
             </p>
             <p className='pt-5 is-size-5-desktop has-text-white has-text-centered'>
@@ -67,7 +67,7 @@ const DeiPageTemplate = () => {
           <div className='column is-third p-5 service-blurbs'>
             <p className='is-size-3-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
               <strong className='has-text-info is-uppercase'>
-                WE USE A PERSONAL, RELATIONSHIP-FIRST APPROACH
+                WE USE A RELATIONSHIP-FIRST APPROACH
               </strong>
             </p>
             <p className='pt-5 is-size-5-desktop has-text-white has-text-centered'>
@@ -79,7 +79,7 @@ const DeiPageTemplate = () => {
           <div className='column is-third p-5 service-blurbs'>
             <p className='is-size-3-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
               <strong className='has-text-info is-uppercase'>
-                WE HELP YOU CREATE IMPACT
+                WE HELP YOU CREATE ORGANIZATIONAL IMPACT
               </strong>
             </p>
             <p className='pt-5 is-size-5-desktop has-text-white has-text-centered'>
