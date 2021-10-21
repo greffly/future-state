@@ -2,12 +2,9 @@
 templateKey: 'talent'
 title: Talent
 subtitle: We'd Love To Help You, Feel Free To Drop A Mail
-meta_title: Contact Us | Future State Consulting
+meta_title: Talent | Future State Consulting
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  We believe in quality over quantity. Because we set out to build and nurture meaningful relationships first, and then committed partnerships next, we can create value and make more impact in life and work.
 why_us: We believe in quality over quantity. Because we set out to build and nurture meaningful relationships first, and then committed partnerships next, we can create value and make more impact in life and work.
 talent_members:
   members:

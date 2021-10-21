@@ -3,10 +3,7 @@ templateKey: about-us-page
 title: About Us
 meta_title: About Us | Future State Consulting
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  At Future State, we believe quality over quantity results in the best outcomes. That means we nurture relationships first, and then do the legwork to pre-screen and match right-fit, diverse candidates with organizations, and provide custom consulting.
 values: At Future State, we believe quality over quantity results in the best outcomes. That means we nurture relationships first, and then do the legwork to pre-screen and match right-fit, diverse candidates with organizations, and provide custom consulting.
 value_quote: Future State is a firm that leads with a communicative and ethical approach in all aspects of their business. They're inclusive, collaborative and always driven to support our organizations growth. -VP of Engineering Fortune 500 Company
 quotes:

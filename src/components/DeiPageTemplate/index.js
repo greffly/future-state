@@ -54,7 +54,7 @@ const DeiPageTemplate = () => {
         </h1>
         <div className='columns pt-6'>
           <div className='column is-third p-5 service-blurbs'>
-            <p className='is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
+            <p className='is-size-3-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
               <strong className='has-text-info is-uppercase'>
                 WE DELIVER CUSTOM SOLUTIONS AND VALUE AT EVERY STEP
               </strong>
@@ -65,7 +65,7 @@ const DeiPageTemplate = () => {
             </p>
           </div>
           <div className='column is-third p-5 service-blurbs'>
-            <p className='is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
+            <p className='is-size-3-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
               <strong className='has-text-info is-uppercase'>
                 WE USE A PERSONAL, RELATIONSHIP-FIRST APPROACH
               </strong>
@@ -77,7 +77,7 @@ const DeiPageTemplate = () => {
             </p>
           </div>
           <div className='column is-third p-5 service-blurbs'>
-            <p className='is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
+            <p className='is-size-3-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
               <strong className='has-text-info is-uppercase'>
                 WE HELP YOU CREATE IMPACT
               </strong>

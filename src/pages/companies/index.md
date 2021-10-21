@@ -4,10 +4,7 @@ title: Companies
 subtitle: We'd Love To Help You, Feel Free To Drop A Mail
 meta_title: Contact Us | Future State Consulting
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  We partner with clients to satisfy their recruiting, staffing, project hiring and executive search needs with custom, scalable solutions. We provide team building and onboarding consultation that results in near-term value or opportunities for greater impact down the road.
 save_time: At Future State, we believe quality over quantity results in the best outcomes. That means we nurture relationships first, and then do the legwork to pre-screen and match right-fit, diverse candidates with organizations, and provide custom consulting. Ultimately we save our clients, time, energy and the stress of needing to conduct robust and time consuming screening processes.
 talent_members:
   members:
