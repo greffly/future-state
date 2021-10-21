@@ -41,7 +41,7 @@ services:
     - title: Priority Search
       text: Our Priority Search (Direct Placement) service is a cost-effective method of guaranteeing our concerted effort to fill multiple openings or hard-to-fill positions. This is ideal for a fast-growing company that has aggressive hiring plans.
       image: /img/companies-icon-priority-search.svg
-    - title: Solutions Consulting
+    - title: Consulting
       text: Future State partners with startups to Fortune 5 companies to create solutions around the toughest software problems. We excel in mobile, web, and cloud platform development and can apply our expertise to your product, no matter where it is in the product lifecycle.
       image: /img/companies-icon-solutions-consulting.svg
 industries:

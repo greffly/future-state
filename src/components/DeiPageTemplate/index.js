@@ -56,7 +56,7 @@ const DeiPageTemplate = () => {
           <div className='column is-third p-5 service-blurbs'>
             <p className='is-size-3-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
               <strong className='has-text-info is-uppercase'>
-                WE DELIVER CUSTOM SOLUTIONS
+                CUSTOM SOLUTIONS
               </strong>
             </p>
             <p className='pt-5 is-size-5-desktop has-text-white has-text-centered'>
@@ -67,19 +67,19 @@ const DeiPageTemplate = () => {
           <div className='column is-third p-5 service-blurbs'>
             <p className='is-size-3-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
               <strong className='has-text-info is-uppercase'>
-                WE USE A RELATIONSHIP-FIRST APPROACH
+                RELATIONSHIPS FIRST
               </strong>
             </p>
             <p className='pt-5 is-size-5-desktop has-text-white has-text-centered'>
               We nurture relationships with a diverse range of exceptional
-              engineering talent to help ful!ll a tech organization’s unique
+              engineering talent to help fulill a tech organization’s unique
               strategy and goals.
             </p>
           </div>
           <div className='column is-third p-5 service-blurbs'>
             <p className='is-size-3-desktop is-size-3-tablet is-size-4-mobile has-text-centered'>
               <strong className='has-text-info is-uppercase'>
-                WE HELP YOU CREATE ORGANIZATIONAL IMPACT
+                ORGANIZATIONAL IMPACT
               </strong>
             </p>
             <p className='pt-5 is-size-5-desktop has-text-white has-text-centered'>
