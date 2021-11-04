@@ -51,7 +51,7 @@ const WhoWeWorkWith = ({ talent_members, roundedImageClassName }) => {
         </div>
         <div className='carousel-grid'>
           {secondFour.map((talent_member, i) => (
-            <div key={i} className='column p-6 is-flex-direction-row'>
+            <div key={i} className='column talent-member'>
               <div className='columns'>
                 <div className='column work-image-container'>
                   <p className='has-text-centered image is-128x128'>
