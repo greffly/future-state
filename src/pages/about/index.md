@@ -34,12 +34,12 @@ teamMembers:
       linkedin: http://www.linkedin.com/in/harrisonbishop
       email: hbishop@fsconsults.com
     - name: Kylie Brunger-Stapleton
-      title: Senior Account Executive
+      title: Director of Accounts
       image: /img/KylieBrungerStapleton.jpg
       linkedin: https://www.linkedin.com/in/kylie-brunger/
       email: kbrunger@fsconsults.com
     - name: Michael Zahler
-      title: Director of Accounts
+      title: VP of Accounts & Professional Services
       image: /img/MichaelZahler.jpg
       linkedin: http://www.linkedin.com/in/mzahler
       email: mzahler@fsconsults.com
@@ -93,11 +93,16 @@ teamMembers:
       image: /img/KeenanHall.jpg
       linkedin: https://www.linkedin.com/in/keenanhall/
       email: khall@fsconsults.com
-    - name: Cheryl Edwards
-      title: Sales Support Lead
-      image: /img/CherylEdwards.jpg
-      linkedin: https://www.linkedin.com/in/cheryl-edwards-08a3bb1b5/
-      email: cedwards@fsconsults.com
+    - name: Lizzie Zahler
+      title: Sourcing Analyst
+      image: /img/LizzieZahler.jpg
+      linkedin: https://www.linkedin.com/in/lizzie-z/
+      email: lzahler@fsconsults.com
+    - name: Isaiah Coste
+      title: Talent Executive
+      image: /img/IsaiahCoste.jpg
+      linkedin: https://www.linkedin.com/in/isaiahcoste/
+      email: icoste@fsconsults.com
     - name: Dann Black
       title: Founder
       image: /img/DannBlack.jpg
