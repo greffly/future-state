@@ -98,6 +98,16 @@ teamMembers:
       image: /img/LizzieZahler.jpg
       linkedin: https://www.linkedin.com/in/lizzie-z/
       email: lzahler@fsconsults.com
+    - name: Keaton Race-Kryger
+      title: Talent Executive
+      image: /img/KeatonRace.jpg
+      linkedin: https://www.linkedin.com/in/keaton-race-kryger-047104237/
+      email: kracekryger@fsconsults.com
+    - name: Emma Black
+      title: Recruiting Intern
+      image: /img/EmmaBlack.jpg
+      linkedin: https://www.linkedin.com/in/emmaelizabethblack/
+      email: eblack@fsconsults.com
     - name: Isaiah Coste
       title: Talent Executive
       image: /img/IsaiahCoste.jpg
