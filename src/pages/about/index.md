@@ -68,11 +68,6 @@ teamMembers:
       image: /img/SarahMcConville.jpg
       linkedin: https://www.linkedin.com/in/sarah-mcconville-a1bb70191/
       email: smcconville@fsconsults.com
-    - name: Thomas Griffin
-      title: Senior Talent Executive
-      image: /img/ThomasGriffin.jpg
-      linkedin: https://www.linkedin.com/in/thomas-griffin-12b4623b/
-      email: tgriffin@fsconsults.com
     - name: Kristen Fisher
       title: Senior Account Executive
       image: /img/KristenFisher.jpg
