@@ -10,9 +10,13 @@ const NavBar = () => {
       aria-label='main navigation'
     >
       <div>
-        <Link to='/' className='navbar-title is-flex is-align-items-center'>
+        <Link
+          to='/'
+          className='navbar-title is-flex is-align-items-center'
+          style={{ maxWidth: '320px' }}
+        >
           <ProgressiveImageContainer
-            image='/img/future-state-logo.svg'
+            image='/img/future-state-logo.png'
             alt='Future State Consulting Logo'
           />
         </Link>

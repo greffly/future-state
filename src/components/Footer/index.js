@@ -10,13 +10,10 @@ const Footer = () => {
         className='container py-4 mx-4 has-text-info'
         style={{ maxWidth: '2000px' }}
       >
-        <div className='p-5'>
-          <Link
-            to='/'
-            className='is-flex is-align-items-center is-justify-content-center'
-          >
+        <div className='is-flex is-align-items-center is-justify-content-center'>
+          <Link to='/' style={{ maxWidth: '320px' }}>
             <ProgressiveImageContainer
-              image='/img/logo-future-state-footer.svg'
+              image='/img/logo-future-state-footer.png'
               alt='Future State Logo'
             />
           </Link>
