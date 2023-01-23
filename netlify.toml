@@ -6,3 +6,28 @@
   YARN_FLAGS = "--no-ignore-optional"
   RUBY_VERSION = "2.6.2"
   NODE_VERSION = "14.12.0"
+[[redirects]]
+  from = "/"
+  to = "https://www.launchconsulting.com/future-state"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+[[redirects]]
+  from = "/about"
+  to = "https://www.launchconsulting.com/future-state"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+[[redirects]]
+  from = "/talent"
+  to = "https://www.launchconsulting.com/future-state"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+[[redirects]]
+  from = "/companies"
+  to = "https://www.launchconsulting.com/future-state"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+[[redirects]]
+  from = "/dei"
+  to = "https://www.launchconsulting.com/future-state"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
