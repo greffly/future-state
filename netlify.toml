@@ -31,3 +31,23 @@
   to = "https://www.launchconsulting.com/future-state"
   status = 200
   force = true # COMMENT: ensure that we always redirect
+[[redirects]]
+  from = "https://www.fsconsults.com/about/"
+  to = "https://www.launchconsulting.com/future-state"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+[[redirects]]
+  from = "https://www.fsconsults.com/talent/"
+  to = "https://www.launchconsulting.com/future-state"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+[[redirects]]
+  from = "https://www.fsconsults.com/companies/"
+  to = "https://www.launchconsulting.com/future-state"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+[[redirects]]
+  from = "https://www.fsconsults.com/dei/"
+  to = "https://www.launchconsulting.com/future-state"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
