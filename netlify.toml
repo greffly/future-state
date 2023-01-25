@@ -6,48 +6,48 @@
   YARN_FLAGS = "--no-ignore-optional"
   RUBY_VERSION = "2.6.2"
   NODE_VERSION = "14.12.0"
-# [[redirects]]
-#   from = "https://www.fsconsults.com/"
-#   to = "https://www.launchconsulting.com/future-state"
-#  status = 200
-#   force = true # COMMENT: ensure that we always redirect
-# [[redirects]]
-#   from = "https://www.fsconsults.com/about"
-#   to = "https://www.launchconsulting.com/future-state"
-#   status = 200
-#   force = true # COMMENT: ensure that we always redirect
-# [[redirects]]
-#   from = "https://www.fsconsults.com/talent"
-#   to = "https://www.launchconsulting.com/future-state"
-#   status = 200
-#   force = true # COMMENT: ensure that we always redirect
-# [[redirects]]
-#   from = "https://www.fsconsults.com/companies"
-#   to = "https://www.launchconsulting.com/future-state"
-#   status = 200
-#   force = true # COMMENT: ensure that we always redirect
-# [[redirects]]
-#   from = "https://www.fsconsults.com/dei"
-#   to = "https://www.launchconsulting.com/future-state"
-#   status = 200
-#   force = true # COMMENT: ensure that we always redirect
-# [[redirects]]
-#   from = "https://www.fsconsults.com/about/"
-#   to = "https://www.launchconsulting.com/future-state"
-#   status = 200
-#   force = true # COMMENT: ensure that we always redirect
-# [[redirects]]
-#   from = "https://www.fsconsults.com/talent/"
-#   to = "https://www.launchconsulting.com/future-state"
-#   status = 200
-#   force = true # COMMENT: ensure that we always redirect
-# [[redirects]]
-#   from = "https://www.fsconsults.com/companies/"
-#   to = "https://www.launchconsulting.com/future-state"
-#   status = 200
-#   force = true # COMMENT: ensure that we always redirect
-# [[redirects]]
-#   from = "https://www.fsconsults.com/dei/"
-#   to = "https://www.launchconsulting.com/future-state"
-#   status = 200
-#   force = true # COMMENT: ensure that we always redirect
+ [[redirects]]
+   from = "https://www.fsconsults.com/"
+   to = "https://www.launchconsulting.com/future-state"
+  status = 200
+   force = true # COMMENT: ensure that we always redirect
+ [[redirects]]
+   from = "https://www.fsconsults.com/about"
+   to = "https://www.launchconsulting.com/future-state"
+   status = 200
+   force = true # COMMENT: ensure that we always redirect
+ [[redirects]]
+   from = "https://www.fsconsults.com/talent"
+   to = "https://www.launchconsulting.com/future-state"
+   status = 200
+   force = true # COMMENT: ensure that we always redirect
+ [[redirects]]
+   from = "https://www.fsconsults.com/companies"
+   to = "https://www.launchconsulting.com/future-state"
+   status = 200
+   force = true # COMMENT: ensure that we always redirect
+ [[redirects]]
+   from = "https://www.fsconsults.com/dei"
+   to = "https://www.launchconsulting.com/future-state"
+   status = 200
+   force = true # COMMENT: ensure that we always redirect
+ [[redirects]]
+   from = "https://www.fsconsults.com/about/"
+   to = "https://www.launchconsulting.com/future-state"
+   status = 200
+   force = true # COMMENT: ensure that we always redirect
+ [[redirects]]
+   from = "https://www.fsconsults.com/talent/"
+   to = "https://www.launchconsulting.com/future-state"
+   status = 200
+   force = true # COMMENT: ensure that we always redirect
+ [[redirects]]
+   from = "https://www.fsconsults.com/companies/"
+   to = "https://www.launchconsulting.com/future-state"
+   status = 200
+   force = true # COMMENT: ensure that we always redirect
+ [[redirects]]
+   from = "https://www.fsconsults.com/dei/"
+   to = "https://www.launchconsulting.com/future-state"
+   status = 200
+   force = true # COMMENT: ensure that we always redirect
